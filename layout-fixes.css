@@ -1,0 +1,19 @@
+html,body{max-width:100%;overflow-x:hidden}
+@supports(overflow:clip){html,body{overflow-x:clip}}
+
+.enchant-empty{display:grid;justify-items:center;gap:18px;padding:42px 20px;text-align:center}
+.enchant-empty p{margin:0;color:#ffe2a9;font-size:clamp(1.1rem,2.4vw,1.65rem);font-weight:800}
+.enchant-empty img{width:min(360px,75vw);max-height:430px;object-fit:contain}
+
+.obtaining-images{display:grid;gap:10px;align-self:start}
+.obtaining-images img{width:150px;height:150px;object-fit:contain;background:#0a141b;border-radius:8px;cursor:zoom-in;transition:transform .2s ease,box-shadow .2s ease;transform-origin:top left;position:relative;z-index:1}
+.obtaining-images img:hover,.obtaining-images img:focus-visible{transform:scale(3.2);z-index:20;box-shadow:0 14px 35px #000b,0 0 0 2px #d7aa68;outline:none}
+
+.build-book{transition:opacity .18s ease,filter .18s ease,background .18s ease,border-color .18s ease}
+.build-book.is-inactive{opacity:.38;filter:grayscale(1);background:#10171b;border-color:#ffffff12}
+.build-book.is-inactive .build-name,.build-book.is-inactive .build-level{color:#9aa0a3}
+.build-book[aria-pressed="true"]{box-shadow:inset 0 0 0 1px #d7aa6840}
+.build-book:focus .tooltip,.build-book.open .tooltip{display:none}
+.build-book:hover .tooltip{display:block}
+
+@media(max-width:760px){.obtaining-images{grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.obtaining-images img{width:100%;height:120px}.obtaining-images img:hover,.obtaining-images img:focus-visible{transform:scale(2.2)}}
