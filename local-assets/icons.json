@@ -1,0 +1,6358 @@
+{
+  "somanyenchantments:splitshot": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_splitshot-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_splitshot-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_splitshot-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_splitshot-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_splitshot-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedfireprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedfireprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfireprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfireprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfireprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfireprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:infinity": {
+    "level": 0,
+    "file": "local-assets/minecraft_infinity-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_infinity-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedlure": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedlure-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlure-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlure-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlure-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:magnetic": {
+    "level": 0,
+    "file": "local-assets/charm_magnetic-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_magnetic-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:clumsiness_curse": {
+    "level": 0,
+    "file": "local-assets/charm_clumsiness_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_clumsiness_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lessersharpness": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lessersharpness-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersharpness-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersharpness-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersharpness-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersharpness-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersharpness-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:frenzy": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_frenzy-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_frenzy-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_frenzy-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedlooting": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedlooting-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlooting-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlooting-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedlooting-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:vanishing_curse": {
+    "level": 0,
+    "file": "local-assets/minecraft_vanishing_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_vanishing_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:luck_of_the_sea": {
+    "level": 1,
+    "file": "local-assets/minecraft_luck_of_the_sea-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_luck_of_the_sea-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_luck_of_the_sea-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_luck_of_the_sea-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:bash": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_bash-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_bash-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_bash-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_bash-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:depth_strider": {
+    "level": 1,
+    "file": "local-assets/minecraft_depth_strider-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_depth_strider-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_depth_strider-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_depth_strider-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanshields:ssenchspikes": {
+    "level": 1,
+    "file": "local-assets/spartanshields_ssenchspikes-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanshields_ssenchspikes-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanshields_ssenchspikes-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanshields_ssenchspikes-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:parry": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_parry-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_parry-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:powerless": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_powerless-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_powerless-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_powerless-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_powerless-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_powerless-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_powerless-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:blast_protection": {
+    "level": 1,
+    "file": "local-assets/minecraft_blast_protection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_blast_protection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_blast_protection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_blast_protection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_blast_protection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:unpredictable": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_unpredictable-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_unpredictable-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_unpredictable-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:reviledblade": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_reviledblade-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_reviledblade-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_reviledblade-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_reviledblade-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_reviledblade-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:haunting_curse": {
+    "level": 0,
+    "file": "local-assets/charm_haunting_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_haunting_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:heavy": {
+    "level": 0,
+    "file": "local-assets/mujmajnkraftsbettersurvival_heavy-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_heavy-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:supremesharpness": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_supremesharpness-1.png",
+    "frames": [
+      {
+        "index": 0,
+        "time": 2
+      },
+      {
+        "index": 1,
+        "time": 2
+      },
+      {
+        "index": 2,
+        "time": 2
+      },
+      {
+        "index": 3,
+        "time": 2
+      },
+      {
+        "index": 4,
+        "time": 2
+      },
+      {
+        "index": 5,
+        "time": 2
+      },
+      {
+        "index": 6,
+        "time": 2
+      },
+      {
+        "index": 7,
+        "time": 2
+      }
+    ],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesharpness-1.png",
+        "height": 128,
+        "frames": [
+          {
+            "index": 0,
+            "time": 2
+          },
+          {
+            "index": 1,
+            "time": 2
+          },
+          {
+            "index": 2,
+            "time": 2
+          },
+          {
+            "index": 3,
+            "time": 2
+          },
+          {
+            "index": 4,
+            "time": 2
+          },
+          {
+            "index": 5,
+            "time": 2
+          },
+          {
+            "index": 6,
+            "time": 2
+          },
+          {
+            "index": 7,
+            "time": 2
+          }
+        ],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesharpness-2.png",
+        "height": 128,
+        "frames": [
+          {
+            "index": 0,
+            "time": 2
+          },
+          {
+            "index": 1,
+            "time": 2
+          },
+          {
+            "index": 2,
+            "time": 2
+          },
+          {
+            "index": 3,
+            "time": 2
+          },
+          {
+            "index": 4,
+            "time": 2
+          },
+          {
+            "index": 5,
+            "time": 2
+          },
+          {
+            "index": 6,
+            "time": 2
+          },
+          {
+            "index": 7,
+            "time": 2
+          }
+        ],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesharpness-3.png",
+        "height": 128,
+        "frames": [
+          {
+            "index": 0,
+            "time": 2
+          },
+          {
+            "index": 1,
+            "time": 2
+          },
+          {
+            "index": 2,
+            "time": 2
+          },
+          {
+            "index": 3,
+            "time": 2
+          },
+          {
+            "index": 4,
+            "time": 2
+          },
+          {
+            "index": 5,
+            "time": 2
+          },
+          {
+            "index": 6,
+            "time": 2
+          },
+          {
+            "index": 7,
+            "time": 2
+          }
+        ],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesharpness-4.png",
+        "height": 128,
+        "frames": [
+          {
+            "index": 0,
+            "time": 2
+          },
+          {
+            "index": 1,
+            "time": 2
+          },
+          {
+            "index": 2,
+            "time": 2
+          },
+          {
+            "index": 3,
+            "time": 2
+          },
+          {
+            "index": 4,
+            "time": 2
+          },
+          {
+            "index": 5,
+            "time": 2
+          },
+          {
+            "index": 6,
+            "time": 2
+          },
+          {
+            "index": 7,
+            "time": 2
+          }
+        ],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesharpness-5.png",
+        "height": 128,
+        "frames": [
+          {
+            "index": 0,
+            "time": 2
+          },
+          {
+            "index": 1,
+            "time": 2
+          },
+          {
+            "index": 2,
+            "time": 2
+          },
+          {
+            "index": 3,
+            "time": 2
+          },
+          {
+            "index": 4,
+            "time": 2
+          },
+          {
+            "index": 5,
+            "time": 2
+          },
+          {
+            "index": 6,
+            "time": 2
+          },
+          {
+            "index": 7,
+            "time": 2
+          }
+        ],
+        "level": 5
+      }
+    ],
+    "height": 128,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:reflection": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_reflection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_reflection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_reflection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_reflection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:bane_of_arthropods": {
+    "level": 1,
+    "file": "local-assets/minecraft_bane_of_arthropods-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_bane_of_arthropods-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_bane_of_arthropods-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_bane_of_arthropods-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_bane_of_arthropods-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_bane_of_arthropods-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:instability": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_instability-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_instability-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_instability-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_instability-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:rapidfire": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_rapidfire-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_rapidfire-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_rapidfire-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:pushing": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_pushing-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pushing-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:innerberserk": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_innerberserk-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_innerberserk-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_innerberserk-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_innerberserk-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_innerberserk-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedprojectileprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedprojectileprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprojectileprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprojectileprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprojectileprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedprojectileprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:fortune": {
+    "level": 1,
+    "file": "local-assets/minecraft_fortune-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fortune-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fortune-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fortune-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lessersmite": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lessersmite-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersmite-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersmite-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersmite-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersmite-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lessersmite-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:desolator": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_desolator-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_desolator-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_desolator-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_desolator-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_desolator-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:fire_protection": {
+    "level": 1,
+    "file": "local-assets/minecraft_fire_protection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_protection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_protection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_protection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_protection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:naturalblocking": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_naturalblocking-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_naturalblocking-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_naturalblocking-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:welltilled": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_welltilled-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_welltilled-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:physicalprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_physicalprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_physicalprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_physicalprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_physicalprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_physicalprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:curse_break": {
+    "level": 0,
+    "file": "local-assets/charm_curse_break-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_curse_break-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:flinging": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_flinging-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_flinging-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_flinging-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:freezing": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_freezing-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_freezing-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_freezing-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_freezing-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "grapplemod:doublejumpenchantment": {
+    "level": 0,
+    "file": "local-assets/grapplemod_doublejumpenchantment-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/grapplemod_doublejumpenchantment-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:frost_walker": {
+    "level": 1,
+    "file": "local-assets/minecraft_frost_walker-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_frost_walker-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_frost_walker-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:fieryedge": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_fieryedge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryedge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryedge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:atomicdeconstructor": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_atomicdeconstructor-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_atomicdeconstructor-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_atomicdeconstructor-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:afl": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_afl-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_afl-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:heavyweight": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_heavyweight-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_heavyweight-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_heavyweight-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_heavyweight-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_heavyweight-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_heavyweight-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:sharpness": {
+    "level": 1,
+    "file": "local-assets/minecraft_sharpness-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sharpness-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sharpness-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sharpness-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sharpness-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sharpness-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:swiper": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_swiper-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swiper-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swiper-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swiper-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:supercharge": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_supercharge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_supercharge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_supercharge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:weightless": {
+    "level": 0,
+    "file": "local-assets/mujmajnkraftsbettersurvival_weightless-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_weightless-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:agility": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_agility-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_agility-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_agility-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:unbreaking": {
+    "level": 1,
+    "file": "local-assets/minecraft_unbreaking-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_unbreaking-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_unbreaking-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_unbreaking-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:curseofdecay": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_curseofdecay-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofdecay-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:diamonds": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_diamonds-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_diamonds-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_diamonds-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_diamonds-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:evasion": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_evasion-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_evasion-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:versatility": {
+    "level": 0,
+    "file": "local-assets/mujmajnkraftsbettersurvival_versatility-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_versatility-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:homing": {
+    "level": 0,
+    "file": "local-assets/charm_homing-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_homing-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:fire_aspect": {
+    "level": 1,
+    "file": "local-assets/minecraft_fire_aspect-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_aspect-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_fire_aspect-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "simpledifficulty:heating": {
+    "level": 0,
+    "file": "local-assets/simpledifficulty_heating-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/simpledifficulty_heating-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "defiledlands:destructive": {
+    "level": 1,
+    "file": "local-assets/defiledlands_destructive-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_destructive-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_destructive-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_destructive-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_destructive-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_destructive-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:rusted": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_rusted-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rusted-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rusted-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rusted-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "switchbow:cooldownreduce": {
+    "level": 1,
+    "file": "local-assets/switchbow_cooldownreduce-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_cooldownreduce-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_cooldownreduce-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_cooldownreduce-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_cooldownreduce-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_cooldownreduce-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lesserbaneofarthropods": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lesserbaneofarthropods-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lesserbaneofarthropods-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lesserbaneofarthropods-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lesserbaneofarthropods-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lesserbaneofarthropods-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lesserbaneofarthropods-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedpunch": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedpunch-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpunch-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpunch-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:smelting": {
+    "level": 0,
+    "file": "local-assets/mujmajnkraftsbettersurvival_smelting-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_smelting-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:incendiary": {
+    "level": 0,
+    "file": "local-assets/spartanweaponry_incendiary-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_incendiary-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:aqua_affinity": {
+    "level": 0,
+    "file": "local-assets/minecraft_aqua_affinity-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_aqua_affinity-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:thunderstorm": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_thunderstorm-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_thunderstorm-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:thorns": {
+    "level": 1,
+    "file": "local-assets/minecraft_thorns-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_thorns-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_thorns-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_thorns-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:hydrodynamic": {
+    "level": 0,
+    "file": "local-assets/spartanweaponry_hydrodynamic-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_hydrodynamic-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:blast": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_blast-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_blast-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_blast-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:winter": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_winter-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_winter-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:darkshadows": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_darkshadows-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_darkshadows-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_darkshadows-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_darkshadows-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:strengthenedvitality": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_strengthenedvitality-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strengthenedvitality-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strengthenedvitality-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strengthenedvitality-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strengthenedvitality-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strengthenedvitality-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedknockback": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedknockback-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedknockback-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedknockback-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:sfa": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_sfa-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sfa-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sfa-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:purification": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_purification-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purification-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purification-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purification-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purification-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purification-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "defiledlands:safeguard": {
+    "level": 0,
+    "file": "local-assets/defiledlands_safeguard-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_safeguard-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "locks:sturdy": {
+    "level": 1,
+    "file": "local-assets/locks_sturdy-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/locks_sturdy-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_sturdy-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_sturdy-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedpower": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedpower-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpower-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpower-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpower-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpower-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedpower-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:curseofpossession": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_curseofpossession-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofpossession-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:scythedamage": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_scythedamage-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_scythedamage-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_scythedamage-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_scythedamage-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_scythedamage-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_scythedamage-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:adept": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_adept-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_adept-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_adept-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_adept-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:science": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_science-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_science-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_science-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_science-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_science-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:silk_touch": {
+    "level": 0,
+    "file": "local-assets/minecraft_silk_touch-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_silk_touch-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:rapid_load": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_rapid_load-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_rapid_load-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_rapid_load-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_rapid_load-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:disorientation": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_disorientation-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disorientation-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disorientation-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disorientation-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disorientation-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:curseofvulnerability": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_curseofvulnerability-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofvulnerability-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofvulnerability-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofvulnerability-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofvulnerability-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:sfl": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_sfl-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sfl-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "locks:shocking": {
+    "level": 1,
+    "file": "local-assets/locks_shocking-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/locks_shocking-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_shocking-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_shocking-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_shocking-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_shocking-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:defusion": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_defusion-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_defusion-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_defusion-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_defusion-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_defusion-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_defusion-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:supremebaneofarthropods": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_supremebaneofarthropods-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremebaneofarthropods-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremebaneofarthropods-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremebaneofarthropods-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremebaneofarthropods-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremebaneofarthropods-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedsharpness": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedsharpness-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsharpness-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsharpness-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsharpness-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsharpness-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsharpness-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:truestrike": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_truestrike-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_truestrike-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:inefficent": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_inefficent-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inefficent-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inefficent-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inefficent-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inefficent-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inefficent-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:education": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_education-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_education-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_education-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_education-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:assassinate": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_assassinate-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_assassinate-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_assassinate-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_assassinate-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:arrowrecovery": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_arrowrecovery-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_arrowrecovery-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_arrowrecovery-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_arrowrecovery-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:penetration": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_penetration-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_penetration-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_penetration-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_penetration-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_penetration-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_penetration-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:mortalitas": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_mortalitas-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-7.png",
+        "height": 16,
+        "frames": [],
+        "level": 7
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_mortalitas-8.png",
+        "height": 16,
+        "frames": [],
+        "level": 8
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedthorns": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedthorns-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedthorns-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedthorns-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedthorns-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:lucky_throw": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_lucky_throw-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_lucky_throw-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_lucky_throw-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_lucky_throw-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "defiledlands:sharpshooter": {
+    "level": 1,
+    "file": "local-assets/defiledlands_sharpshooter-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_sharpshooter-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_sharpshooter-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_sharpshooter-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:mending": {
+    "level": 0,
+    "file": "local-assets/minecraft_mending-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_mending-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:punch": {
+    "level": 1,
+    "file": "local-assets/minecraft_punch-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_punch-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_punch-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:binding_curse": {
+    "level": 0,
+    "file": "local-assets/minecraft_binding_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_binding_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:looting": {
+    "level": 1,
+    "file": "local-assets/minecraft_looting-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_looting-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_looting-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_looting-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:smite": {
+    "level": 1,
+    "file": "local-assets/minecraft_smite-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_smite-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_smite-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_smite-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_smite-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_smite-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:vampirism": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_vampirism-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_vampirism-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_vampirism-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedsmite": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedsmite-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsmite-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsmite-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsmite-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsmite-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedsmite-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:cursededge": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_cursededge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_cursededge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_cursededge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_cursededge-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_cursededge-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_cursededge-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:fling": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_fling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_fling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_fling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedbaneofarthropods": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedbaneofarthropods-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedbaneofarthropods-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedbaneofarthropods-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedbaneofarthropods-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedbaneofarthropods-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedbaneofarthropods-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "locks:complexity": {
+    "level": 1,
+    "file": "local-assets/locks_complexity-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/locks_complexity-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_complexity-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/locks_complexity-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:knockback": {
+    "level": 1,
+    "file": "local-assets/minecraft_knockback-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_knockback-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_knockback-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:empowereddefence": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_empowereddefence-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_empowereddefence-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_empowereddefence-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:supremesmite": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_supremesmite-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesmite-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesmite-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesmite-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesmite-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_supremesmite-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:raining": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_raining-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_raining-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "simpledifficulty:chilling": {
+    "level": 0,
+    "file": "local-assets/simpledifficulty_chilling-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/simpledifficulty_chilling-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:return": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_return-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_return-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_return-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_return-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "grapplemod:wallrunenchantment": {
+    "level": 0,
+    "file": "local-assets/grapplemod_wallrunenchantment-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/grapplemod_wallrunenchantment-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedefficency": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedefficency-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedefficency-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedefficency-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedefficency-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedefficency-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedefficency-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:moonlight": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_moonlight-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_moonlight-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_moonlight-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_moonlight-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_moonlight-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_moonlight-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:highjump": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_highjump-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_highjump-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_highjump-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:power": {
+    "level": 1,
+    "file": "local-assets/minecraft_power-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_power-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_power-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_power-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_power-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_power-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:razors_edge": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_razors_edge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_razors_edge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_razors_edge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_razors_edge-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_razors_edge-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_razors_edge-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:envenomed": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_envenomed-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_envenomed-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_envenomed-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_envenomed-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:bluntness": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_bluntness-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_bluntness-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_bluntness-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_bluntness-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_bluntness-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_bluntness-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:butchering": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_butchering-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_butchering-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_butchering-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_butchering-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_butchering-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_butchering-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:underwaterstrider": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_underwaterstrider-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_underwaterstrider-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_underwaterstrider-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_underwaterstrider-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:clearsky": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_clearsky-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_clearsky-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lightweight": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lightweight-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lightweight-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lightweight-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lightweight-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedmending": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_advancedmending-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedmending-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "defiledlands:economical": {
+    "level": 1,
+    "file": "local-assets/defiledlands_economical-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_economical-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_economical-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_economical-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_economical-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:smelter": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_smelter-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_smelter-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:pandora": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_pandora-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pandora-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:multishot": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_multishot-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_multishot-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_multishot-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_multishot-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_multishot-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:burningthorns": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_burningthorns-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_burningthorns-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_burningthorns-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_burningthorns-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:spellshield": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_spellshield-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_spellshield-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_spellshield-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_spellshield-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:blessededge": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_blessededge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_blessededge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_blessededge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_blessededge-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_blessededge-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_blessededge-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:wateraspect": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_wateraspect-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_wateraspect-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_wateraspect-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_wateraspect-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_wateraspect-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_wateraspect-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:criticalstrike": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_criticalstrike-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_criticalstrike-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_criticalstrike-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_criticalstrike-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_criticalstrike-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:swifterslashes": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_swifterslashes-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swifterslashes-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swifterslashes-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swifterslashes-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swifterslashes-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_swifterslashes-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "switchbow:pullspeed": {
+    "level": 1,
+    "file": "local-assets/switchbow_pullspeed-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_pullspeed-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_pullspeed-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_pullspeed-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:unsheathing": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_unsheathing-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_unsheathing-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:brutality": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_brutality-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_brutality-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_brutality-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_brutality-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_brutality-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_brutality-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "projectile_protection": {
+    "level": 1,
+    "file": "local-assets/projectile_protection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/projectile_protection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/projectile_protection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/projectile_protection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/projectile_protection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lifesteal": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lifesteal-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lifesteal-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lifesteal-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:lure": {
+    "level": 1,
+    "file": "local-assets/minecraft_lure-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_lure-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_lure-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_lure-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "grapplemod:slidingenchantment": {
+    "level": 0,
+    "file": "local-assets/grapplemod_slidingenchantment-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/grapplemod_slidingenchantment-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:rune_piercingcapabilities": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_rune_piercingcapabilities-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_piercingcapabilities-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_piercingcapabilities-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_piercingcapabilities-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_piercingcapabilities-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:disarm": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_disarm-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_disarm-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_disarm-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_disarm-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:combo": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_combo-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_combo-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_combo-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_combo-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:rune_armorpiercing": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_rune_armorpiercing-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_armorpiercing-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_armorpiercing-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_armorpiercing-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_rune_armorpiercing-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lfl": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_lfl-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lfl-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:magicprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_magicprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magicprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magicprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magicprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magicprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:inhumane": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_inhumane-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inhumane-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inhumane-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inhumane-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inhumane-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_inhumane-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:viper": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_viper-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_viper-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_viper-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_viper-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_viper-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_viper-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:pe": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_pe-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pe-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pe-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pe-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pe-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pe-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:sunshine": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_sunshine-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sunshine-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sunshine-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sunshine-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sunshine-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sunshine-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:ashdestroyer": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_ashdestroyer-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_ashdestroyer-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_ashdestroyer-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_ashdestroyer-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_ashdestroyer-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_ashdestroyer-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:flame": {
+    "level": 0,
+    "file": "local-assets/minecraft_flame-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_flame-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:strafe": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_strafe-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strafe-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strafe-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strafe-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_strafe-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:levitator": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_levitator-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_levitator-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_levitator-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:curseofholding": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_curseofholding-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofholding-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofholding-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:rusting_curse": {
+    "level": 0,
+    "file": "local-assets/charm_rusting_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_rusting_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:sharperedge": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_sharperedge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sharperedge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sharperedge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sharperedge-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sharperedge-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_sharperedge-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "defiledlands:blazing": {
+    "level": 0,
+    "file": "local-assets/defiledlands_blazing-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/defiledlands_blazing-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:efficiency": {
+    "level": 1,
+    "file": "local-assets/minecraft_efficiency-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_efficiency-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_efficiency-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_efficiency-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_efficiency-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_efficiency-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:hors_de_combat": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_hors_de_combat-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_hors_de_combat-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_hors_de_combat-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_hors_de_combat-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_hors_de_combat-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:culling": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_culling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_culling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_culling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_culling-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:spreadshot": {
+    "level": 0,
+    "file": "local-assets/spartanweaponry_spreadshot-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_spreadshot-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:meltdown": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_meltdown-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_meltdown-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_meltdown-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedfeatherfalling": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedfeatherfalling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfeatherfalling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfeatherfalling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfeatherfalling-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedfeatherfalling-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:lfa": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_lfa-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lfa-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_lfa-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:sweeping": {
+    "level": 1,
+    "file": "local-assets/minecraft_sweeping-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sweeping-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sweeping-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_sweeping-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:tillingpower": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_tillingpower-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_tillingpower-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_tillingpower-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:sharpshooter": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_sharpshooter-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_sharpshooter-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_sharpshooter-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_sharpshooter-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:fieryshield": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_fieryshield-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryshield-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryshield-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryshield-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_fieryshield-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:disarmament": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_disarmament-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disarmament-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disarmament-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disarmament-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disarmament-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_disarmament-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:propulsion": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_propulsion-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_propulsion-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_propulsion-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_propulsion-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:feather_falling": {
+    "level": 1,
+    "file": "local-assets/minecraft_feather_falling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_feather_falling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_feather_falling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_feather_falling-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_feather_falling-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:blockpower": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_blockpower-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_blockpower-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_blockpower-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_blockpower-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:spellbreaker": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_spellbreaker-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_spellbreaker-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_spellbreaker-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_spellbreaker-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_spellbreaker-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_spellbreaker-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:magmawalker": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_magmawalker-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magmawalker-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_magmawalker-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:luckmagnification": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_luckmagnification-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_luckmagnification-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_luckmagnification-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "spartanweaponry:expanse": {
+    "level": 1,
+    "file": "local-assets/spartanweaponry_expanse-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_expanse-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/spartanweaponry_expanse-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:protection": {
+    "level": 1,
+    "file": "local-assets/minecraft_protection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_protection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_protection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_protection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_protection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:tunneling": {
+    "level": 1,
+    "file": "local-assets/mujmajnkraftsbettersurvival_tunneling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_tunneling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_tunneling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:upgrade": {
+    "level": 0,
+    "file": "local-assets/somanyenchantments_upgrade-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_upgrade-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "charm:harming_curse": {
+    "level": 0,
+    "file": "local-assets/charm_harming_curse-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/charm_harming_curse-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "mujmajnkraftsbettersurvival:range": {
+    "level": 0,
+    "file": "local-assets/mujmajnkraftsbettersurvival_range-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/mujmajnkraftsbettersurvival_range-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:penetratingedge": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_penetratingedge-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_penetratingedge-6.png",
+        "height": 16,
+        "frames": [],
+        "level": 6
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedblastprotection": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedblastprotection-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedblastprotection-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedblastprotection-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedblastprotection-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedblastprotection-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:purgingblade": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_purgingblade-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purgingblade-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purgingblade-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purgingblade-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purgingblade-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_purgingblade-5.png",
+        "height": 16,
+        "frames": [],
+        "level": 5
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:afa": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_afa-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_afa-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_afa-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:english": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_english-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_english-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_english-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_english-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_english-4.png",
+        "height": 16,
+        "frames": [],
+        "level": 4
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:curseofinaccuracy": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_curseofinaccuracy-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofinaccuracy-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_curseofinaccuracy-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "switchbow:activescope": {
+    "level": 0,
+    "file": "local-assets/switchbow_activescope-.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/switchbow_activescope-.png",
+        "height": 16,
+        "frames": [],
+        "level": 0
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:advancedluckofthesea": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_advancedluckofthesea-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedluckofthesea-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedluckofthesea-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_advancedluckofthesea-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "somanyenchantments:pulling": {
+    "level": 1,
+    "file": "local-assets/somanyenchantments_pulling-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pulling-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/somanyenchantments_pulling-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      }
+    ],
+    "height": 16,
+    "width": 16
+  },
+  "minecraft:respiration": {
+    "level": 1,
+    "file": "local-assets/minecraft_respiration-1.png",
+    "frames": [],
+    "variants": [
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_respiration-1.png",
+        "height": 16,
+        "frames": [],
+        "level": 1
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_respiration-2.png",
+        "height": 16,
+        "frames": [],
+        "level": 2
+      },
+      {
+        "width": 16,
+        "file": "local-assets/minecraft_respiration-3.png",
+        "height": 16,
+        "frames": [],
+        "level": 3
+      }
+    ],
+    "height": 16,
+    "width": 16
+  }
+}
