@@ -104,7 +104,7 @@
   if(visitCounter&&visitImage&&visitFallback&&!/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)){
     visitImage.addEventListener('load',()=>{visitFallback.hidden=true;visitImage.hidden=false;},{once:true});
     visitImage.addEventListener('error',()=>{visitFallback.hidden=false;visitImage.hidden=true;},{once:true});
-    visitImage.src='https://hits.sh/rlcraft-dregora-enchantments-by-nanonaitor/site.svg?label=%20&color=9a7ad9&labelColor=0b151e';
+      visitImage.src='https://hits.sh/nanonaitor.github.io/rlcraft-dregora-enchantments.svg?label=%20&color=9a7ad9&labelColor=0b151e';
   }
   const reset=$('#reset');reset.addEventListener('click',()=>{const keep=new Set(['Better Survival','Charm','Defiled Lands','Locks','Minecraft / Vanilla','Simple Difficulty','So Many Enchantments','Spartan Shields','Spartan Weaponry','Switch-Bow','Grappling Hook Mod']);modState.forEach((_,key)=>modState.set(key,keep.has(key)));syncMods();render();});
 })();
