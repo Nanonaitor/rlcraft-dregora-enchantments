@@ -3718,8 +3718,8 @@
     "name": "Purging Blade",
     "equipment": "Melee weapons / effect removal",
     "effect": "Grants a chance on attacks to purge an effect from an enemy, amplifying the attack damage when purging stronger effects.",
-    "regular": "16/22/28/34/40% proc: attempts separate magic damage of 2/2.75/3.5/4.25/5, resets hurt immunity and multiplies the triggering hit by 1.2. Its old effect-clearing code should not be described as a reliable modern dispel.",
-    "dregora": "Same base proc progression, but requires an active target effect. Selects one effect for removal and multiplies hit damage by 1 + 0.02L x effect tier. No old separate 5-magic-damage packet at V. Attack charge affects proc eligibility.",
+    "regular": "Each hit has a 16%/22%/28%/34%/40% activation chance at levels I–V. On activation it deals 2/2.75/3.5/4.25/5 separate magic damage, resets the target’s hurt immunity and multiplies the triggering hit by x1.2.",
+    "dregora": "Each fully charged hit against a target with an active effect has a 16%/22%/28%/34%/40% activation chance at levels I–V. It removes one randomly selected effect and multiplies the hit by 1 + 0.02 × level × removed-effect tier.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3740,9 +3740,9 @@
       }
     },
     "details": {
-      "en": "At Dregora level V, removing a tier-I effect produces a 1.10× hit multiplier; tier II produces 1.20×. The selected effect can be beneficial or harmful to the enemy, so the enchant can remove Poison or Wither that you applied yourself. With no active effect to select, the modern proc has no effect-based damage bonus. The old separate magic-damage packet must not be added to this new result.",
-      "es": "En el nivel V de Dregora, eliminar un efecto de nivel I produce un multiplicador de golpe de 1.10×; el nivel II produce 1.20×. El efecto seleccionado puede ser beneficioso o perjudicial para el enemigo, por lo que el encantamiento puede eliminar el veneno o el marchitamiento que aplicaste tú mismo. Sin ningún efecto activo para seleccionar, el proceso moderno no tiene bonificación de daño basada en efectos. El antiguo paquete de daño mágico separado no debe agregarse a este nuevo resultado.",
-      "zh": "在 Dregora V 级，移除一级效果会产生 1.10 倍的命中倍数；二级效果会产生 1.20 倍。所选择的效果可以对敌人有益或有害，因此附魔可以移除你自己施加的中毒或凋零效果。如果没有可选择的活动效果，现代触发不会有基于效果的伤害加成。旧的单独魔法伤害包不得加到这个新结果中。"
+      "en": "RLCraft: each hit has a 16%/22%/28%/34%/40% activation chance at levels I–V. On activation it deals 2/2.75/3.5/4.25/5 separate magic damage, resets the target’s hurt immunity and multiplies the triggering hit by x1.2. Dregora: a fully charged hit can activate only when the target has at least one active effect, using the same 16%/22%/28%/34%/40% chance. It removes one randomly selected positive or negative effect and multiplies the hit by 1 + 0.02 × enchantment level × removed-effect tier. At level V, removing a tier-I effect gives x1.10 damage and tier II gives x1.20. It can remove Poison or Wither that you applied yourself, and it provides no purge bonus when the target has no active effect.",
+      "es": "RLCraft: cada golpe tiene una probabilidad de activación del 16%/22%/28%/34%/40% en los niveles I–V. Al activarse, inflige 2/2.75/3.5/4.25/5 de daño mágico separado, reinicia la inmunidad de daño del objetivo y multiplica el golpe que lo activó por x1.2. Dregora: un golpe con carga completa solo puede activarlo si el objetivo tiene al menos un efecto activo, con la misma probabilidad del 16%/22%/28%/34%/40%. Elimina al azar un efecto positivo o negativo y multiplica el golpe por 1 + 0.02 × nivel del encantamiento × nivel del efecto eliminado. En el nivel V, eliminar un efecto de nivel I da x1.10 de daño y uno de nivel II da x1.20. Puede eliminar Veneno o Wither aplicados por ti y no concede bonificación si el objetivo no tiene efectos activos.",
+      "zh": "RLCraft：I–V 级每次攻击的触发率分别为 16%/22%/28%/34%/40%。触发后会造成 2/2.75/3.5/4.25/5 点独立魔法伤害，重置目标的受伤无敌时间，并将本次攻击伤害乘以 x1.2。Dregora：只有满蓄力攻击命中至少带有一个状态效果的目标时才可触发，触发率同样为 16%/22%/28%/34%/40%。触发后随机移除一个正面或负面效果，并将伤害乘以 1 + 0.02 × 附魔等级 × 被移除效果等级。V 级移除 I 级效果时伤害为 x1.10，移除 II 级效果时为 x1.20。它也可能移除由你施加的中毒或凋零；目标没有状态效果时不会获得净化伤害加成。"
     }
   },
   {
@@ -4486,7 +4486,7 @@
     "name": "Subject P.E.",
     "equipment": "Melee weapons / self buffs",
     "effect": "Attacks have a chance to give the user several buffs related to exercise and health.",
-    "regular": "Uses the older Subject implementation and combat patch.",
+    "regular": "Can grant RLCraft’s Subject P.E. combat and movement buffs on qualifying attacks.",
     "dregora": "Can grant Haste and Speed, with Strength/Jump Boost and then Resistance becoming available at higher levels.",
     "mod": "So Many Enchantments",
     "profiles": {
