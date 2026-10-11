@@ -666,9 +666,9 @@
       }
     },
     "details": {
-      "en": "This is a probability-based durability benefit, not extra maximum durability printed on the item and not immunity to breakage. Armor and tools do not use identical saving rules. Effects that directly remove, destroy or forcibly replace an item are not automatically prevented by Unbreaking.",
-      "es": "Este es un beneficio de durabilidad basado en la probabilidad, no una durabilidad máxima adicional impresa en el artículo ni inmunidad a roturas. Las armaduras y las herramientas no utilizan reglas de ahorro idénticas. Unbreaking no previene automáticamente los efectos que eliminan, destruyen o reemplazan por la fuerza directamente un elemento.",
-      "zh": "这是基于概率的耐久度加成，而不是印在物品上的额外最大耐久度，也不是防止损坏的免疫。护甲和工具不使用相同的豁免规则。直接移除、摧毁或强制替换物品的效果不会被“坚固”自动阻止。"
+      "en": "For tools, weapons, shields and most damageable items, each attempted durability loss is ignored with chance level ÷ (level + 1): 50%/66.7%/75% at I–III. This means average durability lasts x2/x3/x4 as long. Armor uses a separate rule: 60% of damage attempts always consume durability, and only the remaining 40% use the normal Unbreaking roll, so its total save chance is 20%/26.7%/30% at I–III. It is not a flat 10% trigger per level.",
+      "es": "Para herramientas, armas, escudos y la mayoría de objetos, cada pérdida de durabilidad se ignora con probabilidad nivel ÷ (nivel + 1): 50%/66.7%/75% en I–III. La duración media pasa a x2/x3/x4. La armadura usa otra regla: 60% de los intentos siempre consumen durabilidad y solo el 40% restante usa la tirada normal, así que el ahorro total es 20%/26.7%/30%. No es una probabilidad plana de 10% por nivel.",
+      "zh": "对工具、武器、盾牌和大多数可损坏物品，每次耐久损失会以 等级 ÷（等级 + 1）的概率被忽略，I–III 为 50%/66.7%/75%，平均耐久寿命为 x2/x3/x4。护甲使用不同规则：60% 的损耗必定发生，只有剩余 40% 进行耐久判定，因此总节省概率为 20%/26.7%/30%。它不是每级固定 10% 的触发概率。"
     }
   },
   {
@@ -698,9 +698,9 @@
       }
     },
     "details": {
-      "en": "The block's own drop rules decide what Fortune changes. It can improve eligible ore or crop yields, but is not a universal multiplier for stone, wood, machines, inventories or every modded resource. Higher levels do not make an inadequate tool capable of harvesting a higher-tier block.",
-      "es": "Las propias reglas de caída del bloque deciden qué cambia Fortune. Puede mejorar los rendimientos de minerales o cultivos elegibles, pero no es un multiplicador universal para piedra, madera, máquinas, inventarios o todos los recursos modificados. Los niveles más altos no hacen que una herramienta sea inadecuada y capaz de cosechar un bloque de nivel superior.",
-      "zh": "方块自身的掉落规则决定幸运值会影响什么。它可以提高符合条件的矿石或作物产量，但并不是石头、木材、机器、物品栏或所有模组资源的通用倍增器。更高的等级不会让不合适的工具能够采集更高级的方块。"
+      "en": "Fortune changes only blocks whose own drop code supports it. For common single-drop ores such as coal, diamond, emerald, lapis and Nether quartz, the multiplier is max(1, random integer from 0 through level + 1) after the game's offset: I gives x1 66.7% or x2 33.3%; II gives x1 50%, x2 25% or x3 25%; III gives x1 40% and x2/x3/x4 20% each. Redstone, lapis, crops, gravel, glowstone and modded blocks use their own formulas, so Fortune is not one universal loot percentage. It does not improve XP drops.",
+      "es": "Fortuna solo cambia bloques cuyo código de botín la admite. Para menas comunes de una sola gota como carbón, diamante, esmeralda, lapislázuli y cuarzo, el multiplicador usa la tirada del bloque: I da x1 66.7% o x2 33.3%; II da x1 50%, x2 25% o x3 25%; III da x1 40% y x2/x3/x4 20% cada uno. Redstone, lapislázuli, cultivos, grava, piedra luminosa y bloques de mods usan fórmulas propias, así que no existe un porcentaje universal. No mejora la experiencia.",
+      "zh": "时运只会改变自身掉落代码支持它的方块。对煤、钻石、绿宝石、青金石和下界石英等常见单掉落矿石，I 有 66.7% 为 x1、33.3% 为 x2；II 有 50% 为 x1、25% 为 x2、25% 为 x3；III 有 40% 为 x1，x2/x3/x4 各 20%。红石、青金石、作物、沙砾、萤石和模组方块各自使用不同公式，因此不存在统一的额外掉落百分比。它不会增加经验掉落。"
     }
   },
   {
@@ -1240,9 +1240,9 @@
       }
     },
     "details": {
-      "en": "A stronger knockback option than vanilla Knockback. Can help create distance, but can also push enemies out of melee reach.",
-      "es": "Una opción de retroceso más fuerte que el retroceso vainilla. Puede ayudar a crear distancia, pero también puede empujar a los enemigos fuera del alcance cuerpo a cuerpo.",
-      "zh": "比原版击退更强的击退选项。可以帮助拉开距离，但也可能将敌人推离近战范围。"
+      "en": "RLCraft contributes 2 knockback-strength points per level: 2 at I and 4 at II. Dregora uses floor(2.5 × level): 2 at I and 5 at II. The enchant increases displacement rather than direct damage.",
+      "es": "RLCraft aporta 2 puntos de fuerza de retroceso por nivel: 2 en I y 4 en II. Dregora usa suelo(2.5 × nivel): 2 en I y 5 en II. Aumenta el desplazamiento, no el daño directo.",
+      "zh": "RLCraft 每级提供 2 点击退强度，I 为 2、II 为 4。Dregora 使用 floor（2.5 × 等级），I 为 2、II 为 5。该附魔增加位移，不增加直接伤害。"
     }
   },
   {
@@ -1496,9 +1496,9 @@
       }
     },
     "details": {
-      "en": "A stronger arrow-knockback enchantment than Punch. It is primarily crowd control, not a direct arrow-damage bonus.",
-      "es": "Un encantamiento de retroceso de flecha más fuerte que Puñetazo. Se trata principalmente de control de masas, no de una bonificación directa al daño de las flechas.",
-      "zh": "比冲击更强的箭击击退附魔。它主要用于控制人群，而不是提供直接的箭伤加成。"
+      "en": "Sets fired arrows to knockback strength 1 + 2 × level: strength 3 at I and 5 at II. This is arrow knockback only and does not add arrow damage.",
+      "es": "Da a las flechas fuerza de retroceso 1 + 2 × nivel: 3 en I y 5 en II. Solo modifica el empuje de la flecha; no añade daño.",
+      "zh": "把射出的箭设为 1 + 2 × 等级的击退强度：I 为 3，II 为 5。它只改变箭的击退，不增加箭伤害。"
     }
   },
   {
@@ -1632,7 +1632,7 @@
     "name": "Ancient Sword Mastery",
     "equipment": "Weapons",
     "effect": "An ancient enchantment that amplifies the dealt damage depending on the targets attack damage.",
-    "regular": "Disabled. The older implementation describes sword proficiency and enhanced damage-enchantment effects.",
+    "regular": "Disabled.",
     "dregora": "Increases damage based on the target's attack damage, rewarding use against hard-hitting enemies.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -1652,9 +1652,9 @@
       }
     },
     "details": {
-      "en": "A special damage enchantment; availability and mechanics differ substantially.",
-      "es": "Un encantamiento de daño especial; La disponibilidad y la mecánica difieren sustancialmente.",
-      "zh": "一种特殊的伤害附魔；可用性和机制存在显著差异。"
+      "en": "On an eligible weapon hit, reads the target's attack-damage attribute and adds min((level ÷ 3) × √target attack damage, 12) damage before attack-charge scaling. Levels I–III therefore use one-third, two-thirds and the full square root. It gives the largest benefit against hard-hitting targets and can never add more than 12 damage.",
+      "es": "En un golpe válido lee el atributo de daño de ataque del objetivo y añade min((nivel ÷ 3) × √daño de ataque del objetivo, 12) antes de la carga. I–III usan un tercio, dos tercios y la raíz completa. Beneficia más contra enemigos fuertes y nunca añade más de 12.",
+      "zh": "有效武器命中时读取目标的攻击伤害属性，并在蓄力缩放前增加 min（（等级 ÷ 3）× √目标攻击伤害，12）点伤害。I–III 分别使用平方根的三分之一、三分之二和全部数值。目标攻击越高收益越大，但最多增加 12 点。"
     }
   },
   {
@@ -1968,9 +1968,9 @@
       }
     },
     "details": {
-      "en": "A Thorns-style retaliation enchantment that also ignites eligible attackers.",
-      "es": "Un encantamiento de represalia al estilo Thorns que también enciende a los atacantes elegibles.",
-      "zh": "一种荆棘风格的反击附魔，同时点燃符合条件的攻击者。"
+      "en": "When the wearer is attacked, it has a 15% chance per level to retaliate: 15%/30%/45% at I–III. A trigger deals a random 2–5 damage and sets the attacker on fire for level + 2 seconds: 3/4/5 seconds. The selected armor piece loses 4 durability on a trigger and 2 durability when the roll fails.",
+      "es": "Cuando atacan al usuario tiene 15% por nivel de contraatacar: 15%/30%/45% en I–III. Al activarse inflige 2–5 de daño aleatorio y prende al atacante durante nivel + 2 segundos: 3/4/5. La pieza de armadura pierde 4 de durabilidad al activarse y 2 cuando falla.",
+      "zh": "穿戴者被攻击时，每级有 15% 概率反击，I–III 为 15%/30%/45%。触发后随机造成 2–5 点伤害，并让攻击者燃烧 等级 + 2 秒，即 3/4/5 秒。选中的护甲件在触发时损失 4 耐久，判定失败时损失 2 耐久。"
     }
   },
   {
@@ -2042,7 +2042,7 @@
     "name": "Combat Medic / Combat Veterancy",
     "equipment": "Healing support",
     "effect": "Amplifies the user's healing.",
-    "regular": "Named Combat Veterancy and disabled Disabled.",
+    "regular": "Disabled.",
     "dregora": "Named Combat Medic and incompatible with Curse of Vulnerability.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -2062,9 +2062,9 @@
       }
     },
     "details": {
-      "en": "Improves healing received by the user. Healing benefits still depend on the source and pack healing rules.",
-      "es": "Mejora la curación recibida por el usuario. Los beneficios curativos aún dependen de la fuente y de las reglas de curación del paquete.",
-      "zh": "提高用户所接受的治疗效果。治疗效果仍取决于来源和团队治疗规则。"
+      "en": "Multiplies every healing event above 0.1 health by 1.1 + 0.3 × level. That is x1.4 (+40%) at I, x1.7 (+70%) at II and x2 (+100%) at III. It changes received healing, not maximum health.",
+      "es": "Multiplica cada curación superior a 0.1 de vida por 1.1 + 0.3 × nivel. Es x1.4 (+40%) en I, x1.7 (+70%) en II y x2 (+100%) en III. Cambia la curación recibida, no la vida máxima.",
+      "zh": "把每次大于 0.1 生命值的治疗乘以 1.1 + 0.3 × 等级。I 为 x1.4（+40%），II 为 x1.7（+70%），III 为 x2（+100%）。它提高受到的治疗，不提高最大生命。"
     }
   },
   {
@@ -2252,9 +2252,9 @@
       }
     },
     "details": {
-      "en": "Applies harmful effects to the player when the cursed equipment is held/equipped as handled by the mod.",
-      "es": "Aplica efectos dañinos al jugador cuando el equipo maldito se sostiene/equipa como lo maneja el mod.",
-      "zh": "当玩家持有/装备被诅咒的装备时，会根据模组的处理施加有害效果。"
+      "en": "RLCraft checks the held main-hand and offhand items about every 11 ticks. I applies Slowness I, Weakness I and −1 Luck; II applies Slowness II, Weakness II, Hunger II, Mining Fatigue II and −2 Luck. The short potion effects are continually refreshed while the item is held.\nDregora checks all equipped items every 9 ticks. I continually refreshes Slowness I, Weakness I and Bad Luck I; II refreshes Slowness II, Weakness II, Bad Luck II, Hunger II and Mining Fatigue II. Each refresh lasts 10 ticks, so removing the cursed equipment lets the effects expire almost immediately.",
+      "es": "RLCraft revisa los objetos de ambas manos aproximadamente cada 11 ticks. I aplica Lentitud I, Debilidad I y −1 Suerte; II aplica Lentitud II, Debilidad II, Hambre II, Fatiga minera II y −2 Suerte. Los efectos cortos se renuevan mientras se sostiene el objeto.\nDregora revisa todo el equipo cada 9 ticks. I renueva Lentitud I, Debilidad I y Mala suerte I; II renueva Lentitud II, Debilidad II, Mala suerte II, Hambre II y Fatiga minera II. Cada renovación dura 10 ticks, así que al quitar el objeto desaparecen casi de inmediato.",
+      "zh": "RLCraft 大约每 11 刻检查主手和副手物品。I 施加缓慢 I、虚弱 I 和 −1 幸运；II 施加缓慢 II、虚弱 II、饥饿 II、挖掘疲劳 II 和 −2 幸运。持有物品时会持续刷新短时效果。\nDregora 每 9 刻检查全部已装备物品。I 持续刷新缓慢 I、虚弱 I 和霉运 I；II 刷新缓慢 II、虚弱 II、霉运 II、饥饿 II 和挖掘疲劳 II。每次刷新持续 10 刻，卸下诅咒装备后效果几乎立即结束。"
     }
   },
   {
@@ -3228,9 +3228,9 @@
       }
     },
     "details": {
-      "en": "Heals the attacker based on dealt damage. Do not confuse it with Better Survival's Vampirism or Fish's Undead Rising's separate Lifesteal enchantment. Dummy healing and other interactions may be patched.",
-      "es": "Cura al atacante según el daño infligido. No lo confundas con el vampirismo de Better Survival o el encantamiento separado Lifesteal de Fish's Undead Rising. Es posible que se parcheen la curación ficticia y otras interacciones.",
-      "zh": "根据造成的伤害治疗攻击者。不要将其与Better Survival的吸血或Fish的Undead Rising的独立生命偷取附魔混淆。虚拟治疗和其他互动可能会被修补。"
+      "en": "RLCraft heals the attacker for 2.5% + 2.5% per level of the eligible hit: 5%/7.5%/10% at I–III. It also deals a separate armor-piercing packet equal to 5% + 5% per level of that hit: 10%/15%/20%.\nDregora heals exactly 3% of final eligible damage per level: 3%/6%/9% at I–III. It does not add the separate armor-piercing damage packet.",
+      "es": "RLCraft cura al atacante por 2.5% + 2.5% por nivel del golpe válido: 5%/7.5%/10% en I–III. También inflige un paquete separado que atraviesa armadura igual a 5% + 5% por nivel: 10%/15%/20%.\nDregora cura exactamente 3% del daño final válido por nivel: 3%/6%/9% en I–III. No añade el paquete separado que atraviesa armadura.",
+      "zh": "RLCraft 按有效命中伤害的 2.5% + 每级 2.5% 治疗攻击者，I–III 为 5%/7.5%/10%；还会造成一个独立的无视护甲伤害包，数值为该次命中的 5% + 每级 5%，即 10%/15%/20%。\nDregora 每级精确治疗最终有效伤害的 3%，I–III 为 3%/6%/9%，不会再造成独立的无视护甲伤害包。"
     }
   },
   {
@@ -3260,9 +3260,9 @@
       }
     },
     "details": {
-      "en": "Increases jump height and modifies fall-damage handling. Not a substitute for unlimited fall immunity.",
-      "es": "Aumenta la altura del salto y modifica el manejo de los daños por caída. No es un sustituto de la inmunidad ilimitada contra caídas.",
-      "zh": "增加跳跃高度并修改坠落伤害处理方式。不能替代无限坠落免疫。"
+      "en": "Multiplies upward jump velocity by 1.05 + 0.15 × level: x1.2/x1.35/x1.5 at I–III. On landing, effective fall distance becomes clamp(original distance − 4 − 2 × level, 0, 20), so it removes 6/8/10 blocks of fall distance and also caps the remaining distance at 20 blocks. Normal fall-damage rules then use that reduced distance.",
+      "es": "Multiplica la velocidad vertical del salto por 1.05 + 0.15 × nivel: x1.2/x1.35/x1.5 en I–III. Al caer, la distancia efectiva pasa a limitar(distancia original − 4 − 2 × nivel, 0, 20), por lo que elimina 6/8/10 bloques y limita lo restante a 20. El daño normal de caída usa esa distancia reducida.",
+      "zh": "把向上的跳跃速度乘以 1.05 + 0.15 × 等级，I–III 为 x1.2/x1.35/x1.5。落地时有效坠落距离变为 clamp（原距离 − 4 − 2 × 等级，0，20），即减去 6/8/10 格，并把剩余距离封顶为 20 格。随后按普通坠落规则使用该距离计算伤害。"
     }
   },
   {
@@ -3324,9 +3324,9 @@
       }
     },
     "details": {
-      "en": "A night-time damage specialist that can blind enemies under favorable sky conditions.",
-      "es": "Un especialista en daños nocturnos que puede cegar a los enemigos en condiciones de cielo favorables.",
-      "zh": "一种夜间伤害专家，在有利的天空条件下可以致盲敌人。"
+      "en": "RLCraft: At night, every eligible hit adds 1.5 + 0.5 × level damage. Being covered subtracts 0.75 per level from that bonus and rain subtracts another 0.5 per level. During the day the base amount becomes a damage penalty instead. An open-sky night hit applies Blindness for 10 seconds; later hits extend the current Blindness by 4 seconds. There is no separate random trigger roll.\nDregora: At night every eligible hit adds 1.5 + 0.75 × level under open sky: +2.25/+3/+3.75/+4.5/+5.25. While covered it instead adds 0.5 + 0.25 × level: +0.75/+1/+1.25/+1.5/+1.75. Open-sky night hits apply Blindness for 1 + 0.5 × level seconds: 1.5/2/2.5/3/3.5 seconds. There is no separate random roll; partial attacks scale the effect with attack charge.",
+      "es": "RLCraft: De noche, cada golpe válido añade 1.5 + 0.5 × nivel. Estar bajo techo resta 0.75 por nivel y la lluvia resta otros 0.5 por nivel. De día la cantidad base se convierte en penalización. Un golpe nocturno bajo cielo abierto aplica Ceguera durante 10 segundos; golpes posteriores prolongan la Ceguera actual 4 segundos. No hay tirada aleatoria separada.\nDregora: De noche añade 1.5 + 0.75 × nivel bajo cielo abierto: +2.25/+3/+3.75/+4.5/+5.25. Bajo techo añade 0.5 + 0.25 × nivel: +0.75/+1/+1.25/+1.5/+1.75. Los golpes nocturnos expuestos aplican Ceguera durante 1 + 0.5 × nivel segundos: 1.5/2/2.5/3/3.5. No hay tirada aparte; los ataques parciales escalan con la carga.",
+      "zh": "RLCraft：夜间每次有效命中增加 1.5 + 0.5 × 等级伤害。被遮挡时每级从加成中减去 0.75，下雨再每级减去 0.5；白天基础值会改为伤害惩罚。露天夜间命中施加 10 秒失明，后续命中会把当前失明延长 4 秒。没有独立随机判定。\nDregora：夜间露天命中增加 1.5 + 0.75 × 等级，即 +2.25/+3/+3.75/+4.5/+5.25；遮挡下增加 0.5 + 0.25 × 等级，即 +0.75/+1/+1.25/+1.5/+1.75。露天夜间命中施加 1 + 0.5 × 等级秒失明，即 1.5/2/2.5/3/3.5 秒。没有独立随机判定；未蓄满攻击会按蓄力缩放。"
     }
   },
   {
@@ -3420,9 +3420,9 @@
       }
     },
     "details": {
-      "en": "Can trigger an explosion when hit, at a severe armor-durability cost.",
-      "es": "Puede provocar una explosión cuando es golpeado, con un alto costo de durabilidad del blindaje.",
-      "zh": "被击中时可以触发爆炸，但会严重消耗护甲耐久度。"
+      "en": "When the wearer is hit, the explosion chance is 5% + 5% per level: 10% at I and 15% at II. A trigger creates an explosion centered on the wearer with strength 1.9 + 0.3 × level: 2.2/2.5. Explosion damage is not fixed because distance, line of sight, armor and protection are used. On a trigger the enchanted armor loses 10–24 durability at I or 10–39 at II. Even when it does not trigger, it loses 1–2 durability at I or 1–4 at II.",
+      "es": "Al recibir un golpe, la probabilidad de explosión es 5% + 5% por nivel: 10% en I y 15% en II. La explosión se centra en el usuario y tiene potencia 1.9 + 0.3 × nivel: 2.2/2.5. El daño no es fijo porque depende de distancia, visión, armadura y protección. Al activarse, la armadura pierde 10–24 de durabilidad en I o 10–39 en II. Si falla, todavía pierde 1–2 en I o 1–4 en II.",
+      "zh": "穿戴者被击中时，爆炸概率为 5% + 每级 5%，I 为 10%，II 为 15%。触发后在穿戴者位置产生强度 1.9 + 0.3 × 等级的爆炸，即 2.2/2.5。爆炸伤害不固定，会受距离、视线、护甲和保护影响。触发时护甲在 I 损失 10–24 耐久、II 损失 10–39；未触发时仍分别损失 1–2 或 1–4。"
     }
   },
   {
@@ -3484,9 +3484,9 @@
       }
     },
     "details": {
-      "en": "Builds a stored damage benefit through kills. The stored bonus and its cap are separate from the enchantment's displayed level.",
-      "es": "Genera un beneficio de daño almacenado mediante muertes. La bonificación almacenada y su límite están separados del nivel mostrado del encantamiento.",
-      "zh": "通过击杀积累存储的伤害加成。存储的加成及其上限与附魔显示的等级是分开的。"
+      "en": "Each kill made with the enchanted weapon stores +0.00625 × enchantment level damage on that weapon. The stored bonus is added to later eligible hits and follows attack charge. It caps at damage equal to the enchantment level, so I–VIII cap at +1 through +8. Because both gain and cap scale with level, every level takes 160 kills to reach full power.",
+      "es": "Cada muerte con el arma guarda +0.00625 × nivel del encantamiento de daño en esa arma. La bonificación guardada se suma a golpes posteriores y sigue la carga del ataque. El límite es igual al nivel, por lo que I–VIII llegan de +1 a +8. Como ganancia y límite escalan juntos, todos los niveles necesitan 160 muertes para alcanzar el máximo.",
+      "zh": "使用该武器每击杀一个目标，就在武器上储存 +0.00625 × 附魔等级的伤害。储存值会加入之后的有效命中，并随攻击蓄力缩放。上限等于附魔等级，因此 I–VIII 的上限为 +1 到 +8。由于增长量与上限都随等级变化，每一级都需要 160 次击杀达到满值。"
     }
   },
   {
@@ -3516,9 +3516,9 @@
       }
     },
     "details": {
-      "en": "Diverts a portion of eligible damage to shield durability while wielding a shield. It does not mean the shield blocks every attack for free.",
-      "es": "Desvía una parte del daño elegible a la durabilidad del escudo mientras se empuña un escudo. Esto no significa que el escudo bloquee todos los ataques de forma gratuita.",
-      "zh": "在使用盾牌时，将部分符合条件的伤害转移到盾牌耐久度上。这并不意味着盾牌可以免费挡下每一次攻击。"
+      "en": "RLCraft passively reduces eligible damage by 10% + 10% per level: 20%/30%/40% at I–III while a shield is held in the offhand. Dregora reduces 10% per level: 10%/20%/30%, works with a shield in either hand, and does nothing while actively blocking or against unblockable damage. In Dregora the shield loses floor(1 + 1.5 × prevented damage) durability.",
+      "es": "RLCraft reduce pasivamente el daño válido en 10% + 10% por nivel: 20%/30%/40% en I–III con un escudo en la mano secundaria. Dregora reduce 10% por nivel: 10%/20%/30%, funciona con el escudo en cualquiera de las manos y no actúa mientras se bloquea activamente ni contra daño imbloqueable. En Dregora el escudo pierde suelo(1 + 1.5 × daño evitado) de durabilidad.",
+      "zh": "RLCraft 在副手持盾时被动减少 10% + 每级 10% 的有效伤害，I–III 为 20%/30%/40%。Dregora 每级减少 10%，即 10%/20%/30%，任一手持盾均可；主动格挡时或面对不可格挡伤害时不生效。Dregora 中盾牌损失 floor（1 + 1.5 × 被阻止伤害）点耐久。"
     }
   },
   {
@@ -3548,9 +3548,9 @@
       }
     },
     "details": {
-      "en": "A harmful curse that can introduce additional curses to equipment. Isolate affected gear rather than treating it as cosmetic purple text.",
-      "es": "Una maldición dañina que puede introducir maldiciones adicionales al equipo. Aísle el equipo afectado en lugar de tratarlo como un texto cosmético de color púrpura.",
-      "zh": "一种有害的诅咒，可以给装备附加额外的诅咒。应隔离受影响的装备，而不是将其视为普通的紫色文本装饰。"
+      "en": "Every 600 ticks (30 seconds), it scans the main inventory, armor slots and offhand. Enchanted books and stackable items are ignored; every other non-stackable item is a candidate. Each candidate independently has a 1-in-8 (12.5%) chance to receive one random compatible curse at a random valid level. The original Pandora item tracks each successful curse; after the sixth success its Pandora's Curse is removed, but all curses already spread remain. A curse cannot be added to an incompatible item or duplicated on the same item, although the same curse can land on different items.",
+      "es": "Cada 600 ticks (30 segundos) revisa inventario principal, armadura y mano secundaria. Ignora libros encantados y objetos apilables; cada otro objeto no apilable es candidato. Cada candidato tiene por separado 1 entre 8 (12.5%) de recibir una maldición compatible aleatoria a un nivel válido aleatorio. El objeto de Pandora cuenta cada éxito; después del sexto pierde esta maldición, pero las maldiciones propagadas permanecen. No puede duplicar la misma maldición en un objeto ni añadir una incompatible, aunque puede repetirla en objetos distintos.",
+      "zh": "每 600 刻（30 秒）扫描主背包、护甲栏和副手。附魔书与可堆叠物品会被忽略；其他不可堆叠物品都是候选。每件候选物品独立有 1/8（12.5%）概率获得一个随机兼容诅咒，等级也在其有效范围内随机。原潘多拉物品记录每次成功；第六次成功后会移除自身的潘多拉诅咒，但已传播的诅咒保留。同一物品不会重复同一种诅咒，也不会加入不兼容诅咒；不同物品可以获得同一种诅咒。"
     }
   },
   {
@@ -3837,8 +3837,8 @@
     "name": "Rain's Bestowment",
     "equipment": "Melee weapons / rain",
     "effect": "Increases damage dealt while raining with an extra boost if exposed to the sky.",
-    "regular": "Older design can reduce damage when the required weather is absent.",
-    "dregora": "Reworked favorable-weather bonus with extra sky-exposure benefit rather than the old unfavorable-weather penalty design.",
+    "regular": "In darkness, rain adds 0.2 + 0.8 × level damage; dry weather subtracts 0.2 + 0.3 × level damage and gives each hit a (3 + level) ÷ 500 chance to start rain.",
+    "dregora": "During rain, outdoor hits add 1.25 + level damage and covered hits add 0.5 + 0.25 × level damage. Hits can also start rain or thunder.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3891,9 +3891,9 @@
       }
     },
     "details": {
-      "en": "A Sharpness-like damage enchantment intended for tools. It is not a mining-speed enchantment.",
-      "es": "Un encantamiento de daño similar a la nitidez destinado a herramientas. No es un encantamiento de velocidad minera.",
-      "zh": "一种类似锋利的伤害附魔，适用于工具。这不是一种提高采矿速度的附魔。"
+      "en": "Adds 2 + 1.3 × level damage to attacks made with eligible tools: +3.3/+4.6/+5.9/+7.2/+8.5 at I–V. The bonus is direct attack damage; it does not increase mining speed.",
+      "es": "Añade 2 + 1.3 × nivel de daño a ataques con herramientas válidas: +3.3/+4.6/+5.9/+7.2/+8.5 en I–V. Es daño directo de ataque; no aumenta la velocidad de minado.",
+      "zh": "使用适用工具攻击时增加 2 + 1.3 × 等级伤害，I–V 分别为 +3.3/+4.6/+5.9/+7.2/+8.5。该加成是直接攻击伤害，不会提高挖掘速度。"
     }
   },
   {
@@ -3901,7 +3901,7 @@
     "name": "Reviled Blade",
     "equipment": "Melee weapons / finishing damage",
     "effect": "Amplifies the damage dealt the lower the health of the enemy.",
-    "regular": "",
+    "regular": "Disabled.",
     "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -3923,9 +3923,9 @@
       }
     },
     "details": {
-      "en": "Increases damage against targets as their health gets low. Unlike Culling, its basic purpose is stronger damage, not a guaranteed execution.",
-      "es": "Aumenta el daño contra los objetivos a medida que su salud disminuye. A diferencia de Culling, su propósito básico es un daño más fuerte, no una ejecución garantizada.",
-      "zh": "随着目标的生命值降低，对其造成的伤害增加。与收割不同，它的基本目的在于更强的伤害，而不是确保击杀。"
+      "en": "Multiplies the final eligible hit by 1 + (missing-health fraction × level ÷ 2). There is no fixed HP threshold: the bonus rises continuously from 0% at full health to almost +50%/+100%/+150%/+200% at I–IV as the target approaches 0 HP. For example, at 50% health level IV doubles the hit.",
+      "es": "Multiplica el golpe final por 1 + (fracción de vida faltante × nivel ÷ 2). No hay un umbral fijo: la bonificación aumenta continuamente desde 0% con vida completa hasta casi +50%/+100%/+150%/+200% en I–IV cuando el objetivo se acerca a 0. Por ejemplo, con 50% de vida el nivel IV duplica el golpe.",
+      "zh": "把最终有效命中乘以 1 +（目标已损失生命比例 × 等级 ÷ 2）。没有固定生命阈值；目标从满血降到接近 0 生命时，I–IV 的加成会从 0% 连续增长到接近 +50%/+100%/+150%/+200%。例如目标剩 50% 生命时，IV 会把伤害翻倍。"
     }
   },
   {
@@ -4183,7 +4183,7 @@
     "name": "Spell Breaker",
     "equipment": "Melee weapons / effect-heavy enemies",
     "effect": "Deals increased damage for each effect an enemy has, with bonus damage against Evokers and Witches.",
-    "regular": "Older specialist behavior and RLMixins damage handling apply.",
+    "regular": "Disabled.",
     "dregora": "Adds damage based on target potion effects, with extra benefits against witches/evokers and a damage cap. Competes with Supreme damage-tier options and Penetrating Edge.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -4205,9 +4205,9 @@
       }
     },
     "details": {
-      "en": "A specialist against magically supported enemies, not a universal magic-damage multiplier.",
-      "es": "Un especialista contra enemigos apoyados mágicamente, no un multiplicador universal de daño mágico.",
-      "zh": "针对魔法支持的敌人的专家，而不是通用魔法伤害加成者。"
+      "en": "On every eligible hit, adds 0.625 × level × the number of active potion effects on the target, capped at +15 damage. Witches and Evokers also take +1.75 damage per level, and that bonus stacks with the potion-effect bonus. At V, a target with four effects takes +12.5 plus +8.75 more if it is a Witch or Evoker. Added damage follows attack charge.",
+      "es": "En cada golpe válido añade 0.625 × nivel × cantidad de efectos de poción activos en el objetivo, con límite de +15. Brujas y Evocadores reciben además +1.75 por nivel, acumulable con la bonificación anterior. En V, un objetivo con cuatro efectos recibe +12.5 y, si es Bruja o Evocador, otros +8.75. El daño sigue la carga del ataque.",
+      "zh": "每次有效命中都会增加 0.625 × 等级 × 目标当前药水效果数量的伤害，最多 +15。女巫和唤魔者每级还额外受到 1.75 点伤害，并可与药水效果加成叠加。V 级时，拥有四个效果的目标增加 12.5 点；若为女巫或唤魔者，再增加 8.75 点。附加伤害随攻击蓄力缩放。"
     }
   },
   {
@@ -4426,7 +4426,7 @@
     "name": "Subject History",
     "equipment": "Melee weapons / stationary fighting",
     "effect": "Increases damage the longer the user stays in the same spot.",
-    "regular": "Disabled Disabled.; its old world-age description does not describe the Dregora patch.",
+    "regular": "Disabled.",
     "dregora": "RLMixins rewards consecutive attacks near the tracked position, ramping toward +7.5 at the listed level. Moving sufficiently far resets the benefit. It is not simply total save-file age.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -4446,9 +4446,9 @@
       }
     },
     "details": {
-      "en": "A location/history-related damage specialist.",
-      "es": "Un especialista en daños relacionados con la ubicación/el historial.",
-      "zh": "一个与位置/历史相关的损害专家。"
+      "en": "Each qualifying hit gains bonus damage from the local difficulty at the attacker's position. The calculation is 1.5 × level × (additional local difficulty ÷ 6.75), and the added damage follows attack charge. Local difficulty is Minecraft's combined regional value, influenced by world difficulty, inhabited time and moon phase; moving to another area uses that area's value.",
+      "es": "Cada golpe válido obtiene daño adicional según la dificultad local donde está el atacante. El cálculo es 1.5 × nivel × (dificultad local adicional ÷ 6.75), y el daño añadido sigue la carga. La dificultad local combina dificultad mundial, tiempo habitado y fase lunar; al moverse se usa el valor de la nueva zona.",
+      "zh": "每次有效命中都会根据攻击者位置的本地难度增加伤害。公式为 1.5 × 等级 ×（额外本地难度 ÷ 6.75），附加伤害随攻击蓄力缩放。本地难度由世界难度、区域居住时间和月相共同影响；移动后会使用新区域的数值。"
     }
   },
   {
@@ -4507,9 +4507,9 @@
       }
     },
     "details": {
-      "en": "Can give the attacker combat/mobility potion buffs. It is mutually exclusive with other Subject choices.",
-      "es": "Puede darle al atacante mejoras en pociones de combate/movilidad. Es mutuamente excluyente con otras opciones de Asunto.",
-      "zh": "可以给予攻击者战斗/移动药水增益效果。这与其他主题选择是互斥的。"
+      "en": "RLCraft: Every qualifying hit has an 8.5% chance to grant buffs. I gives Haste I for 9 seconds and Speed I for 2.75 seconds; II gives Haste II for 10.5 seconds and Speed II for 3 seconds. III gives Haste II for 12 seconds, Speed II for 3.25 seconds and Resistance I for 1.75 seconds; its written Strength amplifier is −1, so it adds no positive Strength bonus. IV gives Strength I for 1.5 seconds, Haste III for 13.5 seconds, Speed III for 3.5 seconds and Resistance II for 2 seconds. V gives Jump Boost V for 1.75 seconds, Regeneration IV for 2.25 seconds, Strength II for 1.75 seconds, Haste IV for 8.75 seconds, Speed IV for 3.75 seconds and Resistance III for 2.25 seconds.\nDregora: The trigger chance is 5% per level: 5%, 10%, 15%, 20% and 25%. Haste lasts 7–11 seconds and Speed lasts 5–9 seconds at levels I–V; both are level I/II/III/IV/IV. Levels III–V also grant Strength and Jump Boost for 6/7/8 seconds at level I/II/III. Level V also grants Resistance I for 6 seconds. Partial attacks reduce the effective trigger chance in proportion to attack charge.",
+      "es": "RLCraft: Cada golpe válido tiene un 8.5% de probabilidad. I da Prisa I durante 9 segundos y Velocidad I durante 2.75; II da Prisa II durante 10.5 y Velocidad II durante 3. III da Prisa II durante 12, Velocidad II durante 3.25 y Resistencia I durante 1.75; su amplificador escrito de Fuerza es −1, por lo que no da una bonificación positiva. IV da Fuerza I durante 1.5, Prisa III durante 13.5, Velocidad III durante 3.5 y Resistencia II durante 2. V da Salto mejorado V durante 1.75, Regeneración IV durante 2.25, Fuerza II durante 1.75, Prisa IV durante 8.75, Velocidad IV durante 3.75 y Resistencia III durante 2.25 segundos.\nDregora: La probabilidad es 5% por nivel: 5%, 10%, 15%, 20% y 25%. Prisa dura 7–11 segundos y Velocidad 5–9 segundos en I–V; ambas tienen potencia I/II/III/IV/IV. III–V también dan Fuerza y Salto mejorado durante 6/7/8 segundos con potencia I/II/III. V además da Resistencia I durante 6 segundos. Los ataques parciales reducen la probabilidad efectiva según la carga.",
+      "zh": "RLCraft：每次有效命中有 8.5% 概率触发。I 给予 9 秒急迫 I 和 2.75 秒速度 I；II 给予 10.5 秒急迫 II 和 3 秒速度 II；III 给予 12 秒急迫 II、3.25 秒速度 II 和 1.75 秒抗性提升 I，其力量放大值写为 −1，因此不会提供正向力量加成；IV 给予 1.5 秒力量 I、13.5 秒急迫 III、3.5 秒速度 III 和 2 秒抗性提升 II；V 给予 1.75 秒跳跃提升 V、2.25 秒生命恢复 IV、1.75 秒力量 II、8.75 秒急迫 IV、3.75 秒速度 IV 和 2.25 秒抗性提升 III。\nDregora：触发概率为每级 5%，即 5%、10%、15%、20%、25%。I–V 的急迫持续 7–11 秒、速度持续 5–9 秒，两者效果等级为 I/II/III/IV/IV。III–V 还给予 6/7/8 秒力量和跳跃提升，效果等级为 I/II/III。V 额外给予 6 秒抗性提升 I。未蓄满的攻击会按蓄力比例降低实际触发概率。"
     }
   },
   {
@@ -4517,7 +4517,7 @@
     "name": "Subject Physics",
     "equipment": "Melee weapons / size mismatch",
     "effect": "Increases damage depending on the size difference between user and target.",
-    "regular": "Not an registered enchantment Disabled.",
+    "regular": "Disabled.",
     "dregora": "Compares attacker and target bounding-box volumes, rewarding a larger mismatch in either direction; extra damage caps at +7.5 before attack-strength adjustment.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -4537,9 +4537,9 @@
       }
     },
     "details": {
-      "en": "A size-based damage specialist, not an explosion enchantment.",
-      "es": "Un especialista en daños basado en el tamaño, no un encantamiento de explosión.",
-      "zh": "一个基于尺寸的伤害专家，而不是爆炸附魔。"
+      "en": "Compares the attacker's and target's bounding-box volumes. Divide the larger volume by the smaller one, then add 0.3 × level × that size ratio as damage, capped at +7.5 damage before attack-charge scaling. A large size mismatch works in either direction, so a much larger or much smaller target can grant the bonus.",
+      "es": "Compara el volumen de la caja de colisión del atacante con el del objetivo. Divide el volumen mayor entre el menor y añade 0.3 × nivel × esa proporción como daño, con un límite de +7.5 antes de aplicar la carga del ataque. Una gran diferencia de tamaño funciona en ambas direcciones.",
+      "zh": "比较攻击者与目标碰撞箱的体积。用较大体积除以较小体积，再增加 0.3 × 等级 × 体积比的伤害；在攻击蓄力缩放前最多增加 7.5 点。无论目标大得多还是小得多，只要尺寸差明显都能获得加成。"
     }
   },
   {
@@ -4548,7 +4548,7 @@
     "equipment": "Melee weapons / explosions",
     "effect": "An older Subject enchantment that can cause explosions on attacks.",
     "regular": "triggers a blast rather than granting an unconditional Magic Damage attribute bonus.",
-    "dregora": "Removed from the new SME registry. Subject Chemistry has an explosion mechanic, but is not an identical renamed copy.",
+    "dregora": "Disabled.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4565,6 +4565,11 @@
         "present": false,
         "id": "somanyenchantments:subjectscience"
       }
+    },
+    "details": {
+      "en": "Each qualifying attack has a 20% chance to create a non-flaming, non-terrain-breaking explosion at the target. Explosion strength is 1.1 + 0.4 × level: 1.5/1.9/2.3/2.7/3.1 at levels I–V. The explosion does not have one fixed damage number: Minecraft calculates its damage from explosion strength, distance, line of sight, armor and protection.",
+      "es": "Cada ataque válido tiene un 20% de probabilidad de crear una explosión en el objetivo que no genera fuego ni rompe bloques. La potencia es 1.1 + 0.4 × nivel: 1.5/1.9/2.3/2.7/3.1 en I–V. La explosión no tiene un daño fijo: Minecraft lo calcula según potencia, distancia, línea de visión, armadura y protección.",
+      "zh": "每次有效攻击有 20% 概率在目标处产生不点火、不破坏方块的爆炸。爆炸强度为 1.1 + 0.4 × 等级，I–V 分别为 1.5/1.9/2.3/2.7/3.1。爆炸没有固定伤害；Minecraft 会根据强度、距离、视线、护甲和保护效果计算。"
     }
   },
   {
@@ -4593,9 +4598,9 @@
       }
     },
     "details": {
-      "en": "Top-tier arthropod specialist. Very strong only when the enemy qualifies as an arthropod.",
-      "es": "Especialista en artrópodos de primer nivel. Muy fuerte sólo cuando el enemigo califica como artrópodo.",
-      "zh": "顶级节肢动物专家。只有在敌人属于节肢动物时才非常强大。"
+      "en": "Adds exactly 5 damage per level against creatures classified as arthropods: +5/+10/+15/+20/+25 at levels I–V. It adds no damage against other creature types. A successful arthropod hit also applies Slowness VI for 40 + a random 0 to (20 × level − 1) ticks.",
+      "es": "Añade exactamente 5 de daño por nivel contra criaturas clasificadas como artrópodos: +5/+10/+15/+20/+25 en I–V. No añade daño contra otros tipos. Un golpe válido también aplica Lentitud VI durante 40 + un valor aleatorio de 0 a (20 × nivel − 1) ticks.",
+      "zh": "对节肢生物每级精确增加 5 点伤害：I–V 分别为 +5/+10/+15/+20/+25；对其他生物类型不增加伤害。有效命中节肢生物还会施加缓慢 VI，持续 40 + 0 至（20 × 等级 − 1）的随机刻数。"
     }
   },
   {
@@ -4779,9 +4784,9 @@
       }
     },
     "details": {
-      "en": "Improves underwater movement. The enchantment ID/name changed in the rework; Dregora's resource override displays Swift Swimming as Underwater Strider. It is not a walking-on-water enchantment.",
-      "es": "Mejora el movimiento bajo el agua. El ID/nombre del encantamiento cambió en la reelaboración; La anulación de recursos de Dregora muestra Swift Swimming como Underwater Strider. No es un encantamiento para caminar sobre el agua.",
-      "zh": "改善水下移动。在重做中附魔的ID/名称发生了变化；Dregora的资源覆盖显示快速游泳为水下行者。这不是在水上行走的附魔。"
+      "en": "RLCraft: The speed modifier activates only while the wearer is in water and the block at head height is also water, so the player must be fully submerged. It multiplies swim speed by x2.7/x3.1/x3.5 at levels I–III.\nDregora: The same x2.7/x3.1/x3.5 swim-speed modifier stays attached while the boots are worn and is checked once per second. There is no separate full-submersion check; the swim-speed attribute matters when moving through water.",
+      "es": "RLCraft: El modificador solo se activa cuando el usuario está en agua y el bloque a la altura de la cabeza también es agua, por lo que debe estar completamente sumergido. Multiplica la velocidad de nado por x2.7/x3.1/x3.5 en I–III.\nDregora: El mismo modificador x2.7/x3.1/x3.5 permanece aplicado mientras se usan las botas y se revisa una vez por segundo. No exige estar completamente sumergido; el atributo afecta al movimiento en agua.",
+      "zh": "RLCraft：只有穿戴者在水中且头部高度的方块也是水时才启用，因此必须完全浸没。I–III 的游泳速度倍率为 x2.7/x3.1/x3.5。\nDregora：穿着靴子时会持续附加相同的 x2.7/x3.1/x3.5 游泳速度修正，并每秒检查一次。没有额外的完全浸没判定；该属性在水中移动时生效。"
     }
   },
   {
@@ -4843,9 +4848,9 @@
       }
     },
     "details": {
-      "en": "A thunderstorm-specific damage enchantment.",
-      "es": "Un encantamiento de daño específico de tormentas eléctricas.",
-      "zh": "专为雷暴设计的伤害附魔。"
+      "en": "RLCraft: During a thunderstorm under open sky, every eligible hit adds 1.25 damage per level. Rain without thunder adds no bonus. In clear weather the hit loses 0.5 damage per level under open sky, or 0.05 + 0.75 × level while covered. A clear-sky hit has (2 + 2 × level) ÷ 800 chance to start a thunderstorm: 0.5%/0.75%/1%/1.25%/1.5% at I–V; the weather roll only runs under open sky.\nDregora: During a thunderstorm, every eligible hit adds 1.5 + 1.25 × level damage under open sky: +2.75/+4/+5.25/+6.5/+7.75. While covered it adds 0.5 + 0.25 × level: +0.75/+1/+1.25/+1.5/+1.75. Outside a thunderstorm there is no damage penalty; each eligible hit has a 0.1% chance per level to start one. All added damage follows attack charge.",
+      "es": "RLCraft: Durante una tormenta eléctrica y bajo cielo abierto, cada golpe válido añade 1.25 de daño por nivel. La lluvia sin truenos no añade daño. Con tiempo despejado el golpe pierde 0.5 por nivel al aire libre, o 0.05 + 0.75 × nivel bajo techo. Un golpe con cielo despejado tiene (2 + 2 × nivel) ÷ 800 de probabilidad de iniciar una tormenta: 0.5%/0.75%/1%/1.25%/1.5% en I–V; esta tirada solo ocurre bajo cielo abierto.\nDregora: Durante una tormenta, cada golpe válido añade 1.5 + 1.25 × nivel bajo cielo abierto: +2.75/+4/+5.25/+6.5/+7.75. Bajo techo añade 0.5 + 0.25 × nivel: +0.75/+1/+1.25/+1.5/+1.75. Fuera de una tormenta no hay penalización; cada golpe válido tiene 0.1% por nivel de iniciar una. El daño añadido sigue la carga del ataque.",
+      "zh": "RLCraft：雷暴且露天时，每次有效命中每级增加 1.25 点伤害。只有下雨但没有雷暴时不增加伤害。晴天露天时每级减少 0.5 点，处于遮挡下则减少 0.05 + 0.75 × 等级。晴天露天命中有（2 + 2 × 等级）÷ 800 概率引发雷暴，I–V 为 0.5%/0.75%/1%/1.25%/1.5%。\nDregora：雷暴时，露天命中增加 1.5 + 1.25 × 等级伤害，即 +2.75/+4/+5.25/+6.5/+7.75；遮挡下增加 0.5 + 0.25 × 等级，即 +0.75/+1/+1.25/+1.5/+1.75。非雷暴天气没有伤害惩罚；每次有效命中每级有 0.1% 概率引发雷暴。附加伤害随攻击蓄力缩放。"
     }
   },
   {
@@ -4907,9 +4912,9 @@
       }
     },
     "details": {
-      "en": "Randomizes damage, with outcomes that can be worse than a normal hit and can even heal the enemy. Not a dependable damage upgrade.",
-      "es": "Aleatoriza el daño, con resultados que pueden ser peores que un golpe normal e incluso pueden curar al enemigo. No es una mejora de daño confiable.",
-      "zh": "随机化伤害，结果可能比普通攻击更差，甚至可能治疗敌人。不是可靠的伤害升级。"
+      "en": "Dregora first rerolls the hit to a random value from 0 up to, but not including, (level + 1) × the original damage: 0–<x2 at I and 0–<x3 at II. It then makes a separate 20% chance per level to cancel that damage and heal the target by the rolled amount instead: 20% at I and 40% at II.\nRLCraft instead rerolls to floor(random × original damage × 1.25 × level) + 3, then has a separate 46% effective roll to replace the hit with healing equal to the pre-+2 rolled value.",
+      "es": "Dregora primero cambia el golpe a un valor aleatorio desde 0 hasta, sin incluir, (nivel + 1) × el daño original: 0–<x2 en I y 0–<x3 en II. Después hace una tirada separada de 20% por nivel para cancelar el daño y curar al objetivo por el valor obtenido: 20% en I y 40% en II.\nRLCraft usa suelo(azar × daño original × 1.25 × nivel) + 3 y después tiene una tirada efectiva de 46% para sustituir el golpe por curación igual al valor aleatorio previo al +2.",
+      "zh": "Dregora 先把命中伤害重投为 0 到（不含上限）（等级 + 1）× 原伤害的随机值：I 为 0–<x2，II 为 0–<x3。随后独立进行每级 20% 的判定，成功时取消伤害并按重投值治疗目标：I 为 20%，II 为 40%。\nRLCraft 改为 floor（随机数 × 原伤害 × 1.25 × 等级）+ 3，随后有实际 46% 的独立概率把伤害替换成治疗，治疗量为加 2 前的随机值。"
     }
   },
   {
@@ -4939,9 +4944,9 @@
       }
     },
     "details": {
-      "en": "In Dregora at II, the base roll is 10% for a fully charged eligible hit and the search region extends 9 blocks around the victim's bounding box. Successful redirection still depends on the target's actual AI: the enchant does not permanently tame the creature or guarantee that it can reach and attack the replacement target.",
-      "es": "En Dregora at II, la tirada base es del 10% para un golpe elegible completamente cargado y la región de búsqueda se extiende 9 bloques alrededor del cuadro delimitador de la víctima. La redirección exitosa aún depende de la IA real del objetivo: el encantamiento no domestica permanentemente a la criatura ni garantiza que pueda alcanzar y atacar al objetivo de reemplazo.",
-      "zh": "在 Dregora 的 II 版本中，完全充能的合格击中的基础成功率为 10%，搜索区域延伸至受害者边界框周围的 9 个方块。重定向成功仍取决于目标的实际 AI：附魔不会永久驯服生物，也不保证它能够到达并攻击替代目标。"
+      "en": "RLCraft attempts the effect on every eligible player hit against a non-player mob; its written random check is always successful at either available level. The victim must still be at full health when a nearby target is examined. At I it searches a 10-block box but accepts targets within 6 blocks; at II it searches a 15-block box and accepts targets within 8 blocks. Because damage timing can lower the victim's health before this check, the retarget can fail in normal Survival combat.\nDregora triggers only on a valid hit against an AI-controlled living mob. The chance is 5% per level, so I is 5% and II is 10%; partial attacks reduce that chance in proportion to attack charge. It selects a random living mob in a radius of 3 + 3 × level blocks around the victim, up to 16 blocks, then makes the victim target that mob. The redirection is not permanent and still depends on the victim's AI.",
+      "es": "RLCraft intenta el efecto en cada golpe válido de un jugador contra un mob que no sea jugador; la tirada escrita siempre tiene éxito en ambos niveles. La víctima todavía debe estar a vida completa al revisar objetivos. En I busca en una caja de 10 bloques y acepta objetivos a 6 bloques; en II busca una caja de 15 y acepta objetivos a 8. Como el daño puede bajar la vida antes de la comprobación, puede fallar en Supervivencia.\nDregora solo se activa en un golpe válido contra un mob con IA. La probabilidad es 5% por nivel: 5% en I y 10% en II; los ataques parciales la reducen según la carga. Elige un mob aleatorio en un radio de 3 + 3 × nivel bloques alrededor de la víctima, con máximo de 16, y hace que la víctima lo ataque. No es permanente y depende de su IA.",
+      "zh": "RLCraft 会在玩家对非玩家生物的每次有效命中时尝试触发；其写入的随机判定在两个可用等级都会必定成功。检查附近目标时，受害者仍必须处于满血。I 会搜索 10 格范围框，但只接受 6 格内目标；II 搜索 15 格范围框并接受 8 格内目标。由于伤害时序可能在检查前先降低生命值，因此普通生存战斗中仍可能失败。\nDregora 只会在有效命中具有 AI 的生物时触发。概率为每级 5%，I 为 5%、II 为 10%；未蓄满的攻击会按蓄力比例降低概率。它会在目标周围 3 + 3 × 等级格、最多 16 格半径内随机选择另一个生物，并让原目标攻击它。转移不是永久的，仍取决于目标 AI。"
     }
   },
   {
@@ -5003,9 +5008,9 @@
       }
     },
     "details": {
-      "en": "Reduces accumulated anvil-work cost when applied, making further combination/repair work cheaper. It does not directly raise enchantment levels or erase all future anvil costs.",
-      "es": "Reduce el costo acumulado del trabajo del yunque cuando se aplica, abaratando el trabajo adicional de combinación/reparación. No aumenta directamente los niveles de encantamiento ni borra todos los costos futuros del yunque.",
-      "zh": "应用后可减少铁砧累积工作成本，使进一步的合成/修理工作更便宜。它不会直接提升附魔等级，也不会清除未来的所有铁砧成本。"
+      "en": "Applying the book always costs exactly 10 experience levels. It can be applied only to a non-stackable enchanted item that does not already have Upgraded Potentials. The item's prior-work penalty becomes max(0, old penalty ÷ 4 − 20), then the enchantment is added. It lowers future anvil costs; it does not raise other enchantment levels.",
+      "es": "Aplicar el libro siempre cuesta exactamente 10 niveles de experiencia. Solo puede ponerse en un objeto encantado no apilable que todavía no lo tenga. La penalización de trabajos previos pasa a max(0, penalización anterior ÷ 4 − 20) y después se añade el encantamiento. Reduce costes futuros de yunque; no sube otros encantamientos.",
+      "zh": "应用附魔书始终精确消耗 10 级经验。只能用于不可堆叠、已有附魔且尚未拥有升级潜能的物品。物品的先前工作惩罚会变为 max（0，原惩罚 ÷ 4 − 20），然后加入该附魔。它降低后续铁砧费用，不会提高其他附魔等级。"
     }
   },
   {
@@ -5045,7 +5050,7 @@
     "name": "Water Aspect",
     "equipment": "Melee weapons / water specialist",
     "effect": "Increases damage dealt if the user and/or the enemy is in water, with bonus damage against Endermen, Blazes, and Magma Cubes.",
-    "regular": "Older broad damage-enchantment compatibility restrictions apply.",
+    "regular": "Disabled.",
     "dregora": "Shares the Butchering/Defusing Edge/Inhumane specialist group and also conflicts with fire-aspect choices.",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -5067,9 +5072,9 @@
       }
     },
     "details": {
-      "en": "Rewards attacks involving water and gives special damage against eligible water-sensitive mobs such as blazes, endermen and magma cubes. Not a water-breathing enchantment.",
-      "es": "Recompensa los ataques que involucran agua y otorga daño especial contra mobs elegibles sensibles al agua, como llamas, endermen y cubos de magma. No es un encantamiento para respirar agua.",
-      "zh": "奖励涉及水的攻击，并对诸如烈焰人、末影人和岩浆立方等对水敏感的生物造成特殊伤害。不是水下呼吸的附魔。"
+      "en": "Adds +2.5 damage per level against Endermen, Blazes and Magma Cubes. It also adds +0.75 damage per level if the target is in water or wet, plus another +0.75 per level if the attacker is in water or wet; all three bonuses can stack. At level V the maximum is +20 damage before attack-charge scaling. It also extinguishes a burning target after the hit.",
+      "es": "Añade +2.5 de daño por nivel contra Endermen, Blazes y Cubos de magma. También añade +0.75 por nivel si el objetivo está en agua o mojado, y otros +0.75 por nivel si el atacante está en agua o mojado; las tres bonificaciones se acumulan. En V el máximo es +20 antes de la carga del ataque. También apaga al objetivo si estaba ardiendo.",
+      "zh": "对末影人、烈焰人和岩浆怪每级增加 2.5 点伤害。目标在水中或潮湿时每级再加 0.75，攻击者在水中或潮湿时每级再加 0.75；三项可以叠加。V 级在攻击蓄力缩放前最多增加 20 点伤害。命中后还会熄灭正在燃烧的目标。"
     }
   },
   {
@@ -5099,9 +5104,9 @@
       }
     },
     "details": {
-      "en": "A cold-environment damage enchantment that can apply cold-related debuffs. Sky exposure and snow/cold conditions matter; not simply 'more damage everywhere in winter'.",
-      "es": "Un encantamiento de daño en un ambiente frío que puede aplicar desventajas relacionadas con el frío. La exposición al cielo y las condiciones de nieve/frío son importantes; no simplemente \"más daños en todas partes en invierno\".",
-      "zh": "一种可以施加与寒冷相关减益的寒冷环境伤害附魔。受天空暴露和雪/寒冷条件影响；不仅仅是“冬天到处更多伤害”."
+      "en": "RLCraft: In a very cold biome while precipitation is active and the attacker is exposed, damage becomes (base damage + 0.1 + 0.9 × level) × 1.15. It applies Mining Fatigue for 3 seconds; II+ also applies Slowness and IV+ applies Weakness for 3 seconds. Outside the required conditions, damage is reduced by 0.6 per level, or by 0.8 per level while covered. An exposed qualifying hit has (0.02 + level) ÷ 5 chance to start rain and thunder—20.4%/40.4%/60.4%/80.4%/100% at I–V; cold biomes display that precipitation as snow.\nDregora: It activates at biome temperature 0.3 or lower. Each eligible hit adds 2 + 1.5 × level damage; subtract 0.5 + 0.25 × level if it is not raining, and subtract 0.5 + 0.75 × level if the attacker cannot see the sky. A hit has 4% per level chance to apply Mining Fatigue for 1 + 0.5 × level seconds; IV+ also applies Slowness for the same duration. Partial attacks scale both damage and chance. Dregora does not change the weather.",
+      "es": "RLCraft: En un bioma muy frío, con precipitación y el atacante expuesto, el daño pasa a (daño base + 0.1 + 0.9 × nivel) × 1.15. Aplica Fatiga minera durante 3 segundos; II+ también aplica Lentitud y IV+ Debilidad durante 3 segundos. Fuera de esas condiciones, reduce el daño 0.6 por nivel, o 0.8 por nivel bajo techo. Un golpe expuesto tiene (0.02 + nivel) ÷ 5 de iniciar lluvia y truenos: 20.4%/40.4%/60.4%/80.4%/100% en I–V; en biomas fríos se ve como nieve.\nDregora: Se activa con temperatura de bioma 0.3 o menor. Cada golpe añade 2 + 1.5 × nivel; resta 0.5 + 0.25 × nivel si no llueve y 0.5 + 0.75 × nivel si no se ve el cielo. Tiene 4% por nivel de aplicar Fatiga minera durante 1 + 0.5 × nivel segundos; IV+ también aplica Lentitud. La carga parcial escala daño y probabilidad. Dregora no cambia el clima.",
+      "zh": "RLCraft：在极寒生物群系、存在降水且攻击者暴露于天空时，伤害变为（基础伤害 + 0.1 + 0.9 × 等级）× 1.15，并施加 3 秒挖掘疲劳；II+ 同时施加缓慢，IV+ 再施加虚弱。条件不符时每级减少 0.6 点伤害，遮挡下每级减少 0.8。露天有效命中有（0.02 + 等级）÷ 5 概率引发降雨和雷暴，I–V 为 20.4%/40.4%/60.4%/80.4%/100%；寒冷地区会显示为降雪。\nDregora：在生物群系温度不高于 0.3 时启用。每次有效命中增加 2 + 1.5 × 等级伤害；未下雨时减去 0.5 + 0.25 × 等级，无法看见天空时再减去 0.5 + 0.75 × 等级。每级有 4% 概率施加 1 + 0.5 × 等级秒的挖掘疲劳；IV+ 还施加同等时长的缓慢。未蓄满攻击会缩放伤害和概率。Dregora 不会改变天气。"
     }
   },
   {
@@ -6731,9 +6736,9 @@
       }
     },
     "details": {
-      "en": "Lowers the wearer's temperature. Useful in heat but potentially harmful in already cold conditions. Not generic fire protection.",
-      "es": "Reduce la temperatura del usuario. Útil en condiciones de calor pero potencialmente dañino en condiciones que ya son frías. Protección contra incendios no genérica.",
-      "zh": "降低佩戴者的体温。在炎热环境中有用，但在已经寒冷的条件下可能有害。不是通用防火保护。"
+      "en": "Each enchanted armor piece lowers the player's temperature modifier by 2 while worn. Multiple enchanted pieces stack, so four pieces provide −8. The value affects the temperature system's cooling calculation; it does not reduce fire damage.",
+      "es": "Cada pieza de armadura encantada reduce en 2 el modificador de temperatura mientras se usa. Varias piezas se acumulan; cuatro dan −8. Afecta al cálculo de enfriamiento; no reduce el daño de fuego.",
+      "zh": "每件穿戴中的附魔护甲都会让玩家温度修正降低 2。多件可以叠加，四件共 −8。该数值参与温度系统的降温计算，不会减少火焰伤害。"
     }
   },
   {
@@ -6763,9 +6768,9 @@
       }
     },
     "details": {
-      "en": "Raises the wearer's temperature. Useful in cold weather but can worsen overheating. Not a weapon fire enchantment.",
-      "es": "Eleva la temperatura del usuario. Útil en climas fríos pero puede empeorar el sobrecalentamiento. No es un encantamiento de fuego de arma.",
-      "zh": "提高穿戴者的体温。在寒冷天气中非常有用，但可能会加重过热。不属于武器火焰附魔。"
+      "en": "Each enchanted armor piece raises the player's temperature modifier by 2 while worn. Multiple enchanted pieces stack, so four pieces provide +8. The value affects the temperature system's warming calculation; it is not Fire Protection.",
+      "es": "Cada pieza de armadura encantada aumenta en 2 el modificador de temperatura mientras se usa. Varias piezas se acumulan; cuatro dan +8. Afecta al cálculo de calor del sistema de temperatura; no es Protección contra el fuego.",
+      "zh": "每件穿戴中的附魔护甲都会让玩家温度修正增加 2。多件可以叠加，四件共 +8。该数值参与温度系统的升温计算，并不是火焰保护。"
     }
   },
   {
@@ -6795,9 +6800,9 @@
       }
     },
     "details": {
-      "en": "Damages enemies that strike a successfully blocking shield. This is retaliation, not an increase to the shield's maximum durability.",
-      "es": "Daña a los enemigos que golpean con éxito un escudo bloqueador. Esto es una represalia, no un aumento de la durabilidad máxima del escudo.",
-      "zh": "对成功格挡盾牌的敌人造成伤害。这是报复，而不是增加盾牌的最大耐久度。"
+      "en": "Only retaliates while the enchanted shield is the item actively blocking. The trigger chance is 20% per level: 20%/40%/60% at I–III. On success it deals 2 damage at I; at II–III it deals a random integer from 2 through the enchantment level, so II always deals 2 and III deals 2–3. A successful retaliation costs 9 shield durability; a failed roll still costs 3.",
+      "es": "Solo contraataca cuando el escudo encantado es el objeto que bloquea activamente. La probabilidad es 20% por nivel: 20%/40%/60% en I–III. Al activarse inflige 2 de daño en I; en II–III inflige un entero aleatorio de 2 hasta el nivel, por lo que II siempre hace 2 y III hace 2–3. Un contraataque cuesta 9 de durabilidad; un fallo todavía cuesta 3.",
+      "zh": "只有附魔盾牌正在主动格挡时才会反击。触发概率为每级 20%，I–III 分别为 20%/40%/60%。成功时 I 级造成 2 点伤害；II–III 造成从 2 到附魔等级的随机整数，因此 II 固定 2 点，III 为 2–3 点。成功反击消耗 9 点盾牌耐久，失败判定仍消耗 3 点。"
     }
   },
   {

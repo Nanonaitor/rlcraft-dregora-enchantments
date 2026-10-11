@@ -16,14 +16,6 @@
     ]
   },
   {
-    "order": 3,
-    "name": "Depth Strider vs Frost Walker",
-    "enchantments": [
-      "minecraft:depth_strider",
-      "minecraft:frost_walker"
-    ]
-  },
-  {
     "order": 4,
     "name": "Group 3",
     "enchantments": [
@@ -96,14 +88,6 @@
     ]
   },
   {
-    "order": 13,
-    "name": "Vanilla Garble #2",
-    "enchantments": [
-      "minecraft:luck_of_the_sea",
-      "minecraft:silk_touch"
-    ]
-  },
-  {
     "order": 14,
     "name": "Group 12",
     "enchantments": [
@@ -149,14 +133,6 @@
     "enchantments": [
       "minecraft:infinity",
       "somanyenchantments:strafe"
-    ]
-  },
-  {
-    "order": 20,
-    "name": "Infinity vs Mending",
-    "enchantments": [
-      "minecraft:infinity",
-      "minecraft:mending"
     ]
   },
   {
