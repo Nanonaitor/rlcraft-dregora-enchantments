@@ -1,0 +1,565 @@
+[
+  {
+    "order": 1,
+    "name": "Group 1",
+    "enchantments": [
+      "minecraft:feather_falling",
+      "somanyenchantments:advancedfeatherfalling"
+    ]
+  },
+  {
+    "order": 2,
+    "name": "Group 2",
+    "enchantments": [
+      "minecraft:fire_aspect",
+      "minecraft:thorns"
+    ]
+  },
+  {
+    "order": 3,
+    "name": "Depth Strider vs Frost Walker",
+    "enchantments": [
+      "minecraft:depth_strider",
+      "minecraft:frost_walker"
+    ]
+  },
+  {
+    "order": 4,
+    "name": "Group 3",
+    "enchantments": [
+      "minecraft:depth_strider",
+      "somanyenchantments:swiftswimming"
+    ]
+  },
+  {
+    "order": 5,
+    "name": "Group 4",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:education",
+      "somanyenchantments:adept"
+    ]
+  },
+  {
+    "order": 6,
+    "name": "Group 5",
+    "enchantments": [
+      "minecraft:sweeping",
+      "somanyenchantments:arcslash"
+    ]
+  },
+  {
+    "order": 7,
+    "name": "Group 6",
+    "enchantments": [
+      "minecraft:efficiency",
+      "minecraft:knockback"
+    ]
+  },
+  {
+    "order": 8,
+    "name": "Group 7",
+    "enchantments": [
+      "minecraft:efficiency",
+      "minecraft:fire_aspect"
+    ]
+  },
+  {
+    "order": 9,
+    "name": "Group 8",
+    "enchantments": [
+      "somanyenchantments:blessededge",
+      "somanyenchantments:lifesteal"
+    ]
+  },
+  {
+    "order": 10,
+    "name": "Group 9",
+    "enchantments": [
+      "somanyenchantments:combatmedic",
+      "somanyenchantments:curseofvulnerability"
+    ]
+  },
+  {
+    "order": 11,
+    "name": "Group 10",
+    "enchantments": [
+      "minecraft:silk_touch",
+      "somanyenchantments:smelter"
+    ]
+  },
+  {
+    "order": 12,
+    "name": "Group 11",
+    "enchantments": [
+      "minecraft:silk_touch",
+      "mujmajnkraftsbettersurvival:smelting"
+    ]
+  },
+  {
+    "order": 13,
+    "name": "Vanilla Garble #2",
+    "enchantments": [
+      "minecraft:luck_of_the_sea",
+      "minecraft:silk_touch"
+    ]
+  },
+  {
+    "order": 14,
+    "name": "Group 12",
+    "enchantments": [
+      "minecraft:silk_touch",
+      "spartanweaponry:lucky_throw"
+    ]
+  },
+  {
+    "order": 15,
+    "name": "Group 13",
+    "enchantments": [
+      "minecraft:unbreaking",
+      "somanyenchantments:instability"
+    ]
+  },
+  {
+    "order": 16,
+    "name": "Group 14",
+    "enchantments": [
+      "somanyenchantments:criticalstrike",
+      "somanyenchantments:luckmagnification"
+    ]
+  },
+  {
+    "order": 17,
+    "name": "Group 15",
+    "enchantments": [
+      "somanyenchantments:evasion",
+      "somanyenchantments:heavyweight"
+    ]
+  },
+  {
+    "order": 18,
+    "name": "Group 16",
+    "enchantments": [
+      "minecraft:punch",
+      "mujmajnkraftsbettersurvival:blast"
+    ]
+  },
+  {
+    "order": 19,
+    "name": "Group 17",
+    "enchantments": [
+      "minecraft:infinity",
+      "somanyenchantments:strafe"
+    ]
+  },
+  {
+    "order": 20,
+    "name": "Infinity vs Mending",
+    "enchantments": [
+      "minecraft:infinity",
+      "minecraft:mending"
+    ]
+  },
+  {
+    "order": 21,
+    "name": "Group 18",
+    "enchantments": [
+      "minecraft:infinity",
+      "mujmajnkraftsbettersurvival:arrowrecovery"
+    ]
+  },
+  {
+    "order": 22,
+    "name": "Group 19",
+    "enchantments": [
+      "somanyenchantments:heavyweight",
+      "somanyenchantments:lightweight"
+    ]
+  },
+  {
+    "order": 23,
+    "name": "Group 20",
+    "enchantments": [
+      "somanyenchantments:ascetic",
+      "somanyenchantments:luckmagnification"
+    ]
+  },
+  {
+    "order": 24,
+    "name": "Group 22",
+    "enchantments": [
+      "minecraft:lure",
+      "somanyenchantments:advancedlure"
+    ]
+  },
+  {
+    "order": 25,
+    "name": "Group 23",
+    "enchantments": [
+      "minecraft:mending",
+      "somanyenchantments:advancedmending"
+    ]
+  },
+  {
+    "order": 26,
+    "name": "Group 24",
+    "enchantments": [
+      "somanyenchantments:breachedplating",
+      "somanyenchantments:physicalprotection"
+    ]
+  },
+  {
+    "order": 27,
+    "name": "Group 25",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:multishot",
+      "somanyenchantments:splitshot"
+    ]
+  },
+  {
+    "order": 28,
+    "name": "Group 26",
+    "enchantments": [
+      "somanyenchantments:curseofvulnerability",
+      "somanyenchantments:strengthenedvitality"
+    ]
+  },
+  {
+    "order": 29,
+    "name": "Group 27",
+    "enchantments": [
+      "somanyenchantments:heavyweight",
+      "somanyenchantments:swifterslashes"
+    ]
+  },
+  {
+    "order": 30,
+    "name": "Group 28",
+    "enchantments": [
+      "somanyenchantments:curseofinaccuracy",
+      "somanyenchantments:truestrike"
+    ]
+  },
+  {
+    "order": 31,
+    "name": "Group 29",
+    "enchantments": [
+      "somanyenchantments:curseofdecay",
+      "somanyenchantments:curseofpossession"
+    ]
+  },
+  {
+    "order": 32,
+    "name": "Group 30",
+    "enchantments": [
+      "simpledifficulty:chilling",
+      "simpledifficulty:heating"
+    ]
+  },
+  {
+    "order": 33,
+    "name": "Group 31",
+    "enchantments": [
+      "spartanweaponry:hydrodynamic",
+      "spartanweaponry:incendiary"
+    ]
+  },
+  {
+    "order": 34,
+    "name": "Group 33",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:blast",
+      "mujmajnkraftsbettersurvival:multishot"
+    ]
+  },
+  {
+    "order": 35,
+    "name": "Group 34",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:blockpower",
+      "mujmajnkraftsbettersurvival:spellshield"
+    ]
+  },
+  {
+    "order": 36,
+    "name": "Group 35",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:heavy",
+      "mujmajnkraftsbettersurvival:weightless"
+    ]
+  },
+  {
+    "order": 37,
+    "name": "Group 39",
+    "enchantments": [
+      "minecraft:fortune",
+      "minecraft:looting",
+      "minecraft:silk_touch"
+    ]
+  },
+  {
+    "order": 38,
+    "name": "Group 41",
+    "enchantments": [
+      "minecraft:efficiency",
+      "somanyenchantments:advancedefficiency",
+      "somanyenchantments:inefficient"
+    ]
+  },
+  {
+    "order": 39,
+    "name": "Group 42",
+    "enchantments": [
+      "minecraft:fortune",
+      "minecraft:silk_touch",
+      "mujmajnkraftsbettersurvival:diamonds"
+    ]
+  },
+  {
+    "order": 40,
+    "name": "Group 43",
+    "enchantments": [
+      "somanyenchantments:darkshadows",
+      "somanyenchantments:mortalitas",
+      "somanyenchantments:viper"
+    ]
+  },
+  {
+    "order": 41,
+    "name": "Group 44",
+    "enchantments": [
+      "minecraft:power",
+      "somanyenchantments:advancedpower",
+      "somanyenchantments:powerless"
+    ]
+  },
+  {
+    "order": 42,
+    "name": "Group 45",
+    "enchantments": [
+      "minecraft:punch",
+      "somanyenchantments:advancedpunch",
+      "somanyenchantments:dragging"
+    ]
+  },
+  {
+    "order": 43,
+    "name": "Group 46",
+    "enchantments": [
+      "minecraft:luck_of_the_sea",
+      "somanyenchantments:advancedluckofthesea",
+      "somanyenchantments:ascetic"
+    ]
+  },
+  {
+    "order": 44,
+    "name": "Group 47",
+    "enchantments": [
+      "mujmajnkraftsbettersurvival:penetration",
+      "somanyenchantments:rune_magicalblessing",
+      "somanyenchantments:rune_piercingcapabilities"
+    ]
+  },
+  {
+    "order": 45,
+    "name": "Group 48",
+    "enchantments": [
+      "somanyenchantments:lesserbaneofarthropods",
+      "somanyenchantments:lessersharpness",
+      "somanyenchantments:lessersmite"
+    ]
+  },
+  {
+    "order": 46,
+    "name": "Group 49",
+    "enchantments": [
+      "somanyenchantments:advancedbaneofarthropods",
+      "somanyenchantments:advancedsharpness",
+      "somanyenchantments:advancedsmite"
+    ]
+  },
+  {
+    "order": 47,
+    "name": "Group 50",
+    "enchantments": [
+      "minecraft:thorns",
+      "somanyenchantments:advancedthorns",
+      "somanyenchantments:burningthorns",
+      "somanyenchantments:meltdown"
+    ]
+  },
+  {
+    "order": 48,
+    "name": "Group 51",
+    "enchantments": [
+      "somanyenchantments:ashdestroyer",
+      "somanyenchantments:cursededge",
+      "somanyenchantments:instability",
+      "somanyenchantments:reviledblade"
+    ]
+  },
+  {
+    "order": 49,
+    "name": "Group 52",
+    "enchantments": [
+      "minecraft:bane_of_arthropods",
+      "minecraft:sharpness",
+      "minecraft:smite",
+      "mujmajnkraftsbettersurvival:penetration"
+    ]
+  },
+  {
+    "order": 50,
+    "name": "Group 53",
+    "enchantments": [
+      "minecraft:bane_of_arthropods",
+      "somanyenchantments:advancedbaneofarthropods",
+      "somanyenchantments:lesserbaneofarthropods",
+      "somanyenchantments:supremebaneofarthropods"
+    ]
+  },
+  {
+    "order": 51,
+    "name": "Group 54",
+    "enchantments": [
+      "minecraft:looting",
+      "mujmajnkraftsbettersurvival:education",
+      "somanyenchantments:advancedlooting",
+      "somanyenchantments:ascetic"
+    ]
+  },
+  {
+    "order": 52,
+    "name": "Group 55",
+    "enchantments": [
+      "somanyenchantments:butchering",
+      "somanyenchantments:defusingedge",
+      "somanyenchantments:inhumane",
+      "somanyenchantments:wateraspect"
+    ]
+  },
+  {
+    "order": 53,
+    "name": "Group 56",
+    "enchantments": [
+      "minecraft:smite",
+      "somanyenchantments:advancedsmite",
+      "somanyenchantments:blessededge",
+      "somanyenchantments:lessersmite",
+      "somanyenchantments:supremesmite"
+    ]
+  },
+  {
+    "order": 54,
+    "name": "Group 57",
+    "enchantments": [
+      "minecraft:knockback",
+      "mujmajnkraftsbettersurvival:fling",
+      "somanyenchantments:advancedknockback",
+      "somanyenchantments:dragging",
+      "somanyenchantments:flinging"
+    ]
+  },
+  {
+    "order": 55,
+    "name": "Group 58",
+    "enchantments": [
+      "minecraft:flame",
+      "somanyenchantments:advancedflame",
+      "somanyenchantments:extinguish",
+      "somanyenchantments:lesserflame",
+      "somanyenchantments:supremeflame"
+    ]
+  },
+  {
+    "order": 56,
+    "name": "Group 59",
+    "enchantments": [
+      "somanyenchantments:penetratingedge",
+      "somanyenchantments:spellbreaker",
+      "somanyenchantments:supremebaneofarthropods",
+      "somanyenchantments:supremesharpness",
+      "somanyenchantments:supremesmite"
+    ]
+  },
+  {
+    "order": 57,
+    "name": "Group 60",
+    "enchantments": [
+      "minecraft:sharpness",
+      "somanyenchantments:advancedsharpness",
+      "somanyenchantments:bluntness",
+      "somanyenchantments:lessersharpness",
+      "somanyenchantments:reinforcedsharpness",
+      "somanyenchantments:supremesharpness"
+    ]
+  },
+  {
+    "order": 58,
+    "name": "Group 61",
+    "enchantments": [
+      "somanyenchantments:clearskiesfavor",
+      "somanyenchantments:lunasblessing",
+      "somanyenchantments:rainsbestowment",
+      "somanyenchantments:solsblessing",
+      "somanyenchantments:thunderstormsbestowment",
+      "somanyenchantments:wintersgrace"
+    ]
+  },
+  {
+    "order": 59,
+    "name": "Group 62",
+    "enchantments": [
+      "somanyenchantments:cryogenic",
+      "somanyenchantments:desolator",
+      "somanyenchantments:disorientatingblade",
+      "somanyenchantments:envenomed",
+      "somanyenchantments:horsdecombat",
+      "somanyenchantments:levitator",
+      "somanyenchantments:purification"
+    ]
+  },
+  {
+    "order": 60,
+    "name": "Group 63",
+    "enchantments": [
+      "somanyenchantments:subjectbiology",
+      "somanyenchantments:subjectchemistry",
+      "somanyenchantments:subjectgeography",
+      "somanyenchantments:subjecthistory",
+      "somanyenchantments:subjectmathematics",
+      "somanyenchantments:subjectpe",
+      "somanyenchantments:subjectphysics"
+    ]
+  },
+  {
+    "order": 61,
+    "name": "Group 64",
+    "enchantments": [
+      "minecraft:fire_aspect",
+      "somanyenchantments:advancedfireaspect",
+      "somanyenchantments:cryogenic",
+      "somanyenchantments:extinguish",
+      "somanyenchantments:fieryedge",
+      "somanyenchantments:lesserfireaspect",
+      "somanyenchantments:supremefireaspect",
+      "somanyenchantments:wateraspect"
+    ]
+  },
+  {
+    "order": 62,
+    "name": "Group 65",
+    "enchantments": [
+      "minecraft:blast_protection",
+      "minecraft:fire_protection",
+      "minecraft:projectile_protection",
+      "minecraft:protection",
+      "somanyenchantments:advancedblastprotection",
+      "somanyenchantments:advancedfireprotection",
+      "somanyenchantments:advancedprojectileprotection",
+      "somanyenchantments:advancedprotection",
+      "somanyenchantments:magicprotection",
+      "somanyenchantments:physicalprotection",
+      "somanyenchantments:supremeprotection"
+    ]
+  }
+]
