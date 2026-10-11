@@ -81,11 +81,11 @@
 
   Promise.all([
     fetch('incompatibilities.json?v=2').then(r=>r.json()),
-    fetch('incompatibility-groups.json?v=1').then(r=>r.json()),
-    fetch('data.json?v=4').then(r=>r.json()),
+    fetch('incompatibility-groups.json?v=2').then(r=>r.json()),
+    fetch('data.json?v=6').then(r=>r.json()),
     fetch('locales.json').then(r=>r.json())
   ]).then(([rows,groupData,data,localeData])=>{
-    groups=groupData;catalogue=data;translations=localeData;
+    groups=groupData.filter(group=>/^Group \d+$/.test(group.name));catalogue=data;translations=localeData;
     const names=[...new Set(rows.flatMap(x=>[x.name,...x.conflicts]))].sort((a,b)=>a.localeCompare(b));
     const pairs=new Set(rows.flatMap(x=>x.conflicts.map(y=>`${x.name}\u0000${y}`)));
     const head=section.querySelector('thead tr');
@@ -97,7 +97,7 @@
 
   document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>setTimeout(localize,0)));
   function route(){
-    const key=location.hash.slice(1)||'guide',incompatible=key==='incompatibilities',obtaining=key==='obtaining';
+    const key=location.hash.slice(1).split('/')[0]||'guide',incompatible=key==='incompatibilities',obtaining=key==='obtaining';
     $('#guide').hidden=incompatible||key==='builds'||obtaining;
     $('#builds').hidden=incompatible||key!=='builds'||obtaining;
     section.hidden=!incompatible;
