@@ -1,0 +1,1 @@
+(() => { const update=()=>{const b=document.querySelector('#obtaining-tab'); if(!b)return; const l=document.documentElement.lang; b.textContent=l.startsWith('es')?'Cómo obtenerlos':l.startsWith('zh')?'获取附魔':'Obtaining';}; window.addEventListener('load',update); document.querySelectorAll('[data-language]').forEach(b=>b.addEventListener('click',()=>setTimeout(update,0))); })();

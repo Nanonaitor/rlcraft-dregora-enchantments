@@ -1,0 +1,758 @@
+[
+  {
+    "conflicts": [
+      "Adept",
+      "Education"
+    ],
+    "group": "loot+xp",
+    "name": "Adept"
+  },
+  {
+    "conflicts": [
+      "Dark Shadows",
+      "Mortalitas",
+      "Viper"
+    ],
+    "group": "cond",
+    "name": "Viper"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Rain's Bestowment"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Bane of Arthropods",
+      "Lesser Bane of Arthropods",
+      "Penetration",
+      "Sharpness",
+      "Smite",
+      "Supreme Bane of Arthropods"
+    ],
+    "group": "dmg",
+    "name": "Bane of Arthropods"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject Chemistry"
+  },
+  {
+    "conflicts": [
+      "Critical Strike",
+      "Luck Magnification"
+    ],
+    "group": "luck",
+    "name": "Luck Magnification"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Desolator"
+  },
+  {
+    "conflicts": [
+      "Advanced Sharpness",
+      "Lesser Sharpness",
+      "Penetrating Edge",
+      "Sharpness",
+      "Spell Breaker",
+      "Supreme Bane of Arthropods",
+      "Supreme Sharpness",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Supreme Sharpness"
+  },
+  {
+    "conflicts": [
+      "Butchering",
+      "Defusing Edge",
+      "Inhumane",
+      "Water Aspect"
+    ],
+    "group": "xtra dmg",
+    "name": "Defusing Edge"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Purification"
+  },
+  {
+    "conflicts": [
+      "Advanced Knockback",
+      "Fling",
+      "Flinging",
+      "Knockback"
+    ],
+    "group": "kb",
+    "name": "Advanced Knockback"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Bane of Arthropods",
+      "Lesser Bane of Arthropods",
+      "Penetrating Edge",
+      "Spell Breaker",
+      "Supreme Bane of Arthropods",
+      "Supreme Sharpness",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Supreme Bane of Arthropods"
+  },
+  {
+    "conflicts": [
+      "Advanced Looting",
+      "Education",
+      "Looting"
+    ],
+    "group": "loot+xp",
+    "name": "Advanced Looting"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject Mathematics"
+  },
+  {
+    "conflicts": [
+      "Advanced Smite",
+      "Blessed Edge",
+      "Lesser Smite",
+      "Penetrating Edge",
+      "Smite",
+      "Spell Breaker",
+      "Supreme Bane of Arthropods",
+      "Supreme Sharpness",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Supreme Smite"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Sol's Blessing"
+  },
+  {
+    "conflicts": [
+      "Advanced Sharpness",
+      "Bane of Arthropods",
+      "Lesser Sharpness",
+      "Penetration",
+      "Sharpness",
+      "Smite",
+      "Supreme Sharpness"
+    ],
+    "group": "dmg",
+    "name": "Sharpness"
+  },
+  {
+    "conflicts": [
+      "Advanced Knockback",
+      "Fling",
+      "Flinging",
+      "Knockback"
+    ],
+    "group": "kb",
+    "name": "Knockback"
+  },
+  {
+    "conflicts": [
+      "Ash Destroyer",
+      "Reviled Blade"
+    ],
+    "group": "multi",
+    "name": "Ash Destroyer"
+  },
+  {
+    "conflicts": [
+      "Advanced Smite",
+      "Blessed Edge",
+      "Lesser Bane of Arthropods",
+      "Lesser Sharpness",
+      "Lesser Smite",
+      "Smite",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Lesser Smite"
+  },
+  {
+    "conflicts": [
+      "Ash Destroyer",
+      "Reviled Blade"
+    ],
+    "group": "multi",
+    "name": "Reviled Blade"
+  },
+  {
+    "conflicts": [
+      "Arc Slash",
+      "Sweeping Edge"
+    ],
+    "group": "sweep",
+    "name": "Arc Slash"
+  },
+  {
+    "conflicts": [
+      "Arc Slash",
+      "Sweeping Edge"
+    ],
+    "group": "sweep",
+    "name": "Sweeping Edge"
+  },
+  {
+    "conflicts": [
+      "Dark Shadows",
+      "Viper"
+    ],
+    "group": "cond",
+    "name": "Dark Shadows"
+  },
+  {
+    "conflicts": [
+      "Blessed Edge",
+      "Lifesteal"
+    ],
+    "group": "??",
+    "name": "Lifesteal"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Advanced Sharpness",
+      "Advanced Smite",
+      "Bane of Arthropods",
+      "Lesser Bane of Arthropods",
+      "Supreme Bane of Arthropods"
+    ],
+    "group": "dmg",
+    "name": "Advanced Bane of Arthropods"
+  },
+  {
+    "conflicts": [
+      "Critical Strike",
+      "Luck Magnification"
+    ],
+    "group": "luck",
+    "name": "Critical Strike"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Hors De Combat"
+  },
+  {
+    "conflicts": [
+      "Adept",
+      "Advanced Looting",
+      "Education",
+      "Looting"
+    ],
+    "group": "loot+xp",
+    "name": "Education"
+  },
+  {
+    "conflicts": [
+      "Advanced Knockback",
+      "Fling",
+      "Flinging",
+      "Knockback"
+    ],
+    "group": "kb",
+    "name": "Flinging"
+  },
+  {
+    "conflicts": [
+      "Mortalitas",
+      "Viper"
+    ],
+    "group": "cond",
+    "name": "Mortalitas"
+  },
+  {
+    "conflicts": [
+      "Penetration",
+      "Rune: Magical Blessing",
+      "Rune: Piercing Capabilities"
+    ],
+    "group": "rune",
+    "name": "Rune: Piercing Capabilities"
+  },
+  {
+    "conflicts": [
+      "Bane of Arthropods",
+      "Penetration",
+      "Rune: Magical Blessing",
+      "Rune: Piercing Capabilities",
+      "Sharpness",
+      "Smite"
+    ],
+    "group": "dmg",
+    "name": "Penetration"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject P.E."
+  },
+  {
+    "conflicts": [
+      "Penetrating Edge",
+      "Spell Breaker",
+      "Supreme Bane of Arthropods",
+      "Supreme Sharpness",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Spell Breaker"
+  },
+  {
+    "conflicts": [
+      "Butchering",
+      "Defusing Edge",
+      "Inhumane",
+      "Water Aspect"
+    ],
+    "group": "xtra dmg",
+    "name": "Butchering"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire",
+    "name": "Fire Aspect"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Butchering",
+      "Defusing Edge",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Inhumane",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire/xtra dmg",
+    "name": "Water Aspect"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject Physics"
+  },
+  {
+    "conflicts": [
+      "Advanced Smite",
+      "Blessed Edge",
+      "Lesser Smite",
+      "Lifesteal",
+      "Smite",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Blessed Edge"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire",
+    "name": "Advanced Fire Aspect"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Advanced Sharpness",
+      "Advanced Smite",
+      "Blessed Edge",
+      "Lesser Smite",
+      "Smite",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Advanced Smite"
+  },
+  {
+    "conflicts": [
+      "Penetrating Edge",
+      "Spell Breaker",
+      "Supreme Bane of Arthropods",
+      "Supreme Sharpness",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Penetrating Edge"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Levitator"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Lunar's Blessing"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Bane of Arthropods",
+      "Lesser Bane of Arthropods",
+      "Lesser Sharpness",
+      "Lesser Smite",
+      "Supreme Bane of Arthropods"
+    ],
+    "group": "dmg",
+    "name": "Lesser Bane of Arthropods"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire",
+    "name": "Supreme Fire Aspect"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Envenomed"
+  },
+  {
+    "conflicts": [
+      "Advanced Sharpness",
+      "Lesser Bane of Arthropods",
+      "Lesser Sharpness",
+      "Lesser Smite",
+      "Sharpness",
+      "Supreme Sharpness"
+    ],
+    "group": "dmg",
+    "name": "Lesser Sharpness"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Hors De Combat",
+      "Lesser Fire Aspect",
+      "Levitator",
+      "Purification",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire/potion",
+    "name": "Freezing"
+  },
+  {
+    "conflicts": [
+      "Penetration",
+      "Rune: Magical Blessing",
+      "Rune: Piercing Capabilities"
+    ],
+    "group": "rune",
+    "name": "Rune: Magical Blessing"
+  },
+  {
+    "conflicts": [
+      "Butchering",
+      "Defusing Edge",
+      "Inhumane",
+      "Water Aspect"
+    ],
+    "group": "xtra dmg",
+    "name": "Inhumane"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire",
+    "name": "Lesser Fire Aspect"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Clearskies' Favor"
+  },
+  {
+    "conflicts": [
+      "Desolator",
+      "Disorientating Blade",
+      "Envenomed",
+      "Freezing",
+      "Hors De Combat",
+      "Levitator",
+      "Purification"
+    ],
+    "group": "potion",
+    "name": "Disorientating Blade"
+  },
+  {
+    "conflicts": [
+      "Advanced Fire Aspect",
+      "Fiery Edge",
+      "Fire Aspect",
+      "Freezing",
+      "Lesser Fire Aspect",
+      "Supreme Fire Aspect",
+      "Water Aspect"
+    ],
+    "group": "fire",
+    "name": "Fiery Edge"
+  },
+  {
+    "conflicts": [
+      "Advanced Smite",
+      "Bane of Arthropods",
+      "Blessed Edge",
+      "Lesser Smite",
+      "Penetration",
+      "Sharpness",
+      "Smite",
+      "Supreme Smite"
+    ],
+    "group": "dmg",
+    "name": "Smite"
+  },
+  {
+    "conflicts": [
+      "Advanced Looting",
+      "Education",
+      "Looting"
+    ],
+    "group": "loot+xp",
+    "name": "Looting"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject Biology"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject History"
+  },
+  {
+    "conflicts": [
+      "Advanced Bane of Arthropods",
+      "Advanced Sharpness",
+      "Advanced Smite",
+      "Lesser Sharpness",
+      "Sharpness",
+      "Supreme Sharpness"
+    ],
+    "group": "dmg",
+    "name": "Advanced Sharpness"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Winter's Grace"
+  },
+  {
+    "conflicts": [
+      "Rune: Revival"
+    ],
+    "group": "rune",
+    "name": "Rune: Revival"
+  },
+  {
+    "conflicts": [
+      "Clearskies' Favor",
+      "Lunar's Blessing",
+      "Rain's Bestowment",
+      "Sol's Blessing",
+      "Thunderstorm's Bestowment",
+      "Winter's Grace"
+    ],
+    "group": "weather",
+    "name": "Thunderstorm's Bestowment"
+  },
+  {
+    "conflicts": [
+      "Subject Biology",
+      "Subject Chemistry",
+      "Subject Geography",
+      "Subject History",
+      "Subject Mathematics",
+      "Subject P.E.",
+      "Subject Physics"
+    ],
+    "group": "subj",
+    "name": "Subject Geography"
+  },
+  {
+    "conflicts": [
+      "Advanced Knockback",
+      "Fling",
+      "Flinging",
+      "Knockback"
+    ],
+    "group": "kb",
+    "name": "Fling"
+  }
+]
