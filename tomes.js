@@ -30,6 +30,6 @@
   const refresh=()=>{renderTomes();queueMicrotask(renderBlue);route();};
   const aboutContent=$('#about-content');
   if(aboutContent)new MutationObserver(()=>{if(!aboutContent.querySelector('[data-about-blue0666]'))renderBlue();}).observe(aboutContent,{childList:true});
-  document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>queueMicrotask(refresh)));
+  document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>setTimeout(refresh,50)));
   window.addEventListener('hashchange',route);window.addEventListener('load',refresh);refresh();
 })();
