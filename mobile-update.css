@@ -1,6 +1,7 @@
 .title-art.chinese-title{width:min(384px,100%);max-width:100%;height:auto}
 .tomes-document{max-width:980px;margin:0 auto;padding:clamp(18px,3vw,34px);border:1px solid #ffffff24;border-radius:8px;background:#101d26e8;color:#d7e0e2}
 .tomes-lead{font-size:1.05rem;line-height:1.75}
+.tomes-intro{display:flex;align-items:center;gap:18px}.tomes-intro img{flex:0 0 88px;width:88px;height:88px;object-fit:contain}.tomes-intro .tomes-lead{margin:0;flex:1}
 .tomes-document h3{margin:28px 0 12px;color:#ffe2a9}
 .tome-enchants{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 18px;margin:14px 0;padding:0;list-style:none}
 .tome-enchants li{padding:8px 10px;border-left:2px solid #9f7bc9;background:#ffffff08}
@@ -35,6 +36,7 @@
   .incompat-view-switch{display:grid;grid-template-columns:1fr 1fr;width:100%}.incompat-view-switch>span{grid-column:1/-1}.incompat-table-wrap{width:100%;max-width:100%;height:min(82vw,430px);overflow:auto}
   .about-intro{padding:15px}.about-row{grid-template-columns:54px minmax(0,1fr);gap:10px;padding:14px 9px}.about-avatar{width:52px;height:52px}.about-row h4,.about-row p{overflow-wrap:anywhere}
   .tome-enchants{grid-template-columns:1fr 1fr}.tome-gallery{grid-template-columns:1fr}.tome-gallery img{height:auto;max-height:260px}
+  .tomes-intro{gap:12px}.tomes-intro img{flex-basis:64px;width:64px;height:64px}.tomes-intro .tomes-lead{font-size:.96rem}
   .support{width:100%;padding:18px 12px}.support>div{min-width:0}.support .image-link{width:100%!important;max-width:240px;margin:9px auto}.credits{width:100%;min-width:0}.credit-line{overflow-wrap:anywhere}.credit-line a{white-space:normal}
   .page-scroll-controls{display:none!important}
   footer{position:relative!important;inset:auto!important;width:100%;height:auto!important;min-height:105px!important;margin-top:24px;padding:10px 86px 10px 92px!important}footer>span{margin:0!important;padding:0!important}footer .socials{margin:0!important;justify-content:center}.sexy-footer{width:82px!important;height:82px!important;bottom:0!important}.miriel-wink{width:82px!important;height:82px!important;right:-8px!important;bottom:0!important}

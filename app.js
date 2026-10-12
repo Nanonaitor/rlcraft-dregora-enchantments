@@ -6,7 +6,7 @@ let data=[],icons={},sounds=[],enabled=false;
 const activeSounds=new Set();
 const guideHoverTimes=new Map();
 const guideHoverDelay=1000;
-const clickSound='assets/minecraft-click.mp3';
+const clickSound='assets/minecraft-click.mp3?v=2';
 const personal=r=>/^(defenders|nanonaitors_arsenal):/.test(r.id);
 const curse=r=>/curse|cursed|pandora|inefficient|bluntness|powerless|instability|drawback|harmful enchantment/i.test(r.name+' '+r.equipment)||r.id==='somanyenchantments:meltdown';
 function category(r){if(r.id==='somanyenchantments:ancientsealedcurses')return 'Utility';if(curse(r))return 'Curse';if(/armor|helmet|boots|leggings|chestplate|shield|defender/i.test(r.equipment))return 'Defensive';if(/melee|weapon|sword|bow|combat|attack|arrow|spear|dagger|hammer|flail/i.test(r.equipment))return 'Offensive';return 'Utility';}
