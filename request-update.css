@@ -4,3 +4,12 @@
   border-color: #a6d187;
   box-shadow: 0 0 0 1px #a6d187;
 }
+
+.build-notes {
+  white-space: pre-line;
+}
+
+.sentient-bow-highlight {
+  color: #ffe06a;
+  text-shadow: 0 0 10px #f2bd3a55;
+}
