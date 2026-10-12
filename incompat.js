@@ -97,12 +97,14 @@
 
   document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>setTimeout(localize,0)));
   function route(){
-    const key=location.hash.slice(1).split('/')[0]||'guide',incompatible=key==='incompatibilities',obtaining=key==='obtaining';
-    $('#guide').hidden=incompatible||key==='builds'||obtaining;
+    const key=location.hash.slice(1).split('/')[0]||'guide',incompatible=key==='incompatibilities',obtaining=key==='obtaining',about=key==='about';
+    $('#guide').hidden=incompatible||key==='builds'||obtaining||about;
     $('#builds').hidden=incompatible||key!=='builds'||obtaining;
+    $('#about').hidden=!about;
     section.hidden=!incompatible;
     $('#guide-tab').classList.toggle('active',key==='guide');
     $('#builds-tab').classList.toggle('active',key==='builds');
+    $('#about-tab').classList.toggle('active',about);
     tab.classList.toggle('active',incompatible);
     if(incompatible)localize();
   }
