@@ -6,8 +6,18 @@
 }
 
 .build-notes {
-  white-space: pre-line;
+  white-space: normal;
 }
+
+.build-book:hover .tooltip{display:block!important}
+.build-book:focus:not(:hover) .tooltip,.build-book.open:not(:hover) .tooltip{display:none!important}
+
+.page-scroll-controls{position:fixed;right:14px;top:50%;z-index:40;display:grid;gap:8px;transform:translateY(-50%)}
+.page-scroll-controls[hidden]{display:none}
+.page-scroll-controls button{display:grid;place-items:center;width:43px;height:43px;padding:0;border-color:#b7e68e66;background:#12242ddf;color:var(--green);font-size:24px;line-height:1;box-shadow:0 7px 20px #0007;backdrop-filter:blur(8px)}
+.page-scroll-controls button:hover,.page-scroll-controls button:focus-visible{background:#293e34;border-color:var(--green);color:#fff}
+.page-scroll-controls button[hidden]{display:none}
+@media(max-width:760px){.page-scroll-controls{right:7px}.page-scroll-controls button{width:37px;height:37px;font-size:20px}}
 
 .sentient-bow-highlight {
   color: #ffe06a;

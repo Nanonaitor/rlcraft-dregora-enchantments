@@ -1,5 +1,5 @@
 #incompat-tab{display:inline-flex;align-items:center;color:#9fb2b8;text-decoration:none;padding:10px 14px;border-bottom:2px solid transparent}
-#incompat-tab.active{border-color:#d7aa68;color:#fff1c8}
+#incompat-tab.active{border-color:var(--green);color:var(--green)}
 .incompat-intro,.incompat-note{color:#cad7db;line-height:1.7;max-width:850px}
 .incompat-tabs{display:flex;gap:8px;margin:0 0 18px}.incompat-tabs a{padding:8px 12px;color:#d8c8eb;text-decoration:none;border:1px solid #ffffff22;border-radius:4px;background:#12212a}.incompat-tabs a.active,.incompat-tabs a:hover{color:#fff1c8;border-color:#d7aa68;background:#26363b}
 .incompat-table-wrap{width:min(100%,760px);aspect-ratio:1 / 1;overflow:auto;overscroll-behavior:contain;border:1px solid #ffffff25;background:#0d1720e8;border-radius:5px;scrollbar-gutter:stable both-edges}
