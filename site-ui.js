@@ -3,11 +3,18 @@
   const translations = {
     en:{enchants:'Enchantments',builds:'Builds',about:'About',visits:'Times Visited:',subtitle:'Every single enchantment in RLCraft & Dregora Explained.',mods:'Added by',all:'All on',none:'All off',xp:'Base book application',levels:'Levels',level:'Book level',variable:'Cost unavailable',xpNote:'Fresh book → compatible item. Prior anvil work, repairs, renaming and other enchantments add to the total. This is not the enchanting-table requirement.',absent:'Not available here',disabled:'Disabled',unknown:'Unverified',art:'No matching artwork in this pack',support:'If this guide helped you, watching a video or leaving a tip helps me keep making things for the community.',creditTitle:'Made with help from the community',sound:'Sound',on:'on',off:'off'},
     es:{enchants:'Encantamientos',builds:'Recomendaciones',about:'Acerca de',visits:'Veces visitado:',subtitle:'Todos los encantamientos de RLCraft y Dregora, explicados.',mods:'Mod de origen',all:'Activar todos',none:'Desactivar todos',xp:'Aplicación base del libro',levels:'Niveles',level:'Nivel del libro',variable:'Coste no disponible',xpNote:'Libro nuevo → objeto compatible. El trabajo previo de yunque, reparaciones, nombres y otros encantamientos aumentan el total. No es el requisito de la mesa de encantamientos.',absent:'No está disponible',disabled:'Desactivado',unknown:'Sin verificar',art:'Sin ilustración correspondiente',support:'Si esta guía te ayudó, ver un video o dejar una propina me ayuda a seguir creando para la comunidad.',creditTitle:'Hecho con ayuda de la comunidad',sound:'Sonido',on:'activado',off:'desactivado'},
-    zh:{enchants:'附魔',builds:'配装',about:'关于',visits:'访问次数：',subtitle:'RLCraft 与 Dregora 的每一种附魔，逐一详解。',mods:'所属模组',all:'全部开启',none:'全部关闭',xp:'附魔书基础应用费用',levels:'级经验',level:'附魔书等级',variable:'费用不可用',xpNote:'全新附魔书 → 适用物品。先前铁砧操作、修理、重命名及其他附魔会增加总费用。这不是附魔台等级要求。',absent:'此处不可用',disabled:'已禁用',unknown:'未核实',art:'没有匹配插画',support:'如果这份指南帮到了你，观看视频或留下小额支持，都能帮助我继续为社区创作。',creditTitle:'感谢社区的帮助',sound:'音效',on:'开启',off:'关闭'}
+    zh:{enchants:'附魔',builds:'配装',about:'关于',visits:'访问次数：',subtitle:'RLCraft & RLCDregora 附魔系统全解',mods:'所属模组',all:'全部开启',none:'全部关闭',xp:'附魔书基础花费',levels:'级经验',level:'附魔书等级',variable:'费用不可用',xpNote:'全新附魔书 → 适用物品。铁砧操作、修理、重命名及其他附魔会增加总费用。这不是附魔台等级要求。',absent:'此处不可用',disabled:'已禁用',unknown:'未核实',art:'没有匹配插画',support:'如果这份指南帮到了你，观看视频或留下小额支持，都能帮助我继续为社区创作。',creditTitle:'感谢社区的帮助',sound:'音效',on:'开启',off:'关闭'}
   };
   const copy=()=>translations[lang];
   const roman=n=>{if(!Number.isInteger(n)||n<1)return '—';let s='';for(const [v,t] of [[1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],[100,'C'],[90,'XC'],[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']])while(n>=v){s+=t;n-=v;}return s;};
-  const clean=text=>String(text||'').split(/(?<=[.!?。！？])\s*|(?<=。)/).filter(s=>!/(?:incompatib|conflict|cannot stack|competes with|compete with|can coexist|can be paired|compatibility restrictions|compatibility rules|incompatible|compatible con|incompatibilidad|no combines|no puede combinar|互斥|冲突|兼容规则|可.*共存|不能叠加)/i.test(s)).join(' ').replace(/See the detailed comparison below\.?|See detailed comparison[^.]*\./gi,'').replace(/(\d)\.\s+(?=\d)/g,'$1.').replace(/(\d)\.\s+(?=\d)/g,'$1.').trim();
+  // Split sentences, but never on decimal points like 1.6. Chinese lang-pack copy keeps
+  // parenthetical (冲突：…) notes, so only strip incompatibility sentences for en/es.
+  const clean=text=>{
+    const parts=String(text||'').split(/(?<=[.!?。！？])(?!\d)\s*/);
+    const incompat=/(?:incompatib|conflict|cannot stack|competes with|compete with|can coexist|can be paired|compatibility restrictions|compatibility rules|incompatible|compatible con|incompatibilidad|no combines|no puede combinar|互斥|冲突|兼容规则|可.*共存|不能叠加)/i;
+    const kept=lang==='zh'?parts:parts.filter(s=>!incompat.test(s));
+    return kept.join(' ').replace(/See the detailed comparison below\.?|See detailed comparison[^.]*\./gi,'').replace(/(\d)\.\s+(?=\d)/g,'$1.').replace(/(\d)\.\s+(?=\d)/g,'$1.').trim();
+  };
   function guideTone(text){
     let s=String(text||'');
     if(lang==='en') s=s
