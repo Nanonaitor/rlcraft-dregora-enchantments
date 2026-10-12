@@ -24,6 +24,7 @@
     <p class="incompat-credit">Chart based on Nischhelm’s incompatibility guide.</p>
     <p class="incompat-note">If you wish to contribute, contact Nanonaitor!</p>`;
   $('.tabs')?.after(section);
+  if($('#about-tab')&&$('#sound'))$('.tabs').insertBefore($('#about-tab'),$('#sound'));
 
   const ui={
     en:{tab:'Incompatibilities',view:'View',matrix:'Table',groups:'Groups',title:'Weapon Enchantment Incompatibilities',matrixIntro:'Matrix view of every incompatibility. A checkmark means the row and column enchantments cannot be combined.',groupsIntro:'Grouped view of every supplied incompatibility set. Enchantments inside the same box cannot be combined with one another.',enchantment:'Enchantment',credit:'Chart based on Nischhelm’s incompatibility guide.',note:'If you wish to contribute, contact Nanonaitor!',items:n=>`${n} enchantments`},

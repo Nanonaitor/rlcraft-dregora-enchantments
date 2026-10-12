@@ -15,6 +15,7 @@
   <p class="obtaining-credit">Created by <strong>@KKHR</strong>. Additional contributor: <strong>@Nanonaitor</strong>.</p></article>`;
   section.querySelectorAll('.obtaining-section img').forEach(img=>{img.tabIndex=0;img.setAttribute('aria-label',`${img.alt} — hover or focus to enlarge`);});
   $('.tabs')?.after(section);
+  if($('#about-tab')&&$('#sound'))$('.tabs').insertBefore($('#about-tab'),$('#sound'));
   const route=()=>{const [page,target]=location.hash.slice(1).split('/'),active=page==='obtaining';section.hidden=!active;tab.classList.toggle('active',active);if(active){$('#guide').hidden=true;$('#builds').hidden=true;$('#incompatibilities')?.setAttribute('hidden','');if(target)requestAnimationFrame(()=>document.getElementById(target)?.scrollIntoView({block:'start'}));}};
   window.addEventListener('hashchange',route);route();
 })();
