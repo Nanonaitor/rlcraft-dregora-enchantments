@@ -4,11 +4,9 @@ document.querySelectorAll('.socials').forEach(n=>n.innerHTML=socials.map(([name,
 const fallback='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill="#7b549f" stroke="#d9b9f3" stroke-width="3" d="M12 8h38v44H12z"/><path fill="#ccbede" d="M12 49h38v7H12z"/><path stroke="#e9d498" stroke-width="3" fill="none" d="M19 14h25v27H19z"/><path fill="#b7e68e" d="m31 19 3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></svg>');
 let data=[],icons={},sounds=[],enabled=false;
 const activeSounds=new Set();
-const hoveredEnchantments=new WeakSet();
+const guideHoverTimes=new Map();
+const guideHoverDelay=1000;
 const clickSound='assets/minecraft-click.mp3';
-let hoverSound=null;
-let pendingHoverBook=null;
-let enchantSoundSuppressedUntil=0;
 const personal=r=>/^(defenders|nanonaitors_arsenal):/.test(r.id);
 const curse=r=>/curse|cursed|pandora|inefficient|bluntness|powerless|instability|drawback|harmful enchantment/i.test(r.name+' '+r.equipment)||r.id==='somanyenchantments:meltdown';
 function category(r){if(r.id==='somanyenchantments:ancientsealedcurses')return 'Utility';if(curse(r))return 'Curse';if(/armor|helmet|boots|leggings|chestplate|shield|defender/i.test(r.equipment))return 'Defensive';if(/melee|weapon|sword|bow|combat|attack|arrow|spear|dagger|hammer|flail/i.test(r.equipment))return 'Offensive';return 'Utility';}
@@ -30,36 +28,11 @@ function playClick(){
   if(!enabled)return;
   try{const sound=new Audio(clickSound);sound.volume=.34;sound.play().catch(()=>{});}catch{}
 }
-function playHover(book){
-  if(!enabled||!sounds.length||!book)return;
-  if(hoverSound){
-    if(pendingHoverBook&&pendingHoverBook!==book)hoveredEnchantments.delete(pendingHoverBook);
-    pendingHoverBook=book;
-    hoveredEnchantments.add(book);
-    return;
-  }
-  hoveredEnchantments.add(book);
-  try{
-    const sound=new Audio(sounds[Math.floor(Math.random()*sounds.length)]);
-    sound.volume=.24;
-    hoverSound=sound;
-    activeSounds.add(sound);
-    const release=()=>{
-      if(hoverSound===sound)hoverSound=null;
-      activeSounds.delete(sound);
-      const next=pendingHoverBook;
-      pendingHoverBook=null;
-      if(next?.isConnected)playHover(next);
-    };
-    sound.addEventListener?.('ended',release,{once:true});
-    sound.addEventListener?.('error',release,{once:true});
-    sound.play().catch(release);
-  }catch{hoverSound=null;}
-}
 const guideEnchantControl=target=>target.closest?.('#entries .book-wrap');
 const buildEnchantControl=target=>target.closest?.('#build-list .build-book');
 const enchantControl=target=>guideEnchantControl(target)||buildEnchantControl(target);
-function suppressEnchantHoverSound(milliseconds=500){enchantSoundSuppressedUntil=Date.now()+milliseconds;}
+const guideHoverKey=book=>book.closest('.enchant')?.querySelector('h3')?.childNodes?.[0]?.textContent?.trim()||book.getAttribute('aria-label')||'';
+function suppressEnchantHoverSound(){const book=document.activeElement?.closest?.('#entries .book-wrap');if(book)guideHoverTimes.set(guideHoverKey(book),Date.now());}
 document.addEventListener('pointerover',event=>{
   const buildBook=buildEnchantControl(event.target);
   if(buildBook){
@@ -67,12 +40,15 @@ document.addEventListener('pointerover',event=>{
     return;
   }
   const book=guideEnchantControl(event.target);
-  if(!book||hoveredEnchantments.has(book)||Date.now()<enchantSoundSuppressedUntil)return;
-  if(!event.relatedTarget||!book.contains(event.relatedTarget))playHover(book);
+  if(!book||event.relatedTarget&&book.contains(event.relatedTarget))return;
+  const key=guideHoverKey(book),now=Date.now();
+  if(now-(guideHoverTimes.get(key)||0)<guideHoverDelay)return;
+  guideHoverTimes.set(key,now);
+  play();
 },true);
 document.addEventListener('click',event=>{
   const enchant=enchantControl(event.target);
-  if(enchant){suppressEnchantHoverSound();play();return;}
+  if(enchant){const guide=guideEnchantControl(event.target);if(guide)guideHoverTimes.set(guideHoverKey(guide),Date.now());play();return;}
   const control=event.target.closest?.('button,a,.button,summary,input[type="checkbox"],select');
   if(control&&!control.disabled)playClick();
 },true);
