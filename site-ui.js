@@ -7,7 +7,7 @@
   };
   const copy=()=>translations[lang];
   const roman=n=>{if(!Number.isInteger(n)||n<1)return '—';let s='';for(const [v,t] of [[1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],[100,'C'],[90,'XC'],[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']])while(n>=v){s+=t;n-=v;}return s;};
-  const clean=text=>String(text||'').split(/(?<=[.!?。！？])\s*|(?<=。)/).filter(s=>!/(?:incompatib|conflict|cannot stack|competes with|compete with|can coexist|can be paired|compatibility restrictions|compatibility rules|incompatible|compatible con|incompatibilidad|no combines|no puede combinar|互斥|冲突|兼容规则|可.*共存|不能叠加)/i.test(s)).join(' ').replace(/See the detailed comparison below\.?|See detailed comparison[^.]*\./gi,'').replace(/(\d)\.\s+(?=\d)/g,'$1.').trim();
+  const clean=text=>String(text||'').split(/(?<=[.!?。！？])\s*|(?<=。)/).filter(s=>!/(?:incompatib|conflict|cannot stack|competes with|compete with|can coexist|can be paired|compatibility restrictions|compatibility rules|incompatible|compatible con|incompatibilidad|no combines|no puede combinar|互斥|冲突|兼容规则|可.*共存|不能叠加)/i.test(s)).join(' ').replace(/See the detailed comparison below\.?|See detailed comparison[^.]*\./gi,'').replace(/(\d)\.\s+(?=\d)/g,'$1.').replace(/(\d)\.\s+(?=\d)/g,'$1.').trim();
   function guideTone(text){
     let s=String(text||'');
     if(lang==='en') s=s
