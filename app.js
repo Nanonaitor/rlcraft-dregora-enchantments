@@ -6,6 +6,8 @@ let data=[],icons={},sounds=[],enabled=false;
 const activeSounds=new Set();
 const hoveredEnchantments=new WeakSet();
 const clickSound='assets/minecraft-click.mp3';
+let hoverSound=null;
+let pendingHoverBook=null;
 let enchantSoundSuppressedUntil=0;
 const personal=r=>/^(defenders|nanonaitors_arsenal):/.test(r.id);
 const curse=r=>/curse|cursed|pandora|inefficient|bluntness|powerless|instability|drawback|harmful enchantment/i.test(r.name+' '+r.equipment)||r.id==='somanyenchantments:meltdown';
@@ -28,12 +30,38 @@ function playClick(){
   if(!enabled)return;
   try{const sound=new Audio(clickSound);sound.volume=.34;sound.play().catch(()=>{});}catch{}
 }
+function playHover(book){
+  if(!enabled||!sounds.length||!book)return;
+  if(hoverSound){
+    if(pendingHoverBook&&pendingHoverBook!==book)hoveredEnchantments.delete(pendingHoverBook);
+    pendingHoverBook=book;
+    hoveredEnchantments.add(book);
+    return;
+  }
+  hoveredEnchantments.add(book);
+  try{
+    const sound=new Audio(sounds[Math.floor(Math.random()*sounds.length)]);
+    sound.volume=.24;
+    hoverSound=sound;
+    activeSounds.add(sound);
+    const release=()=>{
+      if(hoverSound===sound)hoverSound=null;
+      activeSounds.delete(sound);
+      const next=pendingHoverBook;
+      pendingHoverBook=null;
+      if(next?.isConnected)playHover(next);
+    };
+    sound.addEventListener?.('ended',release,{once:true});
+    sound.addEventListener?.('error',release,{once:true});
+    sound.play().catch(release);
+  }catch{hoverSound=null;}
+}
 const enchantControl=target=>target.closest?.('#entries .book-wrap,#build-list .build-book');
 function suppressEnchantHoverSound(milliseconds=500){enchantSoundSuppressedUntil=Date.now()+milliseconds;}
 document.addEventListener('pointerover',event=>{
   const book=enchantControl(event.target);
   if(!book||hoveredEnchantments.has(book)||Date.now()<enchantSoundSuppressedUntil)return;
-  if(!event.relatedTarget||!book.contains(event.relatedTarget)){hoveredEnchantments.add(book);play();}
+  if(!event.relatedTarget||!book.contains(event.relatedTarget))playHover(book);
 },true);
 document.addEventListener('click',event=>{
   const enchant=enchantControl(event.target);
