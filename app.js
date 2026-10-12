@@ -4,6 +4,7 @@ document.querySelectorAll('.socials').forEach(n=>n.innerHTML=socials.map(([name,
 const fallback='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path fill="#7b549f" stroke="#d9b9f3" stroke-width="3" d="M12 8h38v44H12z"/><path fill="#ccbede" d="M12 49h38v7H12z"/><path stroke="#e9d498" stroke-width="3" fill="none" d="M19 14h25v27H19z"/><path fill="#b7e68e" d="m31 19 3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></svg>');
 let data=[],icons={},sounds=[],enabled=false;
 const activeSounds=new Set();
+let enchantSoundSuppressedUntil=0;
 const personal=r=>/^(defenders|nanonaitors_arsenal):/.test(r.id);
 const curse=r=>/curse|cursed|pandora|inefficient|bluntness|powerless|instability|drawback|harmful enchantment/i.test(r.name+' '+r.equipment)||r.id==='somanyenchantments:meltdown';
 function category(r){if(r.id==='somanyenchantments:ancientsealedcurses')return 'Utility';if(curse(r))return 'Curse';if(/armor|helmet|boots|leggings|chestplate|shield|defender/i.test(r.equipment))return 'Defensive';if(/melee|weapon|sword|bow|combat|attack|arrow|spear|dagger|hammer|flail/i.test(r.equipment))return 'Offensive';return 'Utility';}
@@ -21,10 +22,14 @@ function play(){
     sound.play().catch(()=>{});
   }catch{}
 }
-document.addEventListener('pointerover',event=>{const control=event.target.closest?.('a,button,input,select,summary,[tabindex]');if(control&&(!event.relatedTarget||!control.contains(event.relatedTarget)))play();},true);
-document.addEventListener('focusin',event=>{if(event.target.matches?.('a,button,input,select,summary,[tabindex]'))play();},true);
+function suppressEnchantHoverSound(milliseconds=500){enchantSoundSuppressedUntil=Date.now()+milliseconds;}
+document.addEventListener('pointerover',event=>{
+  const book=event.target.closest?.('#entries .book-wrap');
+  if(!book||Date.now()<enchantSoundSuppressedUntil)return;
+  if(!event.relatedTarget||!book.contains(event.relatedTarget))play();
+},true);
 function soundLabel(){$('#sound').textContent='♫ '+t(enabled?'Sound on':'Sound off');}
-$('#sound').onclick=()=>{enabled=!enabled;soundLabel();$('#sound').setAttribute('aria-pressed',enabled);if(enabled)play();};
+$('#sound').onclick=()=>{enabled=!enabled;soundLabel();$('#sound').setAttribute('aria-pressed',enabled);};
 function chosen(){return ['RLCraft','Dregora'].filter(p=>$(p==='RLCraft'?'#regular':'#dregora').checked);}
 function render(){const packs=chosen(),q=$('#search').value.trim().toLocaleLowerCase(),equipmentQuery=$('#equipment').value.trim().toLocaleLowerCase();const rows=data.filter(r=>(r.name.toLocaleLowerCase().includes(q)||localRow(r).name.toLocaleLowerCase().includes(q))&&(r.equipment.toLocaleLowerCase().includes(equipmentQuery)||localRow(r).equipment.toLocaleLowerCase().includes(equipmentQuery))&&(!$('#category').value||category(r)===$('#category').value)&&(!$('#mod').value||r.mod===$('#mod').value)&&($('#curses').checked||!curse(r))&&($('#addons').checked||!personal(r))&&packs.some(p=>$('#inactive').checked?(r.profiles[p].present||r.profiles[p].status.startsWith('Disabled')):r.profiles[p].present&&!r.profiles[p].status.startsWith('Disabled'))).sort((a,b)=>a.mod.localeCompare(b.mod)||localRow(a).name.localeCompare(localRow(b).name,lang));
 $('#count').textContent=`${rows.length} ${t('matching enchantments')}`;
