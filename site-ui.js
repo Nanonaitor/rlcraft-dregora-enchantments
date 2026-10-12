@@ -143,7 +143,7 @@
   let modsBuilt=false,animationNodes=[];
   const flags={en:['flag-us.png','English'],es:['flag-mx.png','Español'],zh:['flag-cn.png','简体中文']};
   document.querySelectorAll('[data-language]').forEach(b=>{const [file,label]=flags[b.dataset.language];b.innerHTML=`<img src="assets/${file}" alt=""> ${label}`;});
-  $('.brand span').innerHTML='Made by Nanonaitor<small>A player by choice, a teacher by heart.</small><small class="brand-contributors">Contributors: KKHR, Cath</small>';
+  $('.brand span').innerHTML='Made by Nanonaitor<small>A player by choice, a teacher by heart.</small>';
   $('.hero .eyebrow').remove();
   $('.hero h1').innerHTML='<img class="pack-title-art" src="assets/rlcraft-dregora-title.png" alt="RLCraft and Dregora"><img class="title-art" src="assets/enchantments-title.png" alt="Enchantments">';
   const artRow=document.createElement('div');artRow.className='support-community-art';artRow.innerHTML='<img src="assets/enchant-table.png" alt="Enchanting table"><img src="assets/dead-family-guy.png" alt="">';$('.credits').before(artRow);
@@ -226,7 +226,7 @@
   const aboutCopy={
     en:{
       title:'About This Guide',
-      intro:`The RLCraft community has been an amazing driving force behind my love and passion for creating games, guides and other projects. I’m Nanonaitor—a programming teacher, streamer, YouTuber and father. This website was made with help from the community and the friends I’ve met along the way. Thank you for visiting; I truly hope it helps you, the reader, on your next adventure.`,
+      intro:`The RLCraft community has been an amazing driving force behind the love and passion for creating games, guides and other projects, which eventually gave birth to this website. It was made with help from the community and friends met along the way. Thank you for visiting; I truly hope it helps you, the reader, on your next adventure.`,
       first:'Website & Guide Contributors',firstLead:'The people who helped build this website and shape the information inside it.',
       second:'Community & Project Creators',secondLead:'Important people whose work, creativity and leadership made RLCraft, Dregora and this guide possible.',
       people:[
@@ -234,7 +234,7 @@
         ['Cathy','Dregora Developer','A passion-driven person who balances weapons in RLCraft and provided the builds for your enchanting needs on this website!'],
         ['KKHR','RLCraft Guide Developer','A dedicated writer with a heart set on Minecraft and sharing information with everyone.'],
         ['Nischhelm','RLCraft Developer','Provided enchantment builds, incompatibility information and detailed explanations used throughout the guide.'],
-        ['KameiB','RLCraft Spanish Lead','A talented programmer and artist whose work supports the Spanish-speaking RLCraft community.'],
+        ['KameiB','RLCraft Spanish Lead','A talented programmer and artist who created the RLCraft enchanted-book sprites and gave permission to use them on this site.'],
         ['Shivaxi',"RLCraft's Original Creator",'A DJ and programmer best known for his work on RLCraft.'],
         ['NLBlackEagleNL',"RLCraft Dregora's Original Creator",'A programmer and rat enthusiast who loves his brother Heaven.'],
         ['NLBlackHeavenNL','RLCraft Dregora Co-founder',"A creative mind who loves making torturous content for Dregora's playerbase and loves his brother Eagle."],
@@ -243,7 +243,7 @@
     },
     es:{
       title:'Acerca de esta guía',
-      intro:`La comunidad de RLCraft ha sido una fuerza increíble que impulsa mi amor y mi pasión por crear juegos, guías y otros proyectos. Soy Nanonaitor: profesor de programación, streamer, YouTuber y padre. Este sitio fue creado con la ayuda de la comunidad y de los amigos que conocí en el camino. Gracias por visitarlo; de verdad espero que te ayude, a ti que lo lees, en tu próxima aventura.`,
+      intro:`La comunidad de RLCraft ha sido una fuerza increíble que ha impulsado el amor y la pasión por crear juegos, guías y otros proyectos, lo que finalmente dio origen a este sitio web. Fue creado con la ayuda de la comunidad y de los amigos conocidos en el camino. Gracias por visitarlo; de verdad espero que te ayude, a ti que lo lees, en tu próxima aventura.`,
       first:'Colaboradores del sitio y la guía',firstLead:'Las personas que ayudaron a construir este sitio y a dar forma a la información que contiene.',
       second:'Creadores de la comunidad y los proyectos',secondLead:'Personas importantes cuyo trabajo, creatividad y liderazgo hicieron posibles RLCraft, Dregora y esta guía.',
       people:[
@@ -251,7 +251,7 @@
         ['Cathy','Desarrolladora de Dregora','Una persona guiada por su pasión, encargada de equilibrar las armas de RLCraft, que proporcionó las configuraciones de encantamientos de este sitio.'],
         ['KKHR','Desarrollador de guías de RLCraft','Un escritor dedicado, con el corazón puesto en Minecraft y en compartir información con todos.'],
         ['Nischhelm','Desarrollador de RLCraft','Proporcionó configuraciones, información de incompatibilidades y explicaciones detalladas usadas en toda la guía.'],
-        ['KameiB','Líder de RLCraft en español','Un talentoso programador y artista cuyo trabajo apoya a la comunidad hispanohablante de RLCraft.'],
+        ['KameiB','Líder de RLCraft en español','Un talentoso programador y artista que creó los sprites de los libros encantados de RLCraft y dio permiso para usarlos en este sitio.'],
         ['Shivaxi','Creador original de RLCraft','DJ y programador, conocido principalmente por su trabajo en RLCraft.'],
         ['NLBlackEagleNL','Creador original de RLCraft Dregora','Programador y entusiasta de las ratas que quiere mucho a su hermano Heaven.'],
         ['NLBlackHeavenNL','Cofundador de RLCraft Dregora','Una mente creativa que disfruta creando contenido tortuoso para los jugadores de Dregora y quiere mucho a su hermano Eagle.'],
@@ -260,7 +260,7 @@
     },
     zh:{
       title:'关于本指南',
-      intro:`RLCraft 社区一直是推动我热爱并投入游戏、指南和其他创作的重要力量。我是 Nanonaitor——一名编程教师、主播、YouTuber，也是一位父亲。这个网站是在社区以及一路结识的朋友们帮助下完成的。感谢你的到访；我真心希望它能帮助正在阅读的你踏上下一段冒险。`,
+      intro:`RLCraft 社区一直是推动大家热爱并投入游戏、指南和其他项目创作的重要力量，最终也促成了这个网站的诞生。它是在社区以及一路结识的朋友们帮助下完成的。感谢你的到访；我真心希望它能帮助正在阅读的你踏上下一段冒险。`,
       first:'网站与指南贡献者',firstLead:'帮助建设本网站并完善其中资料的人们。',
       second:'社区与项目创作者',secondLead:'他们的工作、创意与领导让 RLCraft、Dregora 和本指南成为可能。',
       people:[
@@ -268,7 +268,7 @@
         ['Cathy','Dregora 开发者','一位由热情驱动的开发者，负责平衡 RLCraft 武器，并为本网站提供了附魔配装。'],
         ['KKHR','RLCraft 指南作者','一位专注的作者，热爱 Minecraft，也热衷于与大家分享资料。'],
         ['Nischhelm','RLCraft 开发者','为本指南提供了附魔配装、不兼容资料与详细说明。'],
-        ['KameiB','RLCraft 西班牙语负责人','一位才华出众的程序员与艺术家，他的工作支持着西班牙语 RLCraft 社区。'],
+        ['KameiB','RLCraft 西班牙语负责人','一位才华出众的程序员与艺术家，创作了 RLCraft 附魔书精灵图，并授权本网站使用。'],
         ['Shivaxi','RLCraft 原作者','一位 DJ 与程序员，以创作 RLCraft 而广为人知。'],
         ['NLBlackEagleNL','RLCraft Dregora 原作者','一位程序员和鼠类爱好者，也深爱着他的兄弟 Heaven。'],
         ['NLBlackHeavenNL','RLCraft Dregora 联合创始人','一位富有创意的人，喜欢为 Dregora 玩家制作折磨人的内容，也深爱着他的兄弟 Eagle。'],
@@ -276,7 +276,7 @@
       ]
     }
   };
-  const aboutHeads={Nanonaitor:'nanonaitor-head.png',Cathy:'cathy-head.png',KKHR:'kkhr-head.png',Shivaxi:'shivaxi-head.png',NLBlackEagleNL:'nlblackeagle-head.png',StarArtsy:'starartsy-head.png'};
+  const aboutHeads={Nanonaitor:'nanonaitor-head.png',Cathy:'cathy-head.png',KKHR:'kkhr-head.png',KameiB:'kameib-head.png',Shivaxi:'shivaxi-head.png',NLBlackEagleNL:'nlblackeagle-head.png',StarArtsy:'starartsy-head.png'};
   const tabs=$('.tabs');
   const keepAboutLast=()=>{const about=$('#about-tab'),sound=$('#sound');if(about&&sound&&about.nextElementSibling!==sound)tabs.insertBefore(about,sound);};
   keepAboutLast();
