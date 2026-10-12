@@ -56,10 +56,17 @@ function playHover(book){
     sound.play().catch(release);
   }catch{hoverSound=null;}
 }
-const enchantControl=target=>target.closest?.('#entries .book-wrap,#build-list .build-book');
+const guideEnchantControl=target=>target.closest?.('#entries .book-wrap');
+const buildEnchantControl=target=>target.closest?.('#build-list .build-book');
+const enchantControl=target=>guideEnchantControl(target)||buildEnchantControl(target);
 function suppressEnchantHoverSound(milliseconds=500){enchantSoundSuppressedUntil=Date.now()+milliseconds;}
 document.addEventListener('pointerover',event=>{
-  const book=enchantControl(event.target);
+  const buildBook=buildEnchantControl(event.target);
+  if(buildBook){
+    if(!event.relatedTarget||!buildBook.contains(event.relatedTarget))play();
+    return;
+  }
+  const book=guideEnchantControl(event.target);
   if(!book||hoveredEnchantments.has(book)||Date.now()<enchantSoundSuppressedUntil)return;
   if(!event.relatedTarget||!book.contains(event.relatedTarget))playHover(book);
 },true);
