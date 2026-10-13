@@ -826,9 +826,9 @@
       }
     },
     "details": {
-      "en": "Keep at least one normal arrow available. The enchantment saves compatible ammunition consumption; it does not stop the bow from losing durability and does not make every special arrow, modded bolt or tipped arrow free. Treat a custom ranged weapon's ammunition support as a separate mechanic.",
-      "es": "Mantenga al menos una flecha normal disponible. El encantamiento ahorra consumo de munición compatible; no impide que el arco pierda durabilidad y no libera todas las flechas especiales, pernos modificados o flechas con punta. Trate el soporte de munición de un arma a distancia personalizada como una mecánica independiente.",
-      "zh": "至少保持一支普通箭可用。附魔可以节省兼容的弹药消耗；它不会阻止弓的耐久度降低，也不会使每支特殊箭、模组箭或附魔箭免费的。将自定义远程武器的弹药支持视为一个独立的机制。"
+      "en": "Unlike vanilla Minecraft, RLCraft does not require an arrow in your inventory: an Infinity bow can fire normal arrows even when your inventory contains none. The enchantment does not stop the bow from losing durability and does not make special arrows, modded bolts or tipped arrows free. Custom ranged weapons can use separate ammunition rules.",
+      "es": "A diferencia de Minecraft vanilla, RLCraft no requiere que tengas una flecha en el inventario: un arco con Infinidad puede disparar flechas normales aunque no lleves ninguna. El encantamiento no evita que el arco pierda durabilidad ni hace gratuitas las flechas especiales, los proyectiles de mods o las flechas con efectos. Las armas a distancia personalizadas pueden usar reglas de munición distintas.",
+      "zh": "与原版 Minecraft 不同，RLCraft 不要求背包中保留箭矢：无限弓即使在背包里没有箭时也能射出普通箭。该附魔不会阻止弓损失耐久，也不会让特殊箭、模组弹药或药箭免费。自定义远程武器可能使用独立的弹药规则。"
     }
   },
   {

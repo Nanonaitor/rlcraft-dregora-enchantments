@@ -229,6 +229,11 @@
       intro:`The RLCraft community has been an amazing driving force behind the love and passion for creating games, guides and other projects, which eventually gave birth to this website. It was made with help from the community and friends met along the way. Thank you for visiting; I truly hope it helps you, the reader, on your next adventure.`,
       first:'Website & Guide Contributors',firstLead:'The people who helped build this website and shape the information inside it.',
       second:'Community & Project Creators',secondLead:'Important people whose work, creativity and leadership made RLCraft, Dregora and this guide possible.',
+      third:'Enchantment Review Contributors',thirdLead:'Community members who identified typos, incorrect details or missing information and helped improve the enchantment guide.',
+      reviewers:[
+        ['HeheLma0','Streamer and YouTuber','Enchantment Update. A skilled RLCraft player who has beaten nearly every game mode!'],
+        ['SilentStranger','RLCraft Guide Creator','Enchantment Update. A beloved community member known for their deep knowledge and guide contributions to RLCraft.']
+      ],
       people:[
         ['Nanonaitor','Website Creator','A programming teacher, streamer, YouTuber and father who created this website for the RLCraft community.'],
         ['Cathy','Dregora Developer','A passion-driven person who balances weapons in RLCraft and provided the builds for your enchanting needs on this website!'],
@@ -247,6 +252,11 @@
       intro:`La comunidad de RLCraft ha sido una fuerza increíble que ha impulsado el amor y la pasión por crear juegos, guías y otros proyectos, lo que finalmente dio origen a este sitio web. Fue creado con la ayuda de la comunidad y de los amigos conocidos en el camino. Gracias por visitarlo; de verdad espero que te ayude, a ti que lo lees, en tu próxima aventura.`,
       first:'Colaboradores del sitio y la guía',firstLead:'Las personas que ayudaron a construir este sitio y a dar forma a la información que contiene.',
       second:'Creadores de la comunidad y los proyectos',secondLead:'Personas importantes cuyo trabajo, creatividad y liderazgo hicieron posibles RLCraft, Dregora y esta guía.',
+      third:'Colaboradores de revisión de encantamientos',thirdLead:'Miembros de la comunidad que identificaron errores tipográficos, datos incorrectos o información faltante y ayudaron a mejorar la guía de encantamientos.',
+      reviewers:[
+        ['HeheLma0','Streamer y YouTuber','Actualización de encantamientos. ¡Un hábil jugador de RLCraft que ha completado casi todos los modos de juego!'],
+        ['SilentStranger','Creador de guías de RLCraft','Actualización de encantamientos. Un querido miembro de la comunidad, conocido por sus profundos conocimientos y sus contribuciones a las guías de RLCraft.']
+      ],
       people:[
         ['Nanonaitor','Creador del sitio','Profesor de programación, streamer, YouTuber y padre que creó este sitio para la comunidad de RLCraft.'],
         ['Cathy','Desarrolladora de Dregora','Una persona guiada por su pasión, encargada de equilibrar las armas de RLCraft, que proporcionó las configuraciones de encantamientos de este sitio.'],
@@ -265,6 +275,11 @@
       intro:`RLCraft 社区一直是推动大家热爱并投入游戏、指南和其他项目创作的重要力量，最终也促成了这个网站的诞生。它是在社区以及一路结识的朋友们帮助下完成的。感谢你的到访；我真心希望它能帮助正在阅读的你踏上下一段冒险。`,
       first:'网站与指南贡献者',firstLead:'帮助建设本网站并完善其中资料的人们。',
       second:'社区与项目创作者',secondLead:'他们的工作、创意与领导让 RLCraft、Dregora 和本指南成为可能。',
+      third:'附魔内容审校贡献者',thirdLead:'发现错别字、错误细节或缺失信息，并帮助改进附魔指南的社区成员。',
+      reviewers:[
+        ['HeheLma0','主播与 YouTuber','附魔内容更新。一位技术出色的 RLCraft 玩家，几乎通关了所有游戏模式！'],
+        ['SilentStranger','RLCraft 指南作者','附魔内容更新。一位深受喜爱的社区成员，以深厚的知识和对 RLCraft 指南的贡献而闻名。']
+      ],
       people:[
         ['Nanonaitor','网站创建者','一名编程教师、主播、YouTuber 和父亲，为 RLCraft 社区创建了这个网站。'],
         ['Cathy','Dregora 开发者','一位由热情驱动的开发者，负责平衡 RLCraft 武器，并为本网站提供了附魔配装。'],
@@ -279,11 +294,11 @@
       ]
     }
   };
-  const aboutHeads={Nanonaitor:'nanonaitor-head.png',Cathy:'cathy-head.png',KKHR:'kkhr-head.png',KameiB:'kameib-head.png',Shivaxi:'shivaxi-head.png',NLBlackEagleNL:'nlblackeagle-head.png',NLBlackHeavenNL:'nlblackheaven-head.png',StarArtsy:'starartsy-head.png',CDSTK:'cdstk-head.png'};
+  const aboutHeads={Nanonaitor:'nanonaitor-head.png',Cathy:'cathy-head.png',KKHR:'kkhr-head.png',KameiB:'kameib-head.png',Shivaxi:'shivaxi-head.png',NLBlackEagleNL:'nlblackeagle-head.png',NLBlackHeavenNL:'nlblackheaven-head.png',StarArtsy:'starartsy-head.png',CDSTK:'cdstk-head.png',HeheLma0:'hehelma0-head.png',SilentStranger:'silentstranger-head.png'};
   const tabs=$('.tabs');
   const keepAboutLast=()=>{const about=$('#about-tab'),sound=$('#sound');if(about&&sound&&about.nextElementSibling!==sound)tabs.insertBefore(about,sound);};
   keepAboutLast();
-  function renderAbout(){const c=aboutCopy[lang],rows=(items)=>items.map(([name,title,description])=>`<article class="about-row"><img class="about-avatar" src="assets/${aboutHeads[name]||'default-head.png'}" alt="${esc(name)}"><div><h4>${esc(name)} <span>| ${esc(title)}</span></h4><p>${esc(description)}</p></div></article>`).join('');$('#about-content').innerHTML=`<div class="about-intro"><h2 id="about-title">${esc(c.title)}</h2><p>${esc(c.intro)}</p></div><section class="about-section"><h3>${esc(c.first)}</h3><p>${esc(c.firstLead)}</p>${rows(c.people.slice(0,5))}</section><div class="about-divider"></div><section class="about-section"><h3>${esc(c.second)}</h3><p>${esc(c.secondLead)}</p>${rows(c.people.slice(5))}</section>`;}
+  function renderAbout(){const c=aboutCopy[lang],rows=(items)=>items.map(([name,title,description])=>`<article class="about-row"><img class="about-avatar" src="assets/${aboutHeads[name]||'default-head.png'}" alt="${esc(name)}"><div><h4>${esc(name)} <span>| ${esc(title)}</span></h4><p>${esc(description)}</p></div></article>`).join('');$('#about-content').innerHTML=`<div class="about-intro"><h2 id="about-title">${esc(c.title)}</h2><p>${esc(c.intro)}</p></div><section class="about-section"><h3>${esc(c.first)}</h3><p>${esc(c.firstLead)}</p>${rows(c.people.slice(0,5))}</section><div class="about-divider"></div><section class="about-section"><h3>${esc(c.second)}</h3><p>${esc(c.secondLead)}</p>${rows(c.people.slice(5))}</section><div class="about-divider"></div><section class="about-section about-reviewers"><h3>${esc(c.third)}</h3><p>${esc(c.thirdLead)}</p>${rows(c.reviewers)}</section>`;}
   translatePage=function(){localizeFilterControls();document.documentElement.lang=lang==='zh'?'zh-CN':lang==='es'?'es-MX':'en';document.querySelectorAll('[data-language]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.language===lang));$('.hero p').innerHTML=copy().subtitle;const titleArt=$('.title-art');if(titleArt){titleArt.src=lang==='es'?'assets/encantamientos-title.png':lang==='zh'?'assets/chinese-enchantments-title.png':'assets/enchantments-title.png';titleArt.alt=lang==='es'?'Encantamientos':lang==='zh'?'结界':'Enchantments';titleArt.classList.toggle('chinese-title',lang==='zh');}const disclaimer=$('#unofficial-disclaimer');if(disclaimer)disclaimer.textContent=lang==='es'?'SITIO WEB NO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO NI ASOCIADO CON MOJANG O MICROSOFT.':lang==='zh'?'非官方 MINECRAFT 网站。未经 MOJANG 或 MICROSOFT 批准，亦与其无关联。':'NOT AN OFFICIAL MINECRAFT WEBSITE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.';if(!$('.sexy-fixed'))document.body.insertAdjacentHTML('beforeend','<img class="sexy-fixed" src="assets/sexy-pose.png" alt="">');$('#guide-tab').textContent=copy().enchants;$('#builds-tab').textContent=copy().builds;$('#about-tab').textContent=copy().about;$('#guide .list-heading h2').textContent=copy().enchants;$('#builds .list-heading h2').textContent=copy().builds;modPanel.querySelector('legend').textContent=copy().mods;modPanel.querySelector('[data-mod-action=all]').textContent=copy().all;modPanel.querySelector('[data-mod-action=none]').textContent=copy().none;document.querySelectorAll('.filters label,.filters option,#reset,#builds .list-heading span,footer small').forEach(el=>{for(const n of el.childNodes)if(n.nodeType===3&&n.textContent.trim()){n.originalText??=n.textContent;n.textContent=t(n.originalText.trim());}});localizeFilterControls();$('footer small').textContent='Check my Socials';document.querySelectorAll('input[placeholder]').forEach(e=>{e.dataset.originalPlaceholder??=e.placeholder;e.placeholder=t(e.dataset.originalPlaceholder);});$('.notice').textContent='Builds supplied by Cathy and Nischhelm. You do not need every enchantment to beat the game.';$('.support h2').textContent=lang==='es'?'Gracias por apoyar lo que hago.':lang==='zh'?'谢谢你支持我的创作。':'Thanks for supporting what I make.';$('.support .eyebrow').textContent='NANONAITOR GAMING';$('.support p').textContent=copy().support;const youtube=$('.support .button:not(.secondary)');youtube.classList.add('image-link','youtube-image-link');youtube.classList.remove('youtube-button');youtube.setAttribute('aria-label','Watch me on YouTube');youtube.innerHTML='<img src="assets/watch-me-youtube.png" alt="Watch me on YouTube">';$('.support .secondary').innerHTML='<img src="assets/kofi.png" alt="Support me on Ko-fi">';$('.support .secondary').classList.add('image-link');renderCredits();renderAbout();};
   document.querySelectorAll('.socials a').forEach(a=>{if(a.href.includes('curseforge.com')){a.innerHTML='<span class="forge-mark" aria-hidden="true">⚒</span>';a.classList.add('curseforge-link');}});
   // A visible cost explanation avoids presenting a fresh-book price as a universal anvil total.
