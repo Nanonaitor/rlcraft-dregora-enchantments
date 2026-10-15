@@ -7,14 +7,14 @@
     'Refers to RLCraft, RLCraft Dregora and Parasited.':['Se refiere a RLCraft, RLCraft Dregora y Parasited.','指 RLCraft、RLCraft Dregora 与 Parasited。'],
     'A combination of RLCraft and Dregora that includes more features and is considered harder than the original experience.':['Una combinación de RLCraft y Dregora que incluye más funciones y se considera más difícil que la experiencia original.','RLCraft 与 Dregora 的组合版本，加入更多内容，整体难度也高于原版体验。'],
     'A spin-off available for both RLCraft and Dregora, spearheaded by Nischhelm, where Scape and Run: Parasites slowly infect the world. It also adds Inkwells and the Pondering Orb. See':['Una versión derivada disponible para RLCraft y Dregora, liderada por Nischhelm, donde Scape and Run: Parasites infecta lentamente el mundo. También añade Tinteros y el Orbe de contemplación. Consulta','由 Nischhelm 牵头制作、同时适用于 RLCraft 与 Dregora 的衍生版本，其中 Scape and Run: Parasites 会逐渐感染整个世界。它还加入墨水瓶与沉思宝珠。请参阅'],
-    'how to install Parasited':['cómo instalar Parasited','Parasited 安装方法'],
+    'how to install Parasited':['Cómo Instalar Parasited','Parasited 安装方法'],
     'Methods available in RLCraft, RLCraft Dregora and Parasited.':['Métodos disponibles en RLCraft, RLCraft Dregora y Parasited.','RLCraft、RLCraft Dregora 与 Parasited 中都可用的方法。'],
     'Additional enchantment sources found in RLCraft Dregora.':['Fuentes de encantamientos adicionales disponibles en RLCraft Dregora.','RLCraft Dregora 中新增的附魔来源。'],
     'Additional enchantment tools included with Parasited for RLCraft and Dregora.':['Herramientas de encantamiento adicionales incluidas con Parasited para RLCraft y Dregora.','Parasited 为 RLCraft 与 Dregora 加入的额外附魔工具。'],
     'All methods of getting enchants are valid and have positives and negatives. This guide separates shared methods from those exclusive to Dregora and Parasited.':['Todos los métodos para conseguir encantamientos tienen ventajas y desventajas. Esta guía separa los métodos compartidos de los exclusivos de Dregora y Parasited.','每种获取附魔的方法都有优缺点。本指南将通用方法与 Dregora、Parasited 的专属方法分开说明。'],
     'In Dregora 1.1.2b, the Enchantment Table can upgrade an enchantment to the next tier.':['En Dregora 1.1.2b, la mesa de encantamientos puede mejorar un encantamiento al siguiente grado.','在 Dregora 1.1.2b 中，附魔台可以把附魔提升到下一阶。'],
-    'Bookwyrms eat enchantment books and produce new ones. They require extensive breeding and protection but become a fast recycling machine. View':['Los Bookwyrms comen libros encantados y producen otros nuevos. Requieren mucha crianza y protección, pero terminan siendo una máquina de reciclaje rápida. Mira','书蛟会吃掉附魔书并产出新书。它们需要大量繁殖与保护，但建成后会成为高效的附魔回收设施。请观看'],
-    'this detailed Book Wyrm video guide':['esta guía detallada en video sobre Book Wyrms','这份详细的书蛟视频指南'],
+    'Bookwyrms eat enchantment books and produce new ones. They require extensive breeding and protection but become a fast recycling machine. View':['Los Librodrilos comen libros encantados y producen otros nuevos. Requieren mucha crianza y protección, pero terminan siendo una máquina de reciclaje rápida. Mira','书蛟会吃掉附魔书并产出新书。它们需要大量繁殖与保护，但建成后会成为高效的附魔回收设施。请观看'],
+    'this detailed Book Wyrm video guide':['esta guía detallada en video sobre Librodrilos','这份详细的书蛟视频指南'],
     'Brutal Towers':['Torres brutales','残酷高塔'],
     'Champion mobs':['Criaturas campeonas','冠军生物'],
     'Brutal Towers are treasure-dense, endgame dungeons. Their crates,':['Las Torres brutales son mazmorras de final de partida repletas de tesoros. Sus cajas,','残酷高塔是宝藏密集的终局地牢。塔内的箱柜、'],
@@ -47,16 +47,48 @@
     'Brutal Tower exterior':['Exterior de una Torre brutal','残酷高塔外观'],
     'Brutal Tower treasure room':['Sala del tesoro de una Torre brutal','残酷高塔宝藏室'],
     'Pondering Orb surrounded by bookshelves':['Orbe de contemplación rodeado de estanterías','被书架围绕的沉思宝珠'],
-    'Pondering Orb crafting recipe':['Receta del Orbe de contemplación','沉思宝珠合成配方']
+    'Pondering Orb crafting recipe':['Receta del Orbe de contemplación','沉思宝珠合成配方'],
+    'Inkwell containing Supreme Bane of Arthropods V':['Tintero con Perdición suprema de los artrópodos V','装有超级节肢杀手 V 的墨水瓶']
+  };
+  const enchantmentReferences={
+    'Advanced Efficiency':['Eficiencia extrema','高级效率'],'Advanced Looting':['Saqueo avanzado','高级抢夺'],'Advanced Mending':['Reparación avanzada','高级经验修补'],'Advanced Protection':['Protección avanzada','高级保护'],'Advanced Sharpness':['Filo avanzado','高级锋利'],'Bane of Arthropods':['Perdición de los artrópodos','节肢杀手'],'Curse Break':['Romper maldiciones','破咒'],'Efficiency':['Eficiencia','效率'],'Feather Falling':['Caída de pluma','摔落缓冲'],'Fire Aspect':['Aspecto ígneo','火焰附加'],'Fire Protection':['Protección contra el fuego','火焰保护'],'Fortune':['Fortuna','时运'],'Knockback':['Empuje','击退'],'Lesser Sharpness':['Filo débil','低级锋利'],'Lifesteal':['Robavidas','生命窃取'],'Looting':['Saqueo','抢夺'],'Luck of the Sea':['Suerte marina','海之眷顾'],'Mending':['Reparación','经验修补'],'Power':['Poder','力量'],'Protection':['Protección','保护'],'Punch':['Retroceso','冲击'],'Purification':['Purificación','净化'],'Sharpness':['Filo','锋利'],'Smite':['Castigo','亡灵杀手'],'Strengthened Vitality':['Vitalidad fortalecida','生机勃勃'],'Supreme Bane of Arthropods':['Perdición suprema de los artrópodos','超级节肢杀手'],'Supreme Sharpness':['Filo supremo','超级锋利'],'Sweeping Edge':['Filo arrasador','横扫之刃'],'Swifter Slashes':['Cuchillas rápidas','唯快不破'],'Thorns':['Espinas','荆棘'],'Unbreaking':['Irrompibilidad','耐久'],'Upgraded Potentials':['Potenciales mejorados','潜能喷涌'],"Winter's Grace":['Gracia del invierno','冬雪恩典'],'Winter’s Grace':['Gracia del invierno','冬雪恩典'],'Adept':['Adepto','熟能生巧'],'Lure':['Atracción','饵钓']
   };
   const locale=()=>document.documentElement.lang.startsWith('es')?'es':document.documentElement.lang.startsWith('zh')?'zh':'en';
   const translated=(text,language)=>{const source=Object.keys(pairs).find(key=>key===text||pairs[key].includes(text));if(!source)return null;return language==='en'?source:pairs[source][language==='es'?0:1];};
+  const escapeRegex=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  const localizeEnchantments=(text,language)=>{
+    const variants=Object.entries(enchantmentReferences).flatMap(([english,names])=>names.map(name=>({english,name}))).sort((a,b)=>b.name.length-a.name.length);
+    const normalized=variants.reduce((value,{english,name})=>value.replace(new RegExp(escapeRegex(name),'g'),english),text);
+    if(language==='en')return normalized;
+    const index=language==='es'?0:1;
+    return Object.keys(enchantmentReferences).sort((a,b)=>b.length-a.length).reduce((value,name)=>
+      value.replace(new RegExp(`(^|[^A-Za-z])(${escapeRegex(name)})(?=$|[^A-Za-z])`,'g'),(_,prefix)=>prefix+enchantmentReferences[name][index]),normalized);
+  };
+  const spanishBookWyrms=text=>text
+    .replace(/Golden Bookwyrms/gi,'Librodrilos Dorados').replace(/Golden Bookwyrm/gi,'Librodrilo Dorado')
+    .replace(/Book Wyrms/gi,'Librodrilos').replace(/Bookwyrms/gi,'Librodrilos').replace(/Bookwyrm/gi,'Librodrilo');
+  const normalizeBookWyrms=text=>text
+    .replace(/Librodrilos Dorados/g,'Golden Bookwyrms').replace(/Librodrilo Dorado/g,'Golden Bookwyrm')
+    .replace(/Librodrilos/g,'Bookwyrms').replace(/Librodrilo/g,'Bookwyrm');
+  const tocLabels={
+    'obt-table':['Enchantment Table','Mesa de Encantamientos','附魔台'],
+    'obt-disenchant':['Disenchantment Table','Mesa de Desencantamiento','分解台'],
+    'obt-librarians':['Librarians','Bibliotecarios','图书管理员'],
+    'obt-dungeons':['Dungeon Loot & Mobs','Botín y Criaturas de Mazmorras','地牢战利品与生物'],
+    'obt-wyrms':['Book Wyrms','Librodrilos','书蛟'],
+    'obt-biotite':['Biotite Upgrading','Mejora con Biotita','黑曜紫水晶升级'],
+    'obt-brutal':['Brutal Towers','Torres Brutales','残酷高塔'],
+    'obt-inkwells':['Inkwells','Tinteros','墨水瓶'],
+    'obt-pondering':['Pondering Orb','Orbe de Contemplación','沉思宝珠']
+  };
   function apply(){
     const language=locale(),root=document.querySelector('#obtaining');
     if(!root)return;
-    const visit=node=>{for(const child of [...node.childNodes]){if(child.nodeType===3){const raw=child.textContent,key=raw.trim(),value=translated(key,language);if(value)child.textContent=raw.replace(key,value);}else if(!['SCRIPT','STYLE'].includes(child.tagName))visit(child);}};
+    const visit=node=>{for(const child of [...node.childNodes]){if(child.nodeType===3){child.textContent=normalizeBookWyrms(child.textContent);const raw=child.textContent,key=raw.trim(),value=translated(key,language);if(value)child.textContent=raw.replace(key,value);child.textContent=localizeEnchantments(child.textContent,language);if(language==='es')child.textContent=spanishBookWyrms(child.textContent);}else if(!['SCRIPT','STYLE'].includes(child.tagName))visit(child);}};
     visit(root);
-    root.querySelectorAll('img[alt]').forEach(img=>{img.dataset.enAlt??=img.alt;img.alt=translated(img.dataset.enAlt,language)||img.dataset.enAlt;});
+    root.querySelectorAll('img[alt]').forEach(img=>{img.dataset.enAlt??=img.alt;img.alt=localizeEnchantments(translated(img.dataset.enAlt,language)||img.dataset.enAlt,language);if(language==='es')img.alt=spanishBookWyrms(img.alt);});
+    const labelIndex=language==='es'?1:language==='zh'?2:0;
+    root.querySelectorAll('.obtaining-toc a[href^="#obtaining/"]').forEach(link=>{const id=link.hash.split('/')[1];if(tocLabels[id])link.textContent=tocLabels[id][labelIndex];});
     const nav=root.querySelector('.obtaining-toc');
     if(nav)nav.setAttribute('aria-label',language==='es'?'Contenido de la guía de obtención':language==='zh'?'附魔获取指南目录':'Obtaining guide contents');
   }
