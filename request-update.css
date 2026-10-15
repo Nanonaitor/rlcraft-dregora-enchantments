@@ -9,6 +9,26 @@
   white-space: normal;
 }
 
+.build-notes a {
+  color: #8fd7ff;
+  overflow-wrap: anywhere;
+  text-underline-offset: 2px;
+}
+
+.build-notes a:hover,
+.build-notes a:focus-visible {
+  color: #c9edff;
+}
+
+.full-explanation .version-detail-heading {
+  margin: 0.85rem 0 0.2rem;
+  color: #ffe0a1;
+}
+
+.full-explanation .version-detail-heading + p {
+  margin-top: 0;
+}
+
 .build-book:hover .tooltip{display:block!important}
 .build-book:focus:not(:hover) .tooltip,.build-book.open:not(:hover) .tooltip{display:none!important}
 

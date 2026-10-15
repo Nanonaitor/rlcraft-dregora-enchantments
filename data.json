@@ -826,9 +826,9 @@
       }
     },
     "details": {
-      "en": "Unlike vanilla Minecraft, RLCraft does not require an arrow in your inventory: an Infinity bow can fire normal arrows even when your inventory contains none. The enchantment does not stop the bow from losing durability and does not make special arrows, modded bolts or tipped arrows free. Custom ranged weapons can use separate ammunition rules.",
-      "es": "A diferencia de Minecraft vanilla, RLCraft no requiere que tengas una flecha en el inventario: un arco con Infinidad puede disparar flechas normales aunque no lleves ninguna. El encantamiento no evita que el arco pierda durabilidad ni hace gratuitas las flechas especiales, los proyectiles de mods o las flechas con efectos. Las armas a distancia personalizadas pueden usar reglas de munición distintas.",
-      "zh": "与原版 Minecraft 不同，RLCraft 不要求背包中保留箭矢：无限弓即使在背包里没有箭时也能射出普通箭。该附魔不会阻止弓损失耐久，也不会让特殊箭、模组弹药或药箭免费。自定义远程武器可能使用独立的弹药规则。"
+      "en": "Unlike vanilla Minecraft, RLCraft does not require an arrow in your inventory: an Infinity bow can fire normal arrows even when your inventory contains none. Infinity works with crossbows too; they use regular bolts.",
+      "es": "A diferencia de Minecraft vanilla, RLCraft no requiere una flecha en el inventario: un arco con Infinity puede disparar flechas normales aunque no lleves ninguna. Infinity también funciona con ballestas; usan virotes normales.",
+      "zh": "与原版 Minecraft 不同，RLCraft 不要求背包中留有箭矢：Infinity 弓即使背包中没有箭也能射出普通箭。Infinity 也适用于弩，并使用普通弩箭。"
     }
   },
   {
@@ -922,9 +922,9 @@
       }
     },
     "details": {
-      "en": "Each XP orb chooses one random damaged Mending item from the player’s main hand, off hand, and equipped armor. The entire orb repairs only that one item; it is not split among several items. The normal repair ratio is 2 durability per 1 XP. Repair is capped by the item’s missing durability, and any XP left in the orb after the repair is awarded to the player.",
-      "es": "Cada orbe de XP elige un elemento reparador dañado al azar de la mano principal, la mano secundaria y la armadura equipada del jugador. Todo el orbe repara sólo ese elemento; no se divide entre varios artículos. La proporción de reparación normal es 2 de durabilidad por 1 XP. La reparación está limitada por la durabilidad faltante del elemento y cualquier XP que quede en el orbe después de la reparación se otorga al jugador.",
-      "zh": "每个经验球从玩家的主手、副手和穿戴的盔甲中选择一个随机受损的修补物品。整个经验球只修复那个物品；它不会分配到多个物品上。正常的修复比例是每1点经验修复2点耐久。修复量上限为物品的缺失耐久，修复后经验球中剩余的经验会授予玩家。"
+      "en": "Each XP orb randomly chooses 1 damaged Mending item from the player's main hand, off hand or equipped armor. It does not prioritize the item needing the least XP or the most damaged item. It repairs 2 durability per 1 XP, and any XP left after the item is fully repaired goes to the player.",
+      "es": "Cada orbe de XP elige al azar 1 objeto dañado con Mending entre la mano principal, la mano secundaria y la armadura equipada. No prioriza el objeto que necesita menos XP ni el más dañado. Repara 2 puntos de durabilidad por 1 XP; cualquier XP restante después de reparar por completo el objeto se entrega al jugador.",
+      "zh": "每个经验球会从玩家主手、副手或已装备护甲中随机选择 1 件受损且带有 Mending 的物品。它不会优先选择所需 XP 最少或损坏最严重的物品。每 1 XP 修复 2 点耐久；物品完全修复后剩余的 XP 会给予玩家。"
     }
   },
   {
@@ -1368,9 +1368,9 @@
       }
     },
     "details": {
-      "en": "Each XP orb chooses one random Advanced Mending item from the player’s held and equipped items; it repairs only that item, never splitting the orb. The configured rules do not prioritize damaged items, so an undamaged item can be selected and cause the orb to skip repair. RLC converts each orb point into up to 3 durability and subtracts repairedDurability / 2 from the orb using integer rounding. Dregora uses itemRepairRatio × 1.5; ordinary equipment has ratio 2, so it also calculates 3 durability per orb point, then subtracts about repairedDurability / 2 with randomized rounding. Any remaining orb XP is still awarded to the player. Normal Mending instead selects from damaged Mending items and calculates 2 durability per XP.",
-      "es": "Cada orbe de XP elige un elemento aleatorio de reparación avanzada de los elementos que el jugador tiene y equipa; repara solo ese elemento, nunca divide el orbe. Las reglas configuradas no dan prioridad a los elementos dañados, por lo que se puede seleccionar un elemento no dañado y hacer que el orbe se salte la reparación. RLC convierte cada punto del orbe en hasta 3 de durabilidad y resta la Durabilidad reparada / 2 del orbe mediante redondeo de enteros. Dregora usa itemRepairRatio × 1.5; El equipo ordinario tiene una proporción de 2, por lo que también calcula 3 de durabilidad por punto de orbe, luego resta la durabilidad reparada / 2 con redondeo aleatorio. Cualquier XP de orbe restante aún se otorga al jugador. En cambio, Normal Mending selecciona elementos de reparación dañados y calcula 2 de durabilidad por XP.",
-      "zh": "每个经验球会从玩家手持和装备的物品中随机选择一个高级修复物品；它只修复该物品，从不分割经验球。配置的规则不优先考虑受损物品，因此可能会选择未受损的物品，导致经验球跳过修复。RLC 将每个经验球点数转换为最多 3 点耐久，并使用整数舍入从经验球中减去 repairedDurability / 2。Dregora 使用 itemRepairRatio × 1.5；普通装备的比率为 2，因此它也会计算每个经验球点 3 点耐久，然后以随机方式舍入减去约 repairedDurability / 2。任何剩余的经验球仍会奖励给玩家。普通修复则改从受损修复物品中选择，并计算每经验点 2 点耐久。"
+      "en": "RLCraft:\nEach XP orb randomly chooses 1 held or equipped item with Advanced Mending. The configured profile does not prioritize damaged items, so a fully repaired item can be selected and no durability will be restored. Eligible repairs restore up to 3 durability per orb XP.\nDregora:\nEach XP orb randomly chooses among damaged held or equipped Advanced Mending items. For ordinary equipment, it restores about 3 durability per orb XP using randomized rounding. Remaining orb XP goes to the player in both versions.",
+      "es": "RLCraft:\nCada orbe de XP elige al azar 1 objeto sostenido o equipado con Advanced Mending. El perfil configurado no prioriza objetos dañados, por lo que puede seleccionar uno completamente reparado y no restaurar durabilidad. Las reparaciones válidas restauran hasta 3 puntos de durabilidad por XP del orbe.\nDregora:\nCada orbe de XP elige al azar entre los objetos dañados, sostenidos o equipados, con Advanced Mending. En equipo normal, restaura aproximadamente 3 puntos de durabilidad por XP del orbe mediante redondeo aleatorio. En ambas versiones, el XP restante del orbe se entrega al jugador.",
+      "zh": "RLCraft：\n每个经验球会从手持或装备的 Advanced Mending 物品中随机选择 1 件。当前配置不会优先选择受损物品，因此可能选中已完全修复的物品而不恢复任何耐久。符合条件的修复每点经验球 XP 最多恢复 3 点耐久。\nDregora：\n每个经验球会从手持或装备的受损 Advanced Mending 物品中随机选择 1 件。普通装备每点经验球 XP 约恢复 3 点耐久，并采用随机取整。两个版本中，经验球剩余的 XP 都会给予玩家。"
     }
   },
   {
@@ -5141,9 +5141,9 @@
       }
     },
     "details": {
-      "en": "Applies a movement-speed attribute modifier of 1% per enchant level to the leggings wearer: +1% at Agility I and +2% at Agility II. It changes movement speed only, not attack speed, jump height, reach or fall resistance.",
-      "es": "Aplica un modificador de atributo de velocidad de movimiento del 1% por nivel de encantamiento al usuario de las calzas: +1% en Agilidad I y +2% en Agilidad II. Solo cambia la velocidad de movimiento, no la velocidad de ataque, la altura del salto, el alcance o la resistencia a la caída.",
-      "zh": "为穿戴护腿的玩家应用每级附魔 1% 的移动速度属性加成：敏捷 I 提升 +1%，敏捷 II 提升 +2%。它只改变移动速度，不影响攻击速度、跳跃高度、攻击范围或抗摔能力。"
+    "en": "Applies a movement-speed attribute modifier of 1% per enchantment level: Agility I = +1% and Agility II = +2% movement speed.",
+    "es": "Aplica un modificador de velocidad de movimiento del 1% por nivel de encantamiento: Agilidad I = +1% y Agilidad II = +2% de velocidad de movimiento.",
+    "zh": "每级附魔提供 1% 的移动速度属性加成：敏捷 I = +1%，敏捷 II = +2% 移动速度。"
     }
   },
   {
@@ -5237,9 +5237,9 @@
       }
     },
     "details": {
-      "en": "Bash is checked only for a full-strength hammer hit with attack strength above 0.9. The profile config is 15% base plus 10 percentage points per Bash level: I 25%, II 35%, III 45%. A success applies Better Survival Stun for 50 ticks (2.5 seconds) and skips targets excluded by the mods stun-immunity check. Stun heavily reduces movement, swimming and attack speed; it is not extra damage and does not make a sword a hammer.",
-      "es": "Bash se verifica solo para un golpe de martillo con toda su fuerza y ​​​​una fuerza de ataque superior a 0.9. La configuración del perfil es 15% base más 10 puntos porcentuales por nivel de Bash: I 25%, II 35%, III 45%. Un éxito aplica Better Survival Stun durante 50 ticks (2.5 segundos) y omite los objetivos excluidos por la comprobación de inmunidad al aturdimiento de los mods. El aturdimiento reduce en gran medida la velocidad de movimiento, natación y ataque; no es un daño adicional y no convierte una espada en un martillo.",
-      "zh": "Bash 只会在使用攻击强度超过 0.9 的全力锤击时检查。配置文件设定为基础 15%，每个 Bash 等级增加 10 个百分点：I 25%，II 35%，III 45%。成功时会施加持续 50 个刻（2.5 秒）的更佳生存眩晕，并跳过被模组眩晕免疫检查排除的目标。眩晕会大幅降低移动、游泳和攻击速度；它不是额外伤害，也不会把剑变成锤子。"
+    "en": "Bash is checked only on a full-strength hammer hit with attack strength above 0.9. Trigger chance = 15% + (10% × level): I = 25%, II = 35% and III = 45%. A success applies Better Survival Stun for 50 ticks (2.5 seconds) and skips targets excluded by the mod's stun-immunity check. Stun applies −1000% modifiers to movement, swimming and attack speed; because those attributes cannot fall below 0, the effective reduction is 100%.",
+    "es": "Bash solo se comprueba con un golpe de martillo a plena fuerza y una fuerza de ataque superior a 0.9. Probabilidad de activación = 15% + (10% × nivel): I = 25%, II = 35% y III = 45%. Al activarse, aplica el aturdimiento de Better Survival durante 50 ticks (2.5 segundos) y omite los objetivos excluidos por la comprobación de inmunidad del mod. El aturdimiento aplica modificadores de −1000% a la velocidad de movimiento, natación y ataque; como esos atributos no pueden bajar de 0, la reducción efectiva es del 100%.",
+    "zh": "Bash 只会在攻击强度超过 0.9 的全力锤击时判定。触发几率 = 15% +（10% × 等级）：I = 25%，II = 35%，III = 45%。触发后施加持续 50 刻（2.5 秒）的 Better Survival 眩晕，并跳过模组判定为眩晕免疫的目标。眩晕对移动、游泳和攻击速度施加 −1000% 修正；由于这些属性不能低于 0，实际减速为 100%。"
     }
   },
   {
@@ -5333,9 +5333,9 @@
       }
     },
     "details": {
-      "en": "Each landed nunchaku hit adds 0.1 + level / 20 to the stored combo power for later hits: I adds 0.15, II adds 0.20 and III adds 0.25. Combo power is capped at 1.0, and the damage multiplier is 1 + stored combo power, so the largest bonus is x2 damage. Starting from zero, levels I, II and III reach the cap after 7, 5 and 4 landed hits respectively. Every landed hit refreshes a 30-tick (1.5-second) timer; if the timer expires, the stored combo returns to zero.",
-      "es": "Cada golpe de nunchaku agregado agrega 0.1 + nivel / 20 al poder combinado almacenado para golpes posteriores: I agrega 0.15, II agrega 0.20 y III agrega 0.25. El poder combinado tiene un límite de 1.0 y el multiplicador de daño es 1 + poder combinado almacenado, por lo que la bonificación más grande es daño x2. Comenzando desde cero, los niveles I, II y III alcanzan el límite después de 7, 5 y 4 golpes respectivamente. Cada golpe realizado actualiza un temporizador de 30 ticks (1.5 segundos); si el cronómetro expira, el combo almacenado vuelve a cero.",
-      "zh": "每次命中的双节棍增加 0.1 + 等级 / 20 的储存连击能量以用于后续打击：I 级增加 0.15，II 级增加 0.20，III 级增加 0.25。连击能量上限为 1.0，伤害倍率为 1 + 储存连击能量，因此最大加成为 x2 伤害。从零开始，I、II 和 III 级分别在命中 7 次、5 次和 4 次后达到上限。每次命中都会刷新一个 30 刻（1.5 秒）的计时器；如果计时器到期，储存连击将回到零。"
+    "en": "Each landed nunchaku hit adds 0.1 + (level ÷ 20) to the stored combo power for later hits: I = +0.15, II = +0.20 and III = +0.25. Both RLCraft 2.9.3 and Dregora 1.1.2b cap stored combo power at 0.4. Damage multiplier = 1 + stored combo power, so the maximum is ×1.4 damage, not ×2. Starting from 0, level I reaches the cap after 3 landed hits; levels II and III reach it after 2. Every landed hit refreshes a 30-tick (1.5-second) timer; when it expires, stored combo power returns to 0.",
+    "es": "Cada golpe de nunchaku acertado añade 0.1 + (nivel ÷ 20) al poder de combo almacenado para golpes posteriores: I = +0.15, II = +0.20 y III = +0.25. Tanto RLCraft 2.9.3 como Dregora 1.1.2b limitan el poder almacenado a 0.4. Multiplicador de daño = 1 + poder de combo almacenado, por lo que el máximo es ×1.4 de daño, no ×2. Desde 0, el nivel I alcanza el límite tras 3 golpes; los niveles II y III lo alcanzan tras 2. Cada golpe actualiza un temporizador de 30 ticks (1.5 segundos); al terminar, el poder vuelve a 0.",
+    "zh": "每次命中双截棍都会为后续攻击增加 0.1 +（等级 ÷ 20）的储存连击强度：I = +0.15，II = +0.20，III = +0.25。RLCraft 2.9.3 与 Dregora 1.1.2b 都将储存连击强度限制为 0.4。伤害倍率 = 1 + 储存连击强度，因此最大为 ×1.4 伤害，而不是 ×2。从 0 开始，I 级命中 3 次达到上限，II 和 III 级命中 2 次达到上限。每次命中都会刷新 30 刻（1.5 秒）计时器；计时结束后，连击强度归 0。"
     }
   },
   {
@@ -5397,9 +5397,9 @@
       }
     },
     "details": {
-      "en": "Disarm is checked only on a full-strength battle-axe hit. The profile config is 15% base plus 10 percentage points per Disarm level: I 25%, II 35%, III 45%. Against a player it removes one item from the selected hotbar slot and drops it with a short pickup delay. Against mobs it clears the main hand and only drops it when the mobs HandDropChances roll allows it. This is separate from So Many Enchantments Disarmament.",
-      "es": "El desarmado se comprueba sólo con un golpe de hacha de batalla con toda su fuerza. La configuración del perfil es 15% base más 10 puntos porcentuales por nivel de Desarmado: I 25%, II 35%, III 45%. Contra un jugador, elimina un elemento de la ranura de la barra de acceso rápido seleccionada y lo suelta con un breve retraso de recogida. Contra mobs, limpia la mano principal y solo la suelta cuando la tirada HandDropChances del mobs lo permite. Esto es independiente del Desarme de Tantos Encantamientos.",
-      "zh": "只有在全力挥击战斧时才会检查缴械。属性配置为基础 15%，外加每个缴械等级增加 10 百分点：I 25%，II 35%，III 45%。对玩家来说，它会移除所选快捷栏槽位的一件物品，并以短时间的拾取延迟掉落。对怪物来说，它会清空主手物品，只有在怪物 HandDropChances 检测允许时才会掉落。这与 So Many Enchantments 的缴械效果是分开的。"
+    "en": "Disarm is checked only on a full-strength battle-axe hit. Trigger chance = 15% + (10% × level): I = 25%, II = 35% and III = 45%. Against a player, it removes 1 item from the selected hotbar slot and drops it with a short pickup delay. Against mobs, it clears the main hand and drops the item only when the mob's HandDropChances roll allows it. This is separate from So Many Enchantments' Disarmament.",
+    "es": "Disarm solo se comprueba con un golpe de hacha de batalla a plena fuerza. Probabilidad de activación = 15% + (10% × nivel): I = 25%, II = 35% y III = 45%. Contra un jugador, retira 1 objeto de la ranura seleccionada de la barra rápida y lo deja caer con un breve retraso de recogida. Contra criaturas, vacía la mano principal y solo deja caer el objeto si lo permite la tirada HandDropChances. Es independiente de Disarmament de So Many Enchantments.",
+    "zh": "Disarm 只会在全力战斧攻击时判定。触发几率 = 15% +（10% × 等级）：I = 25%，II = 35%，III = 45%。对玩家会从当前快捷栏槽位移除 1 件物品，并以短暂拾取延迟将其掉落；对生物会清空主手，但只有其 HandDropChances 判定允许时才会掉落物品。此效果与 So Many Enchantments 的 Disarmament 不同。"
     }
   },
   {
@@ -5557,9 +5557,9 @@
       }
     },
     "details": {
-      "en": "For each Multishot level, the source creates one additional EntityArrow with random yaw and pitch spread of plus or minus 15 degrees. Generated projectiles are creative-only for pickup and copy supported Power, Punch and Flame behavior. Normal arrows, compatible crossbows and Switch-Bow integration are supported. Multishot is mutually exclusive with Blast in the source.",
-      "es": "Para cada nivel de Multishot, la fuente crea una EntityArrow adicional con orientación aleatoria y extensión de inclinación de más o menos 15 grados. Los proyectiles generados son solo creativos para recoger y copiar comportamientos de potencia, puñetazo y llama compatibles. Se admiten flechas normales, ballestas compatibles e integración Switch-Bow. Multishot es mutuamente excluyente con Blast en la fuente.",
-      "zh": "对于每个多重射击等级，源会创建一个额外的EntityArrow，随机偏航和俯仰偏差为正负15度。生成的投射物仅在创造模式下可拾取，并支持Power、Punch和Flame效果的复制。支持普通箭矢、兼容弩以及Switch-Bow集成。源中的多重射击与爆炸是互斥的。"
+    "en": "Creates +1 additional arrow per Multishot level, each with random yaw and pitch spread of ±15°. Generated arrows are creative-only for pickup and copy supported Power, Punch and Flame behavior. Normal bows, compatible crossbows and Switch-Bow integration are supported.",
+    "es": "Crea +1 flecha adicional por nivel de Multishot, cada una con una desviación aleatoria horizontal y vertical de ±15°. Las flechas generadas solo pueden recogerse en creativo y copian los efectos compatibles de Power, Punch y Flame. Admite arcos normales, ballestas compatibles e integración con Switch-Bow.",
+    "zh": "每级 Multishot 额外生成 +1 支箭，每支箭的水平与垂直散布均为随机 ±15°。生成的箭只能在创造模式拾取，并会复制兼容的 Power、Punch 与 Flame 效果。支持普通弓、兼容弩以及 Switch-Bow 集成。"
     }
   },
   {
@@ -5589,9 +5589,9 @@
       }
     },
     "details": {
-      "en": "RLCraft and Dregora implement this differently. RLCraft leaves the normal weapon hit intact and adds a second armor-bypassing damage packet equal to min((level + 2) / 10, 1) of the calculated hit: I adds 30%, II 40%, III 50%, IV 60% and V 70%. Dregora cancels that extra packet and instead makes 10% of the original hit per level bypass armor: I 10%, II 20%, III 30%, IV 40% and V 50%. Dregora combines this percentage with Spartan Weaponry armor piercing and caps the combined value at 100%.",
-      "es": "RLCraft y Dregora implementan esto de manera diferente. RLCraft deja intacto el impacto del arma normal y agrega un segundo paquete de daño que evita la armadura igual al mínimo ((nivel + 2) / 10, 1) del impacto calculado: I agrega 30%, II 40%, III 50%, IV 60% y V 70%. Dregora cancela ese paquete extra y en su lugar realiza el 10% del golpe original por nivel de armadura de bypass: I 10%, II 20%, III 30%, IV 40% y V 50%. Dregora combina este porcentaje con la perforación de armadura de Spartan Weaponry y limita el valor combinado al 100%.",
-      "zh": "RLCraft 和 Dregora 的实现方式不同。RLCraft 保留普通武器的命中效果，并添加第二个绕过护甲的伤害包，其伤害值等于计算出的命中值的 min((等级 + 2) / 10, 1)：I 30%，II 40%，III 50%，IV 60%，V 70%。Dregora 取消了这个额外的伤害包，而是使每级的原始命中伤害有 10% 绕过护甲：I 10%，II 20%，III 30%，IV 40%，V 50%。Dregora 将这个百分比与 Spartan Weaponry 的穿甲效果结合，并将组合后的数值封顶为 100%。"
+    "en": "RLCraft:\nLeaves the normal weapon hit intact and adds a second armor-bypassing magic-damage packet equal to min((level + 2) ÷ 10, 1) × calculated hit: I = +30%, II = +40%, III = +50%, IV = +60% and V = +70%.\nDregora:\nRemoves the extra damage packet. Instead, 10% × level of the original hit bypasses armor: I = 10%, II = 20%, III = 30%, IV = 40% and V = 50%. This combines with Spartan Weaponry armor piercing, capped at 100% total.",
+    "es": "RLCraft:\nMantiene intacto el golpe normal y añade un segundo paquete de daño mágico que ignora armadura igual a min((nivel + 2) ÷ 10, 1) × golpe calculado: I = +30%, II = +40%, III = +50%, IV = +60% y V = +70%.\nDregora:\nElimina el paquete de daño adicional. En su lugar, 10% × nivel del golpe original ignora armadura: I = 10%, II = 20%, III = 30%, IV = 40% y V = 50%. Se combina con la perforación de armadura de Spartan Weaponry, con un límite total del 100%.",
+    "zh": "RLCraft：\n保留普通武器伤害，并额外生成一个绕过护甲的魔法伤害包，数值为 min((等级 + 2) ÷ 10, 1) × 计算后伤害：I = +30%，II = +40%，III = +50%，IV = +60%，V = +70%。\nDregora：\n移除额外伤害包，改为让原始伤害的 10% × 等级绕过护甲：I = 10%，II = 20%，III = 30%，IV = 40%，V = 50%。此数值会与 Spartan Weaponry 穿甲叠加，总上限为 100%。"
     }
   },
   {
@@ -5621,9 +5621,9 @@
       }
     },
     "details": {
-      "en": "On projectile creation, Range multiplies the arrow velocity X, Y and Z components by the configured velocity value. The checked Dregora profile uses 1.5, so launch velocity is 150% of the original. It changes travel speed and practical range, not melee reach, arrow damage or gravity.",
-      "es": "Al crear un proyectil, el rango multiplica los componentes X, Y y Z de la velocidad de la flecha por el valor de velocidad configurado. El perfil Dregora marcado usa 1.5, por lo que la velocidad de lanzamiento es el 150% de la original. Cambia la velocidad de desplazamiento y el alcance práctico, no el alcance cuerpo a cuerpo, el daño de las flechas o la gravedad.",
-      "zh": "在投射物创建时，Range 会将箭的速度 X、Y 和 Z 分量乘以配置的速度值。选中的 Dregora 配置文件使用 1.5，因此发射速度为原始速度的 150%。它会改变飞行速度和实际射程，而不会影响近战攻击范围、箭的伤害或重力。"
+    "en": "Range I multiplies the arrow's X, Y and Z velocity by 1.5 (+50%) in both RLCraft and Dregora. Arrow impact damage is calculated from velocity, so this also multiplies the pre-rounding bow damage by 1.5. Precisely, normal damage = ceil(speed × arrow base damage), while Range damage = ceil(1.5 × speed × arrow base damage). The exact displayed increase can differ slightly from +50% because each result is rounded up to a whole damage point.",
+    "es": "Range I multiplica por 1.5 (+50%) la velocidad X, Y y Z de la flecha tanto en RLCraft como en Dregora. El daño de impacto se calcula a partir de la velocidad, por lo que también multiplica por 1.5 el daño del arco antes del redondeo. En concreto: daño normal = ceil(velocidad × daño base de la flecha); daño con Range = ceil(1.5 × velocidad × daño base de la flecha). El aumento mostrado puede variar ligeramente del +50% porque cada resultado se redondea hacia arriba a un punto de daño entero.",
+    "zh": "在 RLCraft 与 Dregora 中，Range I 都会将箭的 X、Y、Z 速度乘以 1.5（+50%）。箭的命中伤害根据速度计算，因此弓伤害在取整前也会乘以 1.5。精确公式为：普通伤害 = ceil(速度 × 箭矢基础伤害)；Range 伤害 = ceil(1.5 × 速度 × 箭矢基础伤害)。由于两者都会向上取整为整数伤害点，最终显示的增幅可能与 +50% 略有差异。"
     }
   },
   {
@@ -5685,9 +5685,9 @@
       }
     },
     "details": {
-      "en": "When a Better Survival shield successfully blocks a frontal, blockable hit from a living attacker, Reflection rolls 15% per level: I 15%, II 30% and III 45%. A success deals a separate 1-4 damage chosen uniformly at random and consumes 1 additional shield durability. The damage roll does not increase across the configured three levels; only the activation chance increases. Projectile entities can be blocked but do not trigger this living-attacker return-damage branch.",
-      "es": "Cuando un escudo de Mejor Supervivencia bloquea con éxito un golpe frontal bloqueable de un atacante vivo, Reflexión tira un 15% por nivel: I 15%, II 30% y III 45%. Un éxito inflige entre 1 y 4 daños separados elegidos uniformemente al azar y consume 1 durabilidad adicional del escudo. La tirada de daño no aumenta en los tres niveles configurados; sólo aumenta la posibilidad de activación. Las entidades proyectiles se pueden bloquear, pero no activan esta rama de daño de retorno del atacante vivo.",
-      "zh": "当对应盾牌成功格挡来自活体攻击者的正面、可格挡攻击时，Reflection 每级有 15% 几率触发：I 为 15%，II 为 30%，III 为 45%。成功时会另外造成均匀随机的 1–4 点伤害，并额外消耗 1 点盾牌耐久。三个等级的伤害范围不变，只有触发几率提高。弹射物可以被格挡，但不会触发这个要求活体攻击者的反伤效果。"
+    "en": "Blocked melee attacks reflect damage back to the enemy. Each level provides a +15% chance to trigger. Triggering inflicts 1-4 damage.",
+    "es": "Los ataques cuerpo a cuerpo bloqueados reflejan daño al enemigo. Cada nivel proporciona +15% de probabilidad de activación. Al activarse, inflige 1-4 de daño.",
+    "zh": "格挡近战攻击时会将伤害反射给敌人。每级提供 +15% 触发几率。触发时造成 1-4 点伤害。"
     }
   },
   {
@@ -5717,9 +5717,9 @@
       }
     },
     "details": {
-      "en": "After a tool breaks a block, each nonempty drop stack with a valid furnace recipe is replaced by that furnace result. The result first receives the original drop-stack count. If the furnace result is not a placeable block item, Fortune then adds a random whole number from 0 through the Fortune level to that result stack. For example, Fortune III adds 0, 1, 2 or 3 items with equal probability. Drops without a furnace recipe are unchanged.",
-      "es": "Después de que una herramienta rompe un bloque, cada pila de caída no vacía con una receta de horno válida se reemplaza por el resultado de ese horno. El resultado recibe primero el recuento de la pila desplegable original. Si el resultado del horno no es un elemento de bloque colocable, Fortune agrega un número entero aleatorio desde 0 hasta el nivel de Fortune a esa pila de resultados. Por ejemplo, Fortune III suma 0, 1, 2 o 3 elementos con la misma probabilidad. Las gotas sin receta de horno no cambian.",
-      "zh": "当工具破坏一个方块后，每个具有有效熔炉配方的非空掉落堆将被该熔炉产物取代。产物首先会获得原始掉落堆的数量。如果熔炉产物不是可放置的方块物品，幸运附魔将会向该产物堆中随机添加一个从 0 到幸运等级的整数。例如，幸运 III 会以相等概率增加 0、1、2 或 3 个物品。没有熔炉配方的掉落则保持不变。"
+    "en": "Mined blocks turn items into their furnace-smelted counterpart when applicable; e.g. Iron Ore = Iron Ingot. Works with Fortune.",
+    "es": "Los bloques minados convierten sus objetos en el resultado correspondiente del horno cuando sea aplicable; p. ej., Mena de hierro = Lingote de hierro. Funciona con Fortune.",
+    "zh": "挖掘方块时，掉落物会在适用情况下变为对应的熔炉烧炼产物；例如：铁矿石 = 铁锭。可与 Fortune 配合。"
     }
   },
   {
@@ -5749,9 +5749,9 @@
       }
     },
     "details": {
-      "en": "Works only while actively blocking a frontal damage source that is both magic and normally unblockable. Remaining damage is 1 - shield block power x (level / 3). The small shield has 0.5 block power: levels I, II and III reduce qualifying magic damage by 16.67%, 33.33% and 50%. The large shield has 0.8 block power: levels I, II and III reduce it by 26.67%, 53.33% and 80%. It does not grant passive magic resistance when the shield is lowered.",
-      "es": "Funciona sólo mientras bloquea activamente una fuente de daño frontal que es mágica y normalmente imbloqueable. El daño restante es 1 - poder de bloqueo de escudo x (nivel / 3). El escudo pequeño tiene un poder de 0.5 bloques: los niveles I, II y III reducen el daño mágico calificado en un 16.67%, 33.33% y 50%. El escudo grande tiene un poder de 0.8 bloques: los niveles I, II y III lo reducen en un 26.67%, 53.33% y 80%. No otorga resistencia mágica pasiva cuando se baja el escudo.",
-      "zh": "仅在主动阻挡来自正面的、同时具有魔法属性且通常不可阻挡的伤害来源时有效。剩余伤害为 1 - 防护盾挡格力 ×（等级 / 3）。小盾的挡格力为 0.5：等级 I、II 和 III 将符合条件的魔法伤害减少 16.67%、33.33% 和 50%。大盾的挡格力为 0.8：等级 I、II 和 III 将其减少 26.67%、53.33% 和 80%。当盾牌放下时，不提供被动魔法抗性。"
+    "en": "Allows the user to reduce magic damage if they would have been able to block. Remaining damage = 1 - shield block power × (level ÷ 3). The small shield has 0.5 block power: levels I, II and III reduce qualifying magic damage by 16.67%, 33.33% and 50%. The large shield has 0.8 block power: levels I, II and III reduce it by 26.67%, 53.33% and 80%.",
+    "es": "Permite reducir el daño mágico si el usuario habría podido bloquearlo. Daño restante = 1 - poder de bloqueo del escudo × (nivel ÷ 3). El escudo pequeño tiene 0.5 de poder de bloqueo: los niveles I, II y III reducen el daño mágico válido en 16.67%, 33.33% y 50%. El escudo grande tiene 0.8 de poder de bloqueo: los niveles I, II y III lo reducen en 26.67%, 53.33% y 80%.",
+    "zh": "当使用者本来能够格挡时，可降低魔法伤害。剩余伤害 = 1 - 盾牌格挡强度 ×（等级 ÷ 3）。小盾格挡强度为 0.5：I、II、III 级分别降低 16.67%、33.33%、50% 的有效魔法伤害。大盾格挡强度为 0.8：I、II、III 级分别降低 26.67%、53.33%、80%。"
     }
   },
   {
@@ -5813,9 +5813,9 @@
       }
     },
     "details": {
-      "en": "On the server, each qualifying hit rolls level times 20%: Vampirism I, II and III are 20, 40 and 60%. A success heals the user for max(1 heart, level times 0.2 hearts), so the configured levels heal 1, 1 and 1 heart per successful proc. It does not add damage and requires a living user and target.",
-      "es": "En el servidor, cada nivel de tirada de impacto de calificación multiplica el 20%: Vampirismo I, II y III son 20, 40 y 60%. Un éxito cura al usuario al máximo (1 corazón, nivel multiplicado por 0.2 corazones), por lo que los niveles configurados curan 1, 1 y 1 corazón por proceso exitoso. No agrega daño y requiere un usuario y un objetivo vivos.",
-      "zh": "在服务器端，每次符合条件的命中都会进行等级 × 20% 的判定：Vampirism I、II、III 分别为 20%、40%、60%。成功时为使用者恢复 max(1 心，等级 × 0.2 心)，所以这三个等级每次成功触发都恢复 1 心。它不会增加伤害，并且使用者与目标都必须是活体。"
+    "en": "Dealing damage has a 20% chance per level to heal 1 heart point. Level II raises it to a 40% chance.",
+    "es": "Infligir daño tiene un 20% de probabilidad por nivel de curar 1 punto de corazón. El nivel II aumenta la probabilidad al 40%.",
+    "zh": "造成伤害时，每级有 20% 几率恢复 1 点心。II 级将几率提高至 40%。"
     }
   },
   {
@@ -6165,9 +6165,9 @@
       }
     },
     "details": {
-      "en": "Used at an anvil to remove a curse from another item, subject to the mod's rules and XP cost. It is not a permanent blanket immunity to future curses.",
-      "es": "Se usa en un yunque para eliminar una maldición de otro elemento, sujeto a las reglas del mod y al costo de XP. No se trata de una inmunidad general permanente a futuras maldiciones.",
-      "zh": "在铁砧上使用以移除另一件物品的诅咒，但受模组规则和经验值消耗的限制。它并不是对未来诅咒的永久性全面免疫。"
+      "en": "Removes the top-most curse of an item when used on an anvil.",
+      "es": "Elimina la maldición situada más arriba de un objeto al usarse en un yunque.",
+      "zh": "在铁砧上使用时，移除物品最上方的诅咒。"
     }
   },
   {
@@ -6229,9 +6229,9 @@
       }
     },
     "details": {
-      "en": "Each time the cursed main-hand item is used, there is a 12% chance for the action to fail: attacks are canceled, right-click block interactions are canceled, and item-use completion is canceled. When the item breaks a block, the same 12% roll sets that block break to produce no drops. The chance is fixed and the curse has one level.",
-      "es": "Cada vez que se usa el objeto maldito de la mano principal, hay un 12% de posibilidades de que la acción falle: los ataques se cancelan, las interacciones de bloqueo con el botón derecho se cancelan y la finalización del uso del objeto se cancela. Cuando el objeto rompe un bloque, los mismos conjuntos de tiradas del 12% que el bloque se rompen para no producir caídas. La posibilidad es fija y la maldición tiene un nivel.",
-      "zh": "每次使用被诅咒的主手物品时，操作有 12% 的几率失败：攻击会被取消，右键方块交互会被取消，物品使用完成也会被取消。当物品破坏方块时，同样的 12% 几率会使该方块破坏不掉落任何物品。几率是固定的，并且诅咒只有一级。"
+      "en": "Each time the cursed main-hand item is used, there is a 12% chance for the action to fail: attacks, right-click block interactions and item-use completion are canceled. When the item breaks a block, the same 12% roll makes that block produce no drops.",
+      "es": "Cada vez que se usa el objeto maldito de la mano principal, hay un 12% de probabilidad de que la acción falle: se cancelan los ataques, las interacciones con bloques mediante clic derecho y la finalización del uso del objeto. Al romper un bloque, la misma tirada del 12% hace que no produzca objetos.",
+      "zh": "每次使用受诅咒的主手物品时，操作有 12% 几率失败：攻击、右键方块交互和物品使用完成都会被取消。用该物品破坏方块时，同样的 12% 判定会使方块不产生掉落物。"
     }
   },
   {
@@ -6293,9 +6293,9 @@
       }
     },
     "details": {
-      "en": "Each qualifying use of a cursed item rolls a 12% chance to hurt the player for 1 damage, equal to half a heart. The roll occurs on block breaking, attacking, right-clicking a block, finishing an item use, and when incoming damage is processed for an equipped cursed item. The damage is generic and is separate from the weapon hit; the curse has one level.",
-      "es": "Cada uso calificado de un objeto maldito tiene un 12% de probabilidad de herir al jugador con 1 daño, equivalente a medio corazón. La tirada se produce al romper un bloque, atacar, hacer clic derecho en un bloque, finalizar el uso de un objeto y cuando el daño recibido se procesa para un objeto maldito equipado. El daño es genérico y está separado del impacto del arma; La maldición tiene un nivel.",
-      "zh": "每次使用符合条件的诅咒物品时，都会有 12% 的几率对玩家造成 1 点伤害，相当于半颗心。这个几率在破坏方块、攻击、右键点击方块、完成物品使用以及处理已装备诅咒物品的 incoming 伤害时触发。伤害为普通伤害，与武器攻击造成的伤害分开；该诅咒只有一级。"
+      "en": "Each qualifying use of a cursed item has a 12% chance to hurt the player for 1 damage, equal to half a heart. The roll occurs when breaking a block, attacking, right-clicking a block, finishing an item use, and when incoming damage is processed for an equipped cursed item. The generic damage is separate from the weapon hit.",
+      "es": "Cada uso válido de un objeto maldito tiene un 12% de probabilidad de causar 1 de daño al jugador, equivalente a medio corazón. La tirada ocurre al romper un bloque, atacar, hacer clic derecho en un bloque, terminar de usar un objeto y cuando se procesa daño recibido para un objeto maldito equipado. El daño genérico es independiente del golpe del arma.",
+      "zh": "每次以符合条件的方式使用受诅咒物品时，都有 12% 几率对玩家造成 1 点伤害，即半颗心。判定发生在破坏方块、攻击、右键方块、完成物品使用，以及处理装备中受诅咒物品的承受伤害时。此普通伤害与武器命中伤害相互独立。"
     }
   },
   {
@@ -6357,9 +6357,9 @@
       }
     },
     "details": {
-      "en": "Collects compatible mined drops directly rather than leaving them scattered on the ground. Not an enchantment that raises fishing treasure chances.",
-      "es": "Recoge gotas minadas compatibles directamente en lugar de dejarlas esparcidas por el suelo. No es un encantamiento que aumente las posibilidades de pescar tesoros.",
-      "zh": "直接收集兼容的矿物掉落物，而不是让它们散落在地上。不是增加钓鱼宝藏几率的附魔。"
+      "en": "Collects compatible mined drops directly rather than leaving them scattered on the ground.",
+      "es": "Recoge directamente los objetos compatibles obtenidos al minar, en lugar de dejarlos esparcidos por el suelo.",
+      "zh": "直接收集兼容的挖掘掉落物，而不是让它们散落在地上。"
     }
   },
   {
@@ -6485,9 +6485,9 @@
       }
     },
     "details": {
-      "en": "Safeguard works only on the Umbra Blaster and has one level. When the blaster creates a Blastem Fruit projectile, Safeguard marks that projectile as non-destructive. The impact still deals its normal 7 direct damage before modifiers and still creates its normal strength-1 explosion; after the explosion is calculated, the affected-block list is cleared so blocks are not destroyed. Entity damage and knockback are not removed.",
-      "es": "Safeguard funciona solo en Umbra Blaster y tiene un nivel. Cuando el lanzador crea un proyectil Blastem Fruit, Safeguard marca ese proyectil como no destructivo. El impacto aún causa su daño directo normal de 7 antes de los modificadores y aún crea su explosión normal de fuerza-1; Una vez calculada la explosión, la lista de bloques afectados se borra para que los bloques no se destruyan. El daño a la entidad y el retroceso no se eliminan.",
-      "zh": "护盾只适用于影子爆裂枪，并且只有一级。当爆裂枪发射爆果弹时，护盾将该弹标记为非破坏性。撞击仍然造成其正常的7点直接伤害（在加成前），并且仍会产生其正常的强度-1爆炸；在爆炸计算完成后，受影响的方块列表会被清除，因此方块不会被破坏。实体伤害和击退效果不会被移除。"
+      "en": "Only for weapons that use Blastem Fruit projectiles. Disables the explosions from destroying blocks.",
+      "es": "Solo para armas que usan proyectiles Blastem Fruit. Impide que las explosiones destruyan bloques.",
+      "zh": "仅适用于使用 Blastem Fruit 投射物的武器。阻止爆炸破坏方块。"
     }
   },
   {
@@ -6677,9 +6677,9 @@
       }
     },
     "details": {
-      "en": "Makes lock picking harder by reducing the effectiveness/strength of picks. It does not repair a damaged pick.",
-      "es": "Hace que abrir cerraduras sea más difícil al reducir la efectividad/fuerza de las ganzúas. No repara una púa dañada.",
-      "zh": "通过降低撬锁工具的有效性/强度，使撬锁更困难。它不会修复损坏的撬锁工具。"
+      "en": "Makes lock picking harder by reducing the effectiveness and strength of lock picks.",
+      "es": "Dificulta abrir cerraduras al reducir la eficacia y la fuerza de las ganzúas.",
+      "zh": "降低撬锁工具的效果与强度，使开锁更加困难。"
     }
   },
   {

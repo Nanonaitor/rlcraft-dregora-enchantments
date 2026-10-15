@@ -7,7 +7,7 @@ Updated: 9 October 2026. Minecraft Java Edition 1.12.2.
 This is a guide to the two installed profiles checked on this PC, not a promise that every release or server configuration behaves identically:
 
 - Regular RLCraft: profile named "RLCraft"; So Many Enchantments 0.5.5, Better Survival 1.5.3, RLMixins 1.2.15, RLCombat 2.0.8. This is the 2.9.3-era enchantment setup.
-- Dregora: profile named "RLCD 1.1 (RECORDING)"; So Many Enchantments 1.0.8, Better Survival 1.5.4, RLMixins 1.4.6, RLCombat 2.2.4. Do not confuse it with the separate "Dregora Parasited" profile.
+- Dregora 1.1.2b: So Many Enchantments 1.0.8, Better Survival 1.5.4, RLMixins 1.4.6 and RLCombat 2.2.4. Do not confuse it with the separate Dregora Parasited profile.
 - Your installed Nanonaitor's Arsenal and Defenders additions have their own sections. They are not stock modpack dependencies.
 
 The catalogue includes every entry in these profiles' saved FantasticLib enchantment registry lists. It also explains relevant disabled/removed entries so old books, videos and names are less confusing. Resource-pack-only names with no registered enchantment are not counted as working enchantments.
