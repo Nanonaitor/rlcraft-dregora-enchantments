@@ -1,0 +1,11 @@
+# JetBrains / IntelliJ / Cursor IDEA
+.idea/
+*.iml
+
+# VS Code / Cursor editor
+.vscode/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
