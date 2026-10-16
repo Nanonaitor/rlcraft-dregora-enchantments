@@ -83,7 +83,7 @@
   Promise.all([
     fetch('incompatibilities.json?v=2').then(r=>r.json()),
     fetch('incompatibility-groups.json?v=2').then(r=>r.json()),
-    fetch('data.json?v=6').then(r=>r.json()),
+    fetch('data.json?v=9').then(r=>r.json()),
     fetch('locales.json').then(r=>r.json())
   ]).then(([rows,groupData,data,localeData])=>{
     groups=groupData.filter(group=>/^Group \d+$/.test(group.name));catalogue=data;translations=localeData;
