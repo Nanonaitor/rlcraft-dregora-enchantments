@@ -1446,14 +1446,14 @@
       "name": "Carrera por paredes",
       "effect": "Te permite correr horizontalmente por las paredes",
       "regular": "",
-      "dregora": "",
+      "dregora": "La carrera por paredes usa el límite de duración configurado por Dregora antes de requerir un reinicio o salto de pared.",
       "source": "installed-localization"
     },
     "grapplemod:doublejumpenchantment": {
       "name": "Doble salto",
       "effect": "Te permite saltar una segunda vez",
       "regular": "",
-      "dregora": "",
+      "dregora": "La velocidad descendente se restablece antes de añadir +0.6 de velocidad ascendente, y la velocidad de caída normal no impide activarlo.",
       "source": "installed-localization"
     },
     "grapplemod:slidingenchantment": {
@@ -3149,14 +3149,14 @@
       "name": "飞檐走壁",
       "effect": "满足模组接触与操作条件时可沿墙奔跑。",
       "regular": "",
-      "dregora": "",
+      "dregora": "墙跑会使用 Dregora 配置的持续时间上限，之后需要重置或蹬墙跳。",
       "source": "editorial-fallback"
     },
     "grapplemod:doublejumpenchantment": {
       "name": "二段跳",
       "effect": "允许在空中额外跳一次，不同于单次跳跃增高。",
       "regular": "",
-      "dregora": "",
+      "dregora": "先将下落速度重置，再增加 +0.6 的向上速度；正常下落速度不会阻止触发。",
       "source": "editorial-fallback"
     },
     "grapplemod:slidingenchantment": {

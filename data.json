@@ -6532,7 +6532,7 @@
     "equipment": "Boots / movement",
     "effect": "Lets you run on walls...duh.",
     "regular": "",
-    "dregora": "",
+    "dregora": "Wall-running uses Dregora's configured duration limit before requiring a reset or wall jump.",
     "mod": "Grappling Hook Mod",
     "profiles": {
       "RLCraft": {
@@ -6564,7 +6564,7 @@
     "equipment": "Boots / movement",
     "effect": "Gives double jump ability.",
     "regular": "",
-    "dregora": "",
+    "dregora": "Downward velocity is reset before +0.6 upward velocity is added, and normal falling speed does not block activation.",
     "mod": "Grappling Hook Mod",
     "profiles": {
       "RLCraft": {
