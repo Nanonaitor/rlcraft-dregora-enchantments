@@ -828,7 +828,7 @@
     "details": {
       "en": "Unlike vanilla Minecraft, RLCraft does not require an arrow in your inventory: an Infinity bow can fire normal arrows even when your inventory contains none. Infinity works with crossbows too; they use regular bolts.",
       "es": "A diferencia de Minecraft vanilla, RLCraft no requiere una flecha en el inventario: un arco con Infinity puede disparar flechas normales aunque no lleves ninguna. Infinity también funciona con ballestas; usan virotes normales.",
-      "zh": "使用后射击时不会消耗普通种类的箭矢(但是要保证物品栏内至少有一根箭)(冲突：高级经验修补、回收之箭、扫射、经验修补)"
+      "zh": "与原版 Minecraft 不同，RLCraft 不要求物品栏中保留箭矢；附有无限的弓即使物品栏中没有箭也能发射普通箭。无限也适用于弩，并会使用普通弩箭。(冲突：高级经验修补、回收之箭、扫射、经验修补)"
     }
   },
   {
