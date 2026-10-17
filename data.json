@@ -826,7 +826,7 @@
       }
     },
     "details": {
-      "en": "Unlike vanilla Minecraft, RLCraft does not require an arrow in your inventory: an Infinity bow can fire normal arrows even when your inventory contains none. Infinity works with crossbows too; they use regular bolts.",
+      "en": "RLCraft removes the arrow requirement in your inventory and can shoot without it for spartan bows. This also works for spartan crossbows. Do note the vanilla bow still needs 1 arrow like in the regular Minecraft.",
       "es": "A diferencia de Minecraft vanilla, RLCraft no requiere una flecha en el inventario: un arco con Infinity puede disparar flechas normales aunque no lleves ninguna. Infinity también funciona con ballestas; usan virotes normales.",
       "zh": "与原版 Minecraft 不同，RLCraft 不要求物品栏中保留箭矢；附有无限的弓即使物品栏中没有箭也能发射普通箭。无限也适用于弩，并会使用普通弩箭。(冲突：高级经验修补、回收之箭、扫射、经验修补)"
     }
@@ -986,7 +986,7 @@
       }
     },
     "details": {
-      "en": "Low-XP enemies make the integer additions important. For an ordinary kill worth 5 XP at Adept III, the checked regular profile yields 10 XP while Dregora yields 7 XP. Neither version creates experience from an otherwise ineligible zero-XP reward. Boss and blight classification changes which formula applies.",
+      "en": "Multiplies XP drops from defeated enemies. Unlike \"Education\", this applies to special mobs such as bosses and blighted. The reward calculation is different per game version.",
       "es": "Los enemigos con poca XP hacen que las sumas de números enteros sean importantes. Para una muerte ordinaria que vale 5 XP en Adept III, el perfil regular marcado produce 10 XP mientras que Dregora produce 7 XP. Ninguna de las versiones crea experiencia a partir de una recompensa de cero XP que de otro modo no sería elegible. La clasificación de jefes y plagas cambia la fórmula que se aplica.",
       "zh": "增加生物掉落的经验值，如果该生物为Boss则掉落更多经验(对于非Boss生物，掉落经验调整为[2+附魔等级+原经验×(1+0.15×附魔等级)]点；对于Boss及紫火精英怪，调整为[2+附魔等级+原经验×(1+0.5×附魔等级)]点，结果向下取整)(击杀时主手或副手持有本附魔物品即可生效)(冲突：教育)"
     }
@@ -1218,8 +1218,8 @@
     "name": "Advanced Knockback",
     "equipment": "Melee weapons",
     "effect": "Advanced version of knockback.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Adds 2 knockback-strength points per level: 2 at I and 4 at II.",
+    "dregora": "Adds floor(2.5 × level) knockback-strength points: 2 at I and 5 at II.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1240,7 +1240,7 @@
       }
     },
     "details": {
-      "en": "RLCraft contributes 2 knockback-strength points per level: 2 at I and 4 at II. Dregora uses floor(2.5 × level): 2 at I and 5 at II. The enchant increases displacement rather than direct damage.",
+      "en": "Increases the knockback strength of a hit.",
       "es": "RLCraft aporta 2 puntos de fuerza de retroceso por nivel: 2 en I y 4 en II. Dregora usa suelo(2.5 × nivel): 2 en I y 5 en II. Aumenta el desplazamiento, no el daño directo.",
       "zh": "击退附魔的高级版本(使击退等级额外增加[2.5×附魔等级](向下取整)，1级相当于击退II，2级相当于击退V)(冲突：抛掷、击飞、拖拽)"
     }
@@ -1346,8 +1346,8 @@
     "name": "Advanced Mending",
     "equipment": "Durability-bearing equipment",
     "effect": "Advanced version of Mending.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Each XP orb randomly chooses 1 held or equipped item with Advanced Mending. It does not prioritize damaged items, so a fully repaired item can be selected and no durability restored. Eligible repairs restore up to 3 durability per orb XP.",
+    "dregora": "Each XP orb randomly chooses among damaged held or equipped Advanced Mending items. Ordinary equipment restores about 3 durability per orb XP using randomized rounding. Remaining orb XP goes to the player.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1368,7 +1368,7 @@
       }
     },
     "details": {
-      "en": "RLCraft:\nEach XP orb randomly chooses 1 held or equipped item with Advanced Mending. The configured profile does not prioritize damaged items, so a fully repaired item can be selected and no durability will be restored. Eligible repairs restore up to 3 durability per orb XP.\nDregora:\nEach XP orb randomly chooses among damaged held or equipped Advanced Mending items. For ordinary equipment, it restores about 3 durability per orb XP using randomized rounding. Remaining orb XP goes to the player in both versions.",
+      "en": "Repairs held or equipped items when experience orbs are collected. Item selection differs by game version.",
       "es": "RLCraft:\nCada orbe de XP elige al azar 1 objeto sostenido o equipado con Advanced Mending. El perfil configurado no prioriza objetos dañados, por lo que puede seleccionar uno completamente reparado y no restaurar durabilidad. Las reparaciones válidas restauran hasta 3 puntos de durabilidad por XP del orbe.\nDregora:\nCada orbe de XP elige al azar entre los objetos dañados, sostenidos o equipados, con Advanced Mending. En equipo normal, restaura aproximadamente 3 puntos de durabilidad por XP del orbe mediante redondeo aleatorio. En ambas versiones, el XP restante del orbe se entrega al jugador.",
       "zh": "经验修补附魔的高级版本(拾取经验球时，从手持和盔甲中带有本附魔且已损坏的物品里随机修复一件，1点经验修复3点耐久)(本整合包开启了“双倍经验球”选项：拾取经验时会先额外获得一份等量经验，修复消耗的相当于这份额外经验)(冲突：无限、经验修补)"
     }
@@ -1560,7 +1560,7 @@
       }
     },
     "details": {
-      "en": "Adds 3.25 damage per level only against undead-classified targets: I +3.25, II +6.5, III +9.75, IV +13 and V +16.25. The damage is zero against every other creature attribute. Both RLCraft and Dregora use the same level formula.",
+      "en": "Adds 3.25 damage per level only against undead-classified targets: I +3.25, II +6.5, III +9.75, IV +13 and V +16.25. The damage is zero against every other creature attribute. The level formula is identical in both versions.",
       "es": "Agrega 3.25 de daño por nivel solo contra objetivos clasificados como no-muertos: I +3.25, II +6.5, III +9.75, IV +13 y V +16.25. El daño es cero contra todos los demás atributos de la criatura. Tanto RLCraft como Dregora utilizan la misma fórmula de nivel.",
       "zh": "亡灵杀手附魔的高级版本(攻击亡灵生物时，提升[附魔等级×3.25]的伤害，并给予目标[3~3+0.75×附魔等级]秒的虚弱I效果)(因代码缺陷，对节肢生物也会提升[附魔等级×1.25]的伤害)(冲突：高级节肢杀手、高级锋利、祝福之刃、低级亡灵杀手、超级亡灵杀手)"
     }
@@ -1570,8 +1570,8 @@
     "name": "Advanced Thorns",
     "equipment": "Armor",
     "effect": "Advanced version of Thorns.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Retaliation damage is 2–5 at I, 3–7 at II and 4–9 at III. Ordinary armor loses 2 durability on either outcome, while special armor receives a larger random durability cost.",
+    "dregora": "Retaliation damage is 3–6 at I, 4–8 at II and 5–10 at III. On success, durability loss is 4 through 3 + level; on failure, it is 2 through 1 + level.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1592,7 +1592,7 @@
       }
     },
     "details": {
-      "en": "Each selected Advanced Thorns armor piece rolls 5% + 20% per level when the wearer is hit: I 25%, II 45% and III 65%. RLCraft retaliation damage is I 2-5, II 3-7 and III 4-9; ordinary armor loses 2 durability on either outcome, while special armor receives a larger random durability cost. Dregora retaliation damage is I 3-6, II 4-8 and III 5-10; on success durability loss is 4 through 3 + level, and on failure it is 2 through 1 + level. The retaliation is a separate damage event.",
+      "en": "Each selected Advanced Thorns armor piece rolls 5% + 20% per level when the wearer is hit: I 25%, II 45% and III 65%. The retaliation is a separate damage event.",
       "es": "Cada pieza de armadura de Advanced Thorns seleccionada obtiene un 5% + 20% por nivel cuando el usuario es golpeado: I 25%, II 45% y III 65%. El daño por represalia de RLCraft es I 2-5, II 3-7 y III 4-9; La armadura ordinaria pierde 2 de durabilidad en cualquier resultado, mientras que la armadura especial recibe un coste de durabilidad aleatorio mayor. El daño por represalia de Dregora es I 3-6, II 4-8 y III 5-10; en caso de éxito, la pérdida de durabilidad es del nivel 4 al 3 +, y en caso de fracaso, del nivel 2 al 1 +. La represalia es un evento de daño separado.",
       "zh": "荆棘附魔的高级版本(有[5%+附魔等级×20%]的概率触发，反伤为[2+附魔等级+随机数(0~附魔等级+2)]；触发成功消耗[4+随机数(0~附魔等级-1)]点耐久，失败消耗[2+随机数(0~附魔等级-1)]点耐久)(冲突：燃烧荆棘)"
     }
@@ -1602,7 +1602,7 @@
     "name": "Ancient Sealed Curses",
     "equipment": "Weapons",
     "effect": "An ancient enchantment that causes attacks to curse the equipment of the enemy.",
-    "regular": "Disabled.",
+    "regular": "",
     "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
@@ -1622,7 +1622,7 @@
       }
     },
     "details": {
-      "en": "Dregora only. On every weapon hit, each non-empty target equipment slot is rolled independently with a 12.5% chance. A successful slot roll picks one enabled curse at random and a random level from I through that curse’s own limit, then applies it only if that curse accepts the item and is compatible with its existing enchantments. Invalid picks are not rerolled. Because all six held/worn slots are checked separately, one hit can curse several items. This is a Utility enchantment, not itself a curse.",
+      "en": "On every weapon hit, each non-empty target equipment slot is rolled independently with a 12.5% chance. A successful slot roll picks one enabled curse at random and a random level from I through that curse’s own limit, then applies it only if that curse accepts the item and is compatible with its existing enchantments. Invalid picks are not rerolled. Because all six held or worn slots are checked separately, one hit can curse several items. This is a Utility enchantment, not itself a curse.",
       "es": "Sólo Dregora. Con cada impacto de arma, cada espacio de equipo objetivo que no esté vacío se tira de forma independiente con una probabilidad del 12.5%. Una tirada exitosa en la ranura elige una maldición habilitada al azar y un nivel aleatorio desde I hasta el límite de esa maldición, luego la aplica solo si esa maldición acepta el elemento y es compatible con sus encantamientos existentes. Las selecciones no válidas no se vuelven a lanzar. Debido a que los seis espacios retenidos/usados ​​se verifican por separado, un golpe puede maldecir varios elementos. Este es un encantamiento de utilidad, no una maldición en sí mismo.",
       "zh": "一种古代附魔，攻击时可能给敌人的装备附上诅咒(满蓄力命中时，目标的手持物品和每件盔甲各有12.5%的概率被附上一个随机诅咒(随机等级)，须能附在该物品上且与已有附魔不冲突)(无法以附魔书形式存在)"
     }
@@ -1632,8 +1632,8 @@
     "name": "Ancient Sword Mastery",
     "equipment": "Weapons",
     "effect": "An ancient enchantment that amplifies the dealt damage depending on the targets attack damage.",
-    "regular": "Disabled.",
-    "dregora": "Increases damage based on the target's attack damage, rewarding use against hard-hitting enemies.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1756,8 +1756,8 @@
     "name": "Atomic Deconstructor",
     "equipment": "Weapons",
     "effect": "Your attacks have a very low chance to rip apart the atoms in the physical structure of a creature, completely voiding the enemy from this visible dimension. Scientifically, this is known as Yeetus Deletus.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Excludes player victims. It does not perform a boss check.",
+    "dregora": "Excludes players and any entity that reports itself as a boss because boss activation is disabled; normal non-boss mobs are eligible.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1778,7 +1778,7 @@
       }
     },
     "details": {
-      "en": "Checks direct attacks that would deal more than 1 damage. The activation chance is 0.1% × level per eligible hit: 0.1% at I and 0.2% at II. On activation it cancels the ordinary hit and deals effectively infinite special damage. RLC excludes player victims but does not perform Dregora’s boss check. Dregora excludes players and any entity that reports itself as a boss because boss activation is disabled; normal non-boss mobs are eligible.",
+      "en": "Checks direct attacks that would deal more than 1 damage. The activation chance is 0.1% × level per eligible hit: 0.1% at I and 0.2% at II. On activation it cancels the ordinary hit and deals effectively infinite special damage.",
       "es": "Comprueba ataques directos que causarían más de 1 daño. La probabilidad de activación es del 0.1% × nivel por golpe elegible: 0.1% en I y 0.2% en II. Al activarse, cancela el golpe ordinario y causa efectivamente un daño especial infinito. RLC excluye a los jugadores víctimas pero no realiza la verificación del jefe de Dregora. Dregora excluye a los jugadores y a cualquier entidad que se reporte como jefe porque la activación del jefe está deshabilitada; Los mobs normales que no son jefes son elegibles.",
       "zh": "有较低的几率瞬间湮灭敌人，默认对boss无效(满蓄力攻击时有[附魔等级×1‰]的概率直接秒杀目标，无视护甲，可在配置文件中配置是否对boss有效)(使用原子瓦解击杀的敌人会导致伤害源不是攻击者，因此抢夺类附魔会无效)"
     }
@@ -1788,8 +1788,8 @@
     "name": "Blessed Edge",
     "equipment": "Melee weapons",
     "effect": "Deals amplified damage against the undead and heals the user for a portion of the damage dealt.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Heals the attacker for 3% of the hit damage per level against any target. Against undead, damage becomes (incoming damage + 1 + 0.6 × level) × (1 + 0.04 × level).",
+    "dregora": "On hits above 1 damage, applies Smited I for 200 ticks (10 seconds) when that effect is available. Against undead only, heals the attacker for 10% of hit damage per level and multiplies the hit by 1 + 0.1 × level, giving +10%, +20%, +30%, +40%, or +50%. It provides no heal or damage multiplier against non-undead targets.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1810,7 +1810,7 @@
       }
     },
     "details": {
-      "en": "RLC: heals the attacker for 3% of the hit damage per level against any target. Against undead, damage becomes (incoming damage + 1 + 0.6 × level) × (1 + 0.04 × level). Dregora: on hits above 1 damage, it applies Smited I to the victim for 200 ticks (10 seconds) when that effect is available. Against undead only, it heals the attacker for 10% of the hit damage per level and multiplies the hit by 1 + 0.1 × level, giving +10%, +20%, +30%, +40%, or +50%. Dregora provides no heal or damage multiplier against non-undead targets.",
+      "en": "Provides healing and bonus damage against undead. The exact healing and damage formulas differ by game version.",
       "es": "RLC: cura al atacante un 3% del daño de golpe por nivel contra cualquier objetivo. Contra los muertos vivientes, el daño se convierte en (daño recibido + 1 + 0.6 × nivel) × (1 + 0.04 × nivel). Dregora: en golpes superiores a 1 de daño, aplica Golpeado I a la víctima durante 200 ticks (10 segundos) cuando ese efecto está disponible. Solo contra muertos vivientes, cura al atacante un 10% del daño del golpe por nivel y multiplica el golpe por 1 + 0.1 × nivel, dando +10%, +20%, +30%, +40% o +50%. Dregora no proporciona curación ni multiplicador de daño contra objetivos que no sean muertos vivientes.",
       "zh": "RLCraft：对任何目标，每级根据命中伤害治疗攻击者3%。对不死生物时，伤害变为（承受伤害 + 1 + 0.6 × 等级） ×（1 + 0.04 × 等级）。 Dregora：对亡灵造成额外伤害，并根据伤害量治疗自身(对亡灵生物造成[1+0.1×附魔等级]倍伤害，并恢复[攻击伤害×附魔等级×0.1]点生命值；攻击任意生物时施加恐怖生物mod的亡灵杀手效果10秒)(攻击僵尸村民时有[附魔等级×20%]的概率直接将其治愈为村民)(冲突：高级亡灵杀手、低级亡灵杀手、超级亡灵杀手、生命窃取)"
     }
@@ -1820,8 +1820,8 @@
     "name": "Bluntness",
     "equipment": "Weapons / harmful enchantment",
     "effect": "Decreases the attack damage of a weapon.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Subtracts 0.5 + 0.5 × level damage: −1, −1.5, −2, −2.5, or −3.",
+    "dregora": "Subtracts exactly 1 × level damage: −1, −2, −3, −4, or −5.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1842,7 +1842,7 @@
       }
     },
     "details": {
-      "en": "Subtracts enchantment bonus damage against every creature type. RLC subtracts 0.5 + 0.5 × level damage: −1.0, −1.5, −2.0, −2.5, or −3.0. Dregora subtracts exactly 1 × level: −1, −2, −3, −4, or −5. This negative bonus is added to the weapon’s computed attack damage; if the result reaches 0 or below, the hit does not heal the target—non-positive damage is rejected.",
+      "en": "Subtracts enchantment bonus damage against every creature type. This negative bonus is added to the weapon’s computed attack damage. If the result reaches 0 or below, the hit does not heal the target; non-positive damage is rejected.",
       "es": "Resta el daño adicional del encantamiento contra cada tipo de criatura. RLC resta 0.5 + 0.5 × daño de nivel: −1.0, −1.5, −2.0, −2.5 o −3.0. Dregora resta exactamente 1 × nivel: −1, −2, −3, −4 o −5. Esta bonificación negativa se suma al daño de ataque calculado del arma; si el resultado llega a 0 o menos, el golpe no cura al objetivo; el daño no positivo se rechaza.",
       "zh": "降低物品的攻击伤害(降低[附魔等级]点攻击伤害)(可以达到负值)(冲突：低级锋利、强化锋利、高级锋利、净化、超级锋利)"
     }
@@ -1882,8 +1882,8 @@
     "name": "Brutality",
     "equipment": "Melee weapons",
     "effect": "Increases damage dealt to the armor of the enemy.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Damage to each armor piece is floor(max durability × 0.0025 × level + a random integer from 0 through level + 1) + 1. The percentage term is applied to every piece.",
+    "dregora": "First counts the victim’s non-empty armor slots, then deals floor(max durability × 0.0025 × level ÷ worn piece count + a random integer from 0 through level + 1) + 1 to each damageable piece. The percentage term is shared across the worn set; the random term rolls separately for each piece.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -1904,7 +1904,7 @@
       }
     },
     "details": {
-      "en": "Damages every damageable armor piece worn by the victim; it does not directly add health damage. RLC damage to each piece is floor(maxDurability × 0.0025 × level + random integer from 0 through level + 1) + 1. Dregora first counts the victim’s non-empty armor slots and divides the percentage term among them: floor(maxDurability × 0.0025 × level / wornPieceCount + random integer from 0 through level + 1) + 1 per damageable piece. This means the fixed percentage is applied to every piece in RLC but shared across the worn set in Dregora; the random term still rolls separately for every piece.",
+      "en": "Damages every damageable armor piece worn by the victim; it does not directly add health damage.",
       "es": "Daña cada pieza de armadura dañada usada por la víctima; no añade directamente daños a la salud. El daño RLC a cada pieza es piso (durabilidad máxima × 0.0025 × nivel + entero aleatorio de 0 a nivel + 1) + 1. Dregora primero cuenta las ranuras de armadura no vacías de la víctima y divide el término porcentual entre ellas: piso (durabilidad máxima × 0.0025 × nivel / recuento de piezas desgastadas + entero aleatorio de 0 a nivel + 1) + 1 por pieza dañada. Esto significa que el porcentaje fijo se aplica a cada pieza en RLC pero se comparte entre el conjunto usado en Dregora; el término aleatorio todavía aparece por separado para cada pieza.",
       "zh": "能够更有效地破坏敌人的盔甲(满蓄力击中目标时，目标的每件盔甲都会受到额外的耐久消耗：[(盔甲最大耐久×0.0025×附魔等级/盔甲数量)+随机数(0~附魔等级+1)+1]点)"
     }
@@ -2042,8 +2042,8 @@
     "name": "Combat Medic / Combat Veterancy",
     "equipment": "Healing support",
     "effect": "Amplifies the user's healing.",
-    "regular": "Disabled.",
-    "dregora": "Named Combat Medic and incompatible with Curse of Vulnerability.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -2062,7 +2062,7 @@
       }
     },
     "details": {
-      "en": "Multiplies every healing event above 0.1 health by 1.1 + 0.3 × level. That is x1.4 (+40%) at I, x1.7 (+70%) at II and x2 (+100%) at III. It changes received healing, not maximum health.",
+      "en": "Multiplies every healing event above 0.1 health by 1.1 + 0.3 × level. That is ×1.4 (+40%) at I, ×1.7 (+70%) at II and ×2 (+100%) at III. It changes received healing, not maximum health.",
       "es": "Multiplica cada curación superior a 0.1 de vida por 1.1 + 0.3 × nivel. Es x1.4 (+40%) en I, x1.7 (+70%) en II y x2 (+100%) en III. Cambia la curación recibida, no la vida máxima.",
       "zh": "增强治疗效果(最终治疗量=原始治疗量×(1.1+0.3×附魔等级))(冲突：脆弱诅咒)"
     }
@@ -2072,8 +2072,8 @@
     "name": "Counter Attack",
     "equipment": "Melee retaliation",
     "effect": "Gives you a chance to automatically retaliate to a melee attack.",
-    "regular": "Disabled Disabled. Do not expect a normally acquired working version there.",
-    "dregora": "Chance = 5% + 5%enchantment level + 1% per Parry level. Returns 20%enchantment level of the incoming attack-event damage as thorns-type damage. It does not cancel the incoming hit.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -2092,7 +2092,7 @@
       }
     },
     "details": {
-      "en": "Dregora's base chances at I, II and III are 10%, 15% and 20%, returning 20%, 40% and 60% of the incoming attack-event amount. Parry adds one percentage point per level to that chance: Counter Attack III with Parry III reaches 23%. The returned hit is thorns-type damage, so do not calculate it from the final health loss after all defenses.",
+      "en": "Base chances at I, II and III are 10%, 15% and 20%, returning 20%, 40% and 60% of the incoming attack-event amount. Parry adds 1 percentage point per level to that chance: Counter Attack III with Parry III reaches 23%. The returned hit is thorns-type damage, so do not calculate it from the final health loss after all defenses.",
       "es": "Las posibilidades básicas de Dregora en I, II y III son del 10%, 15% y 20%, devolviendo el 20%, 40% y 60% de la cantidad del evento de ataque entrante. Parry añade un punto porcentual por nivel a esa probabilidad: Counter Attack III con Parry III alcanza el 23%. El golpe devuelto es un daño tipo espinas, así que no lo calcules a partir de la pérdida de salud final después de todas las defensas.",
       "zh": "有几率自动反击近战攻击(受到近战攻击时，有[5%+附魔等级×5%+格挡附魔等级×1%]的概率反击攻击者，造成[所受伤害×0.2×附魔等级]的伤害)"
     }
@@ -2135,7 +2135,7 @@
     "equipment": "Melee weapons / crowd control",
     "effect": "Gives a chance to apply stacking slowness and fatigue to an enemy, which when over a certain threshold can freeze the enemy into a block of ice.",
     "regular": "Old Freezing applies stacking Slowness and Mining Fatigue; sufficient stacking can trigger ice encasement and damage the weapon.",
-    "dregora": "Cryogenic is the replacement implementation: chance-based stacking debuffs can lead to ice encasement. It is not safe to reuse every old Freezing formula.",
+    "dregora": "Displays the new Cryogenic enchantment as Freezing.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -2156,7 +2156,7 @@
       }
     },
     "details": {
-      "en": "Applies cold-related debuffs and can encase a target in ice. Dregora displays the new Cryogenic enchantment as Freezing.",
+      "en": "Applies cold-related debuffs and can encase a target in ice.",
       "es": "Aplica desventajas relacionadas con el frío y puede encerrar a un objetivo en hielo. Dregora muestra el nuevo encantamiento criogénico como Congelación.",
       "zh": "有几率使敌人叠加缓慢和挖掘疲劳，叠满后可将敌人冰冻(满蓄力攻击有[附魔等级×20%]的概率使敌人的缓慢和挖掘疲劳各提升一级(最高IV)，持续[2+0.5×附魔等级]秒；目标同时具有IV级缓慢和挖掘疲劳时，攻击会熄灭其火焰，并有[附魔等级×20%]的概率在其周围3×4×3区域生成霜云，同时本次伤害提升[附魔等级×20%])(霜云会给予其中的玩家或生物一级的饥饿和缓慢)(冲突：致残打击、迷失之刃、高级火焰附加、低级火焰附加、烈火之刃、水流附加、超级火焰附加、灭焰之咒、浮空、净化、荒芜使者、浸毒)"
     }
@@ -2166,8 +2166,8 @@
     "name": "Culling",
     "equipment": "Melee weapons / finishing blows",
     "effect": "If an attack would leave an enemy with health below a certain threshold, instantly kills the enemy instead. If successful, also drops the head of that enemy.",
-    "regular": "Older implementation has special execution/critical conditions; avoid assuming the rewritten Dregora trigger.",
-    "dregora": "Kills when the attack would leave the target below its execution threshold. Removes the older jump-boost requirement/design and improves head-drop handling.",
+    "regular": "Uses a falling attack and a health threshold of 10% + (7% × half the effective enchantment level) − 1%. Targets without Jump Boost halve the level used by the calculation. The attacker must be falling faster than 0.34 blocks per tick. A failed execution converts the hit into a special critical; a successful execution has a separate 35% supported-head chance.",
+    "dregora": "Executes a surviving target whose remaining health is at or below 7.5% + 2.5% × level: 10% at I, 12.5% at II and 15% at III. There is no random activation chance. A Culling kill then has a separate 25% chance to drop a supported head.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -2188,7 +2188,7 @@
       }
     },
     "details": {
-      "en": "On a fully charged eligible hit, Culling checks the target after normal damage. In Dregora it executes a surviving target whose remaining health is at or below 7.5% + 2.5% × enchantment level: 10% at I, 12.5% at II and 15% at III. This execution has no random activation chance. A Culling kill then has a separate 25% chance to drop a supported head. In RLCraft, the falling-attack version uses a health threshold of 10% + (7% × half the effective enchantment level) − 1%; targets without Jump Boost halve the level used by that calculation. It requires the attacker to be falling faster than 0.34 blocks per tick. A failed execution converts the hit into a special critical instead, while a successful execution has a separate 35% supported-head chance.",
+      "en": "On a fully charged eligible hit, checks the target after normal damage and may execute it below a health threshold.",
       "es": "Con un golpe válido de carga completa, Culling comprueba al objetivo después del daño normal. En Dregora ejecuta al objetivo superviviente si queda con 7.5% + 2.5% × nivel de encantamiento de vida o menos: 10% en I, 12.5% en II y 15% en III. La ejecución no tiene una probabilidad aleatoria. Una muerte por Culling tiene después una probabilidad independiente del 25% de soltar una cabeza compatible. En RLCraft, la versión de ataque en caída usa un umbral de 10% + (7% × la mitad del nivel efectivo) − 1%; si el objetivo no tiene Salto mejorado se reduce a la mitad el nivel usado. El atacante debe caer a más de 0.34 bloques por tick. Si falla la ejecución, el golpe se convierte en un crítico especial; si tiene éxito, hay una probabilidad independiente del 35% de obtener una cabeza compatible.",
       "zh": "若攻击使目标生命值低于某个阈值，则触发斩杀并概率掉落头颅(满蓄力攻击后目标剩余生命值≤最大生命值×[7.5%+2.5%×附魔等级]时直接斩杀；被斩杀的生物有25%的概率掉落头颅)"
     }
@@ -2390,8 +2390,8 @@
     "name": "Dark Shadows",
     "equipment": "Melee weapons / low light",
     "effect": "Your attacks deal increased damage when striking from the shadows, and additionally can blind enemies.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Adds 0.75 damage per level and separately has a 10% × level chance to apply Blindness for 160 ticks (8 seconds).",
+    "dregora": "Adds 1 + 2.5 × level damage: +3.5, +6, +8.5, +11 or +13.5, scaled by attack charge. Its Blindness chance is 10% × level, also scaled by attack charge, and clears the victim’s attack target. Hits of 1 damage or less receive no damage bonus.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -2412,7 +2412,7 @@
       }
     },
     "details": {
-      "en": "Works only when the attacker’s local brightness is 0.1 or lower. RLCraft adds 0.75 damage per level and separately has a 10% × level chance to apply Blindness for 160 ticks (8 seconds). Dregora adds 1 + 2.5 × level damage: +3.5, +6, +8.5, +11 or +13.5, scaled by attack charge; its Blindness chance is also 10% × level, scaled by attack charge, and clears the victim’s attack target. Hits of 1 damage or less do not receive the Dregora damage bonus.",
+      "en": "Works only when the attacker’s local brightness is 0.1 or lower.",
       "es": "Funciona sólo cuando el brillo local del atacante es 0.1 o inferior. RLCraft agrega 0.75 de daño por nivel y, por separado, tiene una probabilidad del 10% x nivel de aplicar ceguera durante 160 ticks (8 segundos). Dregora añade 1 + 2.5 × daño de nivel: +3.5, +6, +8.5, +11 o +13.5, escalado por la carga de ataque; su probabilidad de ceguera también es del 10% x nivel, aumenta según la carga de ataque y elimina el objetivo del ataque de la víctima. Los golpes de 1 daño o menos no reciben la bonificación de daño de Dregora.",
       "zh": "在黑暗区域时对生物造成的伤害会增加，并有几率使敌人失明(若攻击者处于黑暗区域时，有[10%×附魔等级]的概率使目标获得8秒的失明debuff并清除其复仇目标，额外造成[1.0+2.5×附魔等级]的伤害)(冲突：终有一死、毒蛇)"
     }
@@ -3273,8 +3273,8 @@
     "name": "Luck Magnification",
     "equipment": "Weapons / Luck and drops",
     "effect": "Amplifies the user's luck, making luck affect critical hits and looting.",
-    "regular": "Can strengthen an existing critical; it does not add Dregora's separate random critical-conversion roll.",
-    "dregora": "Can turn a qualifying noncritical attack into a critical, and separately strengthen a critical. Each chance caps at 20%. Incompatible with Critical Strike.",
+    "regular": "Can strengthen an existing critical. With Luck 2 and level II, the critical-strengthening roll is 4%.",
+    "dregora": "Can convert a qualifying noncritical attack into a critical and separately strengthen a critical. With Luck 2 and level II, the conversion roll is 4% and the strengthening roll is 8%, adding 0.4 to the critical modifier on success. Each chance caps at 20%.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3295,7 +3295,7 @@
       }
     },
     "details": {
-      "en": "Let K be the resulting Luck attribute and enchantment level the enchantment level. Extra effective Looting is approximately K × enchantment level / 2, converted to an integer by the event logic. With K=2 and enchantment level=II, this supplies +2 effective Looting. Regular RLCraft can strengthen an existing critical with a 4% roll in that example; Dregora separately has 4% critical conversion and 8% critical strengthening, adding 0.4 to the critical modifier on success. These are conditional rolls, not guaranteed damage multipliers.",
+      "en": "Let K be the resulting Luck attribute. Extra effective Looting is approximately K × enchantment level ÷ 2, converted to an integer by the event logic. With K = 2 and level II, this supplies +2 effective Looting. The critical effects are conditional rolls, not guaranteed damage multipliers.",
       "es": "Sea K el atributo de Suerte resultante y nivel de encantamiento el nivel de encantamiento. El saqueo extra efectivo es aproximadamente K × nivel de encantamiento / 2, convertido a un número entero mediante la lógica del evento. Con K=2 y nivel de encantamiento=II, esto proporciona +2 de Saqueo efectivo. RLCraft normal puede fortalecer un crítico existente con una tirada del 4% en ese ejemplo; Dregora por separado tiene un 4% de conversión crítica y un 8% de fortalecimiento crítico, agregando 0.4 al modificador crítico en caso de éxito. Estas son tiradas condicionales, no multiplicadores de daño garantizados.",
       "zh": "增强使用者的幸运效果，使其影响暴击和战利品掉落(持有时获得[附魔等级]级幸运；蓄力超过90%的非暴击攻击有[幸运值×附魔等级×1%](最高20%)的概率转为暴击；暴击时有[幸运值×附魔等级×2%](最高20%)的概率使暴击倍率额外增加[幸运值×附魔等级×0.1]；击杀时抢夺等级增加[幸运值×附魔等级÷2](向下取整))(冲突：致命一击、禁欲之咒)"
     }
@@ -3369,8 +3369,8 @@
     "name": "Magma Walker",
     "equipment": "Boots / lava walking",
     "effect": "A variant of frost walker that instead applies to lava.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Changes qualifying source lava into Frosted Ice.",
+    "dregora": "Changes qualifying source lava into temporary magma blocks that revert after 60–120 ticks (3–6 seconds).",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3391,7 +3391,7 @@
       }
     },
     "details": {
-      "en": "While the wearer is standing on the ground, Magma Walker checks source lava blocks one block below the wearer within a circular radius of 2 + enchantment level: 3 blocks at I and 4 blocks at II. The block above the lava must be air. RLCraft changes qualifying still or flowing-lava blocks whose liquid level is 0 into Frosted Ice. Dregora changes those same source blocks into temporary magma blocks that revert after 60–120 ticks (3–6 seconds). It does not affect non-source flowing lava, consumes no boot durability, prevents hot-floor damage, and cancels direct lava damage while the wearer is not submerged; it is not full lava-swimming immunity.",
+      "en": "While the wearer is standing on the ground, checks source lava blocks one block below the wearer within a circular radius of 2 + level: 3 blocks at I and 4 blocks at II. The block above the lava must be air. It does not affect non-source flowing lava, consumes no boot durability, prevents hot-floor damage, and cancels direct lava damage while the wearer is not submerged; it is not full lava-swimming immunity.",
       "es": "Mientras el usuario está sobre el suelo, Magma Walker comprueba bloques fuente de lava un bloque por debajo dentro de un radio circular de 2 + nivel de encantamiento: 3 bloques en I y 4 en II. El bloque sobre la lava debe ser aire. RLCraft convierte los bloques válidos de lava quieta o fluida cuyo nivel de líquido sea 0 en hielo escarchado. Dregora convierte esas mismas fuentes en bloques de magma temporales que vuelven a la normalidad tras 60–120 ticks (3–6 segundos). No afecta a lava fluida que no sea fuente, no consume durabilidad de las botas, evita el daño del suelo caliente y cancela el daño directo de lava mientras el usuario no esté sumergido; no otorga inmunidad completa al nadar en lava.",
       "zh": "冰霜行者的变体，让使用者能够在熔岩上行走(站在地面上移动时，将周围半径[2+附魔等级]格内的静止熔岩永久转化为岩浆块，并免疫岩浆块的灼烧伤害)"
     }
@@ -3593,8 +3593,8 @@
     "name": "Penetrating Edge",
     "equipment": "Melee weapons / armored enemies",
     "effect": "Increases damage against enemies with higher armor.",
-    "regular": "Older bonus behavior can differ significantly in scaling.",
-    "dregora": "Reworked with a damage cap; occupies the Supreme damage-tier incompatibility group with Spell Breaker and Supreme damage options.",
+    "regular": "Added damage = target armor ÷ 3 + 0.5 + 0.16 × level. A target with 20 armor takes +7.327/+7.487/+7.647/+7.807/+7.967/+8.127 damage at I–VI before later reductions.",
+    "dregora": "Added damage = min(15, target armor ÷ 12 × level), then scales with attack charge. Against 20 armor, that is +1.667/+3.333/+5/+6.667/+8.333/+10 at I–VI on a fully charged hit. The bonus can never exceed +15 damage.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3615,7 +3615,7 @@
       }
     },
     "details": {
-      "en": "Only triggers against a target with more than 2 armor points. In RLCraft, added damage = target armor ÷ 3 + 0.5 + 0.16 × enchantment level, so a target with 20 armor takes +7.327/+7.487/+7.647/+7.807/+7.967/+8.127 damage at I–VI before later reductions. In Dregora, added damage = min(15, target armor ÷ 12 × enchantment level), then scales with attack charge. Against 20 armor that is +1.667/+3.333/+5/+6.667/+8.333/+10 at I–VI on a fully charged hit. The Dregora bonus can never exceed +15 damage, regardless of armor or level.",
+      "en": "Only triggers against a target with more than 2 armor points.",
       "es": "Solo se activa contra objetivos con más de 2 puntos de armadura. En RLCraft, daño añadido = armadura del objetivo ÷ 3 + 0.5 + 0.16 × nivel de encantamiento; un objetivo con 20 de armadura recibe +7.327/+7.487/+7.647/+7.807/+7.967/+8.127 de daño en I–VI antes de reducciones posteriores. En Dregora, daño añadido = mín(15, armadura del objetivo ÷ 12 × nivel de encantamiento), y luego se ajusta según la carga del ataque. Contra 20 de armadura equivale a +1.667/+3.333/+5/+6.667/+8.333/+10 en I–VI con un golpe totalmente cargado. En Dregora el bono nunca puede superar +15 de daño.",
       "zh": "增加对高护甲敌人的伤害(若目标盔甲值≥3，增加[附魔等级×盔甲值/12](最高15)点伤害)(冲突：超级节肢杀手、超级锋利、破法之刃、超级亡灵杀手)"
     }
@@ -3657,8 +3657,8 @@
     "name": "Plowing",
     "equipment": "Hoes / farming",
     "effect": "Tilling area is increased to a radius of multiple blocks.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Uses radius = level: I tills up to 3×3 = 9 blocks and II up to 5×5 = 25 blocks. It normally consumes 1 durability for every additional converted block after the first.",
+    "dregora": "Provides only level I, tills up to 3×3 = 9 blocks, and consumes 1 durability for every eligible dirt, grass or mycelium block converted, including the center.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3679,7 +3679,7 @@
       }
     },
     "details": {
-      "en": "Tills a square centered on the clicked block. RLCraft uses radius = level: I tills up to 3×3 = 9 blocks and II up to 5×5 = 25 blocks; it normally consumes 1 durability for every additional converted block after the first. Dregora is configured to I, so it tills up to 3×3 = 9 blocks and consumes 1 durability for every eligible dirt, grass or mycelium block converted, including the center. Air, stone and other ineligible positions consume nothing. Moisturized/Well Tilled can make the produced farmland fully wet.",
+      "en": "Tills a square centered on the clicked block. Air, stone and other ineligible positions consume nothing. Moisturized or Well Tilled can make the produced farmland fully wet.",
       "es": "Forma un cuadrado centrado en el bloque en el que se hizo clic. RLCraft usa radio = nivel: I labra hasta 3×3 = 9 bloques y II hasta 5×5 = 25 bloques; normalmente consume 1 de durabilidad por cada bloque convertido adicional después del primero. Dregora está configurado en I, por lo que labra hasta 3×3 = 9 bloques y consume 1 de durabilidad por cada bloque de tierra, pasto o micelio elegible convertido, incluido el centro. El aire, la piedra y otras posiciones no elegibles no consumen nada. Humectar/Bien labrado puede hacer que la tierra de cultivo producida esté completamente húmeda.",
       "zh": "一次耕作更大范围的土地(以点击的方块为中心，将同一层[2×附魔等级+1]×[2×附魔等级+1]范围内的泥土、砂土、灰化土、草方块和菌丝直接变为耕地；每耕一格消耗1点耐久)(与保湿附魔同时存在时，耕地直接为湿润状态)"
     }
@@ -3753,8 +3753,8 @@
     "name": "Purification",
     "equipment": "Axes / conversion",
     "effect": "Grants a chance to purify enemies such as Zombie Villagers, Pig Zombies, and Magma Cubes.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Makes the 5% per level conversion roll on each qualifying hit and applies level-scaled Weakness and Slowness to undead targets.",
+    "dregora": "Requires a fully charged hit for the conversion roll. It also gives undead targets Weakness I/II and Slowness I/II/III for 1.5, 2, 2.5, 3 or 3.5 seconds according to level.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3775,7 +3775,7 @@
       }
     },
     "details": {
-      "en": "The conversion roll is 5% per level: 5%, 10%, 15%, 20% or 25%. It can turn a zombie villager into a villager, a zombie pigman into a pig, and a magma cube into an equal-size slime. RLCraft makes this roll on each qualifying hit. Dregora requires a fully charged hit for the conversion roll; partial hits do not count. Dregora also gives undead targets Weakness I/II and Slowness I/II/III for 1.5, 2, 2.5, 3 or 3.5 seconds according to level; RLCraft uses its older level-scaled Weakness/Slowness durations.",
+      "en": "The conversion roll is 5% per level: 5%, 10%, 15%, 20% or 25%. It can turn a zombie villager into a villager, a zombie pigman into a pig, and a magma cube into an equal-size slime.",
       "es": "La tirada de conversión es del 5% por nivel: 5%, 10%, 15%, 20% o 25%. Puede convertir a un aldeano zombi en un aldeano, a un cerdo zombi en un cerdo y a un cubo de magma en una baba del mismo tamaño. RLCraft hace esta tirada en cada golpe calificado. Dregora requiere un golpe completamente cargado para la tirada de conversión; Los aciertos parciales no cuentan. Dregora también otorga a los objetivos no muertos Debilidad I/II y Lentitud I/II/III durante 1.5, 2, 2.5, 3 o 3.5 segundos según el nivel; RLCraft utiliza sus duraciones de Debilidad/Lentitud escaladas en niveles más antiguas.",
       "zh": "有几率净化僵尸村民、僵尸猪人和岩浆怪(对亡灵生物施加[附魔等级]级缓慢(最高III)与[附魔等级]级虚弱(最高II)，持续[1+0.5×附魔等级]秒；攻击时有[附魔等级×5%]的概率将僵尸村民、僵尸猪人、岩浆怪分别转化为村民、猪、史莱姆)(本整合包中转化出的村民不保留原有交易)(冲突：致残打击、迷失之刃、脆弱诅咒、消失诅咒、失准诅咒、灭焰之咒、浮空、沉重、潘多拉诅咒、锈蚀、低效、伤害诅咒、禁欲之咒、笨拙诅咒、拖拽、失稳、腐朽诅咒、绑定诅咒、持有诅咒、无力、粗钝、幽灵诅咒、荒芜使者、破甲诅咒、诅咒之刃、锈斑诅咒、变幻莫测、浸毒、占据诅咒、霜冻)"
     }
@@ -3969,8 +3969,8 @@
     "name": "Rune: Magical Blessing",
     "equipment": "Melee weapons / magic conversion",
     "effect": "Increases damage dealt, converts the attack damage to magical damage, allows a portion of damage to bypass armor, and applies random negative effects to the enemy.",
-    "regular": "Disabled.",
-    "dregora": "Adds damage, marks the hit as magic, adds 10% armor piercing per level, and can apply random negative effects. Incompatible with Rune: Piercing Capabilities and Better Survival Penetration.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -3989,7 +3989,7 @@
       }
     },
     "details": {
-      "en": "Disabled. In Dregora, each main-hand sword hit with this rune converts 25% of the calculated hit per enchantment level into a separate magic-damage packet: level I = 25%, II = 50%, III = 75% and IV = 100%; the original hit is reduced by the same amount. It also provides 10% armor piercing per level. Against witches, the converted packet is reduced to 15% of its normal value. Every qualifying hit also randomly applies either a non-instant negative potion or an instant negative potion. Non-instant effects last 1-7 seconds multiplied by the enchantment level; instant effects apply immediately. Potion amplifier ranges from level 0 up to one below the enchantment level, subject to the available potion list and blacklist. The rune cannot operate with Rune: Piercing Capabilities or Better Survival Penetration.",
+      "en": "Each main-hand sword hit converts 25% of the calculated hit per enchantment level into a separate magic-damage packet: I = 25%, II = 50%, III = 75% and IV = 100%; the original hit is reduced by the same amount. It also provides 10% armor piercing per level. Against witches, the converted packet is reduced to 15% of its normal value. Every qualifying hit randomly applies either a non-instant or instant negative potion effect. Non-instant effects last 1–7 seconds multiplied by level; instant effects apply immediately. Potion amplifiers range from 0 up to one below the enchantment level, subject to the available potion list and blacklist. It cannot operate with Rune: Piercing Capabilities or Better Survival Penetration.",
       "es": "Desactivado. En Dregora, cada golpe con la espada de la mano principal con esta runa convierte el 25% del golpe calculado por nivel de encantamiento en un paquete de daño mágico separado: nivel I = 25%, II = 50%, III = 75% y IV = 100%; el impacto original se reduce en la misma cantidad. También proporciona un 10% de perforación de armadura por nivel. Contra las brujas, el paquete convertido se reduce al 15% de su valor normal. Cada golpe calificado también aplica aleatoriamente una poción negativa no instantánea o una poción negativa instantánea. Los efectos no instantáneos duran de 1 a 7 segundos multiplicados por el nivel de encantamiento; Los efectos instantáneos se aplican inmediatamente. El amplificador de pociones varía desde el nivel 0 hasta uno por debajo del nivel de encantamiento, sujeto a la lista de pociones disponibles y la lista negra. La runa no puede funcionar con Runa: Capacidades de perforación o Mejor penetración de supervivencia.",
       "zh": "将攻击伤害转化为魔法伤害，使部分伤害能够穿透盔甲，并对敌人施加随机负面效果(转化[附魔等级×10%]的穿甲伤害，并使被此附魔的武器攻击的目标获得随机Debuff，Debuff等级和时长随附魔等级概率提升)(冲突：穿透、符文：穿刺)"
     }
@@ -4031,8 +4031,8 @@
     "name": "Rune: Resurrection",
     "equipment": "Equipment / emergency survival",
     "effect": "A consumable enchant that acts as an emergency totem of undying.",
-    "regular": "Disabled; the legacy design described respawning at the death location with retained items.",
-    "dregora": "as a consumable emergency survival effect, closer to a totem-style rescue than ordinary respawning.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4051,7 +4051,7 @@
       }
     },
     "details": {
-      "en": "A rare death-prevention rune whose implementation changed.",
+      "en": "A rare consumable emergency-survival rune that functions as a totem-style rescue rather than ordinary respawning.",
       "es": "Una rara runa de prevención de muerte cuya implementación cambió.",
       "zh": "一次性消耗型附魔，可作为应急的不死图腾使用(触发后永久移除物品上的符文重生附魔，给予自身45秒的生命回复和5秒的伤害吸收)"
     }
@@ -4061,8 +4061,8 @@
     "name": "Rune: Revival",
     "equipment": "Durability-bearing items",
     "effect": "Grants a chance to save and repair an item when it would break based on its maximum durability.",
-    "regular": "Disabled.",
-    "dregora": "Restores the item on a successful activation, with the chance and repair amount described below.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4081,7 +4081,7 @@
       }
     },
     "details": {
-      "en": "Disabled. In Dregora, Rune: Revival activates when a damageable item would break. Its base chance is 15% + 15% per level, then an item-durability bonus is added: items with maximum durability up to 80 gain +10%, 81-200 gain +8%, 201-750 gain +6%, 751-1250 gain +4%, and items above 1250 gain +0%. Across those durability bands, level I totals 40%, 38%, 36%, 34% and 30%, while level II totals 55%, 53%, 51%, 49% and 45%. On success, the item is restored and its current damage is reduced by 50% per level: level I keeps half the accumulated damage, while level II clears it. The repaired item returns to inventory or drops nearby if inventory is full.",
+      "en": "Activates when a damageable item would break. Base chance is 15% + 15% per level, plus an item-durability bonus: maximum durability up to 80 gains +10%, 81–200 gains +8%, 201–750 gains +6%, 751–1250 gains +4%, and above 1250 gains +0%. Across those bands, level I totals 40%, 38%, 36%, 34% and 30%; level II totals 55%, 53%, 51%, 49% and 45%. On success, current damage is reduced by 50% per level: I keeps half the accumulated damage and II clears it. The repaired item returns to inventory or drops nearby if the inventory is full.",
       "es": "Desactivado. En Dregora, Rune: Revival se activa cuando un elemento dañado se rompe. Su probabilidad base es 15% + 15% por nivel, luego se agrega una bonificación de durabilidad del artículo: los artículos con durabilidad máxima hasta 80 ganan +10%, 81-200 ganan +8%, 201-750 ganan +6%, 751-1250 ganan +4% y los artículos por encima de 1250 ganan +0%. En esas bandas de durabilidad, el nivel I totaliza el 40%, 38%, 36%, 34% y 30%, mientras que el nivel II totaliza el 55%, 53%, 51%, 49% y 45%. Si tiene éxito, el objeto se restaura y su daño actual se reduce en un 50% por nivel: el nivel I mantiene la mitad del daño acumulado, mientras que el nivel II lo elimina. El artículo reparado regresa al inventario o cae cerca si el inventario está lleno.",
       "zh": "当物品即将损坏时，根据其最大耐久值有概率挽救并修复该物品(带有该附魔的工具耐久彻底消耗后，有[15%+(附魔等级×15%)+额外概率(物品耐久越高额外概率越低)]的概率获得一把耐久为[最大耐久×(25%+附魔等级×随机数[0,1/3]的新工具)"
     }
@@ -4187,8 +4187,8 @@
     "name": "Spell Breaker",
     "equipment": "Melee weapons / effect-heavy enemies",
     "effect": "Deals increased damage for each effect an enemy has, with bonus damage against Evokers and Witches.",
-    "regular": "Disabled.",
-    "dregora": "Adds damage based on target potion effects, with extra benefits against witches/evokers and a damage cap. Competes with Supreme damage-tier options and Penetrating Edge.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4252,7 +4252,7 @@
     "equipment": "Bows",
     "effect": "Increases bow draw speed.",
     "regular": "",
-    "dregora": "",
+    "dregora": "Each fired arrow also has a 12.5% × level chance to clear the victim’s invulnerability frames on impact: 12.5%, 25%, 37.5% or 50%.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4273,7 +4273,7 @@
       }
     },
     "details": {
-      "en": "Accelerates the bow-use timer while drawing. At I it consumes one extra draw tick every 4 ticks, making full draw take about 20% less real time; II consumes one extra every 3 ticks, about 25% less; III one extra every 2 ticks, about 33.33% less; IV consumes one extra every tick, about 50% less. Dregora also gives each fired arrow a 12.5% × level chance to clear the victim’s invulnerability frames on impact: 12.5%, 25%, 37.5% or 50%. It does not directly raise arrow damage.",
+      "en": "Accelerates the bow-use timer while drawing. At I it consumes 1 extra draw tick every 4 ticks, making full draw about 20% faster; II consumes 1 extra every 3 ticks, about 25% faster; III consumes 1 extra every 2 ticks, about 33.33% faster; IV consumes 1 extra every tick, about 50% faster. It does not directly raise arrow damage.",
       "es": "Acelera el cronómetro de uso del arco mientras dibujas. En I, consume un tick extra cada 4 ticks, lo que hace que el sorteo completo tome aproximadamente un 20% menos de tiempo real; II consume uno extra cada 3 tics, alrededor de un 25% menos; III un extra cada 2 ticks, alrededor de un 33.33% menos; La vía intravenosa consume una extra por cada tic, aproximadamente un 50% menos. Dregora también le da a cada flecha disparada un 12.5% × nivel de probabilidad de eliminar los marcos de invulnerabilidad de la víctima al impactar: ​​12.5%, 25%, 37.5% o 50%. No aumenta directamente el daño de las flechas.",
       "zh": "大幅加快拉弓速度，并使箭矢有几率无视目标的无敌帧(拉弓时每tick额外增加[附魔等级×2]秒的蓄力，任何等级都能瞬间满弦；射出的箭有[附魔等级×12.5%]的概率在命中后清除目标的无敌帧)(是的你只需扫射1就能实现秒拉！)(冲突：无限)"
     }
@@ -4283,8 +4283,8 @@
     "name": "Strengthened Vitality",
     "equipment": "Chest armor / health",
     "effect": "Amplifies the user's max health.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Refreshes the maximum-health modifier each player tick.",
+    "dregora": "Refreshes the maximum-health modifier once per second.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4305,7 +4305,7 @@
       }
     },
     "details": {
-      "en": "Multiplies maximum health by 1 + 0.1 × level: +10%, +20%, +30%, +40% or +50%. A player with the normal 20-health base therefore reaches 22, 24, 26, 28 or 30 maximum health before other health modifiers. It changes the maximum-health attribute; it does not instantly refill the newly added health. Dregora refreshes the modifier once per second, while RLCraft refreshes it each player tick.",
+      "en": "Multiplies maximum health by 1 + 0.1 × level: +10%, +20%, +30%, +40% or +50%. A player with the normal 20-health base reaches 22, 24, 26, 28 or 30 maximum health before other health modifiers. It changes maximum health; it does not instantly refill the newly added health.",
       "es": "Multiplica la salud máxima por 1 + 0.1 × nivel: +10%, +20%, +30%, +40% o +50%. Por lo tanto, un jugador con la base normal de 20 puntos de salud alcanza 22, 24, 26, 28 o 30 puntos de salud máximos antes que otros modificadores de salud. Cambia el atributo de salud máxima; no recarga instantáneamente la salud recién agregada. Dregora actualiza el modificador una vez por segundo, mientras que RLCraft lo actualiza con cada marca del jugador.",
       "zh": "提升最大生命值(提升[附魔等级×10%]的生命上限)(冲突：脆弱诅咒)"
     }
@@ -4315,8 +4315,8 @@
     "name": "Subject Biology",
     "equipment": "Melee weapons / elite enemies",
     "effect": "Increases damage against special enemies like Blights, Infernals and Champions.",
-    "regular": "Not an registered enchantment Disabled.",
-    "dregora": "RLMixins replaces the default AI-task-count effect: grants extra damage against blights, infernals and champions. at the listed level each qualifying category contributes +5 before attack-strength adjustment; categories can stack.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4345,8 +4345,8 @@
     "name": "Subject Chemistry",
     "equipment": "Melee weapons / potion-heavy build",
     "effect": "Increases damage when the user has more active potion effects.",
-    "regular": "Not an registered enchantment Disabled.",
-    "dregora": "Adds damage based on the number of active effects (capped at +6 before charge adjustment), and can trigger a non-terrain-damaging explosion. This is not Subject Physics.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4375,8 +4375,8 @@
     "name": "Subject English",
     "equipment": "Melee weapons / Subject family",
     "effect": "This name refers to different implementations across SME versions.",
-    "regular": "older intelligence/AI-related damage specialist, handled by RLMixins.",
-    "dregora": "Disabled Disabled. The replacement implementation, if , would scale damage with target-name length; do not recommend it as normally available here.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4395,7 +4395,7 @@
       }
     },
     "details": {
-      "en": "Adds flat damage to every creature through the normal enchantment-damage calculation: 0.8 + 0.3 × enchantment level. That is +1.1/+1.4/+1.7/+2 damage at I–IV before later reductions. It does not inspect words or the target's name in the RLCraft version used here.",
+      "en": "Adds flat damage to every creature through the normal enchantment-damage calculation: 0.8 + 0.3 × level. That is +1.1/+1.4/+1.7/+2 damage at I–IV before later reductions. It does not inspect words or the target’s name.",
       "es": "Añade daño plano a cualquier criatura mediante el cálculo normal de daño de encantamientos: 0.8 + 0.3 × nivel de encantamiento. Esto equivale a +1.1/+1.4/+1.7/+2 de daño en I–IV antes de reducciones posteriores. En la versión de RLCraft usada aquí no analiza palabras ni el nombre del objetivo.",
       "zh": "目标名称越长，造成的伤害越高(提升[附魔等级×0.075×目标名称字符数](最高7.5)的伤害)(按目标当前显示的名称计算，命名牌名称优先；中文环境下生物名通常只有2~4个字，加成较低)(冲突：学科：化学、学科：数学、学科：体育、学科：物理、学科：历史、学科：生物)"
     }
@@ -4435,8 +4435,8 @@
     "name": "Subject History",
     "equipment": "Melee weapons / stationary fighting",
     "effect": "Increases damage the longer the user stays in the same spot.",
-    "regular": "Disabled.",
-    "dregora": "RLMixins rewards consecutive attacks near the tracked position, ramping toward +7.5 at the listed level. Moving sufficiently far resets the benefit. It is not simply total save-file age.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4455,7 +4455,7 @@
       }
     },
     "details": {
-      "en": "RLCraft: Disabled. Dregora: each qualifying hit made within 4 blocks of the stored position increases a counter. Added damage = min((previous nearby hits ÷ 10) × 7.5, 7.5) × (enchantment level ÷ 5), then scales with attack charge. It reaches its cap after 10 nearby hits: +1.5/+3/+4.5/+6/+7.5 at I–V on a fully charged attack. Moving more than 4 blocks from the stored position resets the counter.",
+      "en": "each qualifying hit made within 4 blocks of the stored position increases a counter. Added damage = min((previous nearby hits ÷ 10) × 7.5, 7.5) × (enchantment level ÷ 5), then scales with attack charge. It reaches its cap after 10 nearby hits: +1.5/+3/+4.5/+6/+7.5 at I–V on a fully charged attack. Moving more than 4 blocks from the stored position resets the counter.",
       "es": "RLCraft: Desactivado. Dregora: cada golpe válido realizado a menos de 4 bloques de la posición guardada aumenta un contador. Daño añadido = mín((golpes cercanos anteriores ÷ 10) × 7.5, 7.5) × (nivel de encantamiento ÷ 5), y luego se ajusta según la carga del ataque. Alcanza el límite tras 10 golpes cercanos: +1.5/+3/+4.5/+6/+7.5 en I–V con un ataque totalmente cargado. Alejarse más de 4 bloques de la posición guardada reinicia el contador.",
       "zh": "使用者在当前区域内活动越久，造成的伤害越高(根据你的游戏难度和所在位置和探索时间算出一个系数，提升[附魔等级×1.5×系数[0,1]](最高7.5)的伤害)(冲突：学科：化学、学科：数学、学科：体育、学科：物理、学科：生物、学科：英语)"
     }
@@ -4465,8 +4465,8 @@
     "name": "Subject Mathematics",
     "equipment": "Melee weapons / XP scaling",
     "effect": "Increases damage based on the users xp level.",
-    "regular": "Disabled Disabled.; old target-health descriptions should not be applied to Dregora.",
-    "dregora": "Adds damage based on the user's XP level, with a cap of +7.5 before attack-strength adjustment. It does not spend the XP as ammunition.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4485,7 +4485,7 @@
       }
     },
     "details": {
-      "en": "RLCraft adds target-health-based damage: target maximum health × (0.003125 × level) + target current health × (0.025 × level + 0.025). Dregora instead uses the attacker’s experience level: let n = floor(XP level / 2), then bonus = 0.25 × enchant level × floor(log2(max(1, n))), capped at +7.5. For example, XP level 32 gives n = 16 and log2 = 4, so Mathematics V adds 0.25 × 5 × 4 = 5 damage. For non-player attackers Dregora uses age in ticks / 600 instead of XP level / 2. Partial attack charge scales the bonus.",
+      "en": "adds target-health-based damage: target maximum health × (0.003125 × level) + target current health × (0.025 × level + 0.025). instead uses the attacker’s experience level: let n = floor(XP level / 2), then bonus = 0.25 × enchant level × floor(log2(max(1, n))), capped at +7.5. For example, XP level 32 gives n = 16 and log2 = 4, so Mathematics V adds 0.25 × 5 × 4 = 5 damage. For non-player attackers uses age in ticks / 600 instead of XP level / 2. Partial attack charge scales the bonus.",
       "es": "RLCraft agrega daño basado en la salud del objetivo: salud máxima del objetivo × (0.003125 × nivel) + salud actual del objetivo × (0.025 × nivel + 0.025). Dregora en cambio usa el nivel de experiencia del atacante: sea n = piso (nivel de XP / 2), luego bonificación = 0.25 × nivel de encantamiento × piso (log2 (max (1, n))), con un límite de +7.5. Por ejemplo, el nivel 32 de XP da n = 16 y log2 = 4, por lo que Matemáticas V agrega 0.25 × 5 × 4 = 5 de daño. Para los atacantes que no son jugadores, Dregora usa la edad en ticks / 600 en lugar del nivel de XP / 2. La carga de ataque parcial aumenta la bonificación.",
       "zh": "基于使用者的经验等级增加伤害(提升[0.25×附魔等级×log₂(经验等级÷2)](对数向下取整，最高7.5)的伤害；经验等级低于4时没有加成)(冲突：学科：化学、学科：体育、学科：物理、学科：历史、学科：生物、学科：英语)"
     }
@@ -4526,8 +4526,8 @@
     "name": "Subject Physics",
     "equipment": "Melee weapons / size mismatch",
     "effect": "Increases damage depending on the size difference between user and target.",
-    "regular": "Disabled.",
-    "dregora": "Compares attacker and target bounding-box volumes, rewarding a larger mismatch in either direction; extra damage caps at +7.5 before attack-strength adjustment.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4556,8 +4556,8 @@
     "name": "Subject Science",
     "equipment": "Melee weapons / explosions",
     "effect": "An older Subject enchantment that can cause explosions on attacks.",
-    "regular": "triggers a blast rather than granting an unconditional Magic Damage attribute bonus.",
-    "dregora": "Disabled.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4710,7 +4710,7 @@
     "equipment": "Melee weapons",
     "effect": "Supreme version of Sharpness.",
     "regular": "",
-    "dregora": "",
+    "dregora": "Also conflicts with other Supreme-tier damage alternatives.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4730,7 +4730,7 @@
       }
     },
     "details": {
-      "en": "Adds 4 + (1.6 × enchantment level) general damage: +5.6 at I, +7.2 at II, +8.8 at III, +10.4 at IV and +12 at V. Cannot stack normally with other Sharpness tiers. Dregora also restricts it against other Supreme-tier damage alternatives.",
+      "en": "Adds 4 + (1.6 × level) general damage: +5.6 at I, +7.2 at II, +8.8 at III, +10.4 at IV and +12 at V. It cannot stack normally with other Sharpness tiers.",
       "es": "Agrega 4 + (1.6 × el nivel del encantamiento) de daño general: +5.6 en I, +7.2 en II, +8.8 en III, +10.4 en IV y +12 en V. No se puede acumular normalmente con otros niveles de Filo. Dregora también lo restringe frente a otras alternativas de daño Supremo.",
       "zh": "锋利附魔的超级版本(提升[4+附魔等级×1.6]的攻击伤害)(冲突：超级节肢杀手、低级锋利、强化锋利、高级锋利、粗钝、破法之刃、超级亡灵杀手、尖锐之刃)"
     }
@@ -4740,8 +4740,8 @@
     "name": "Supreme Smite",
     "equipment": "Melee weapons",
     "effect": "Supreme version of Smite.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Uses the listed damage values without adding Weakness.",
+    "dregora": "Also applies Weakness II for 80 + a random 0 to (20 × level − 1) ticks, ranging from 4–4.95 seconds at I to 4–8.95 seconds at V.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4761,7 +4761,7 @@
       }
     },
     "details": {
-      "en": "Adds 5 damage per level only against undead-classified targets: +5, +10, +15, +20 or +25 at I–V. Dregora also applies Weakness II for 80 + a random 0 to (20 × level − 1) ticks, ranging from 4–4.95 seconds at I to 4–8.95 seconds at V. RLCraft supplies the same damage values but does not add that Weakness effect.",
+      "en": "Adds 5 damage per level only against undead-classified targets: +5, +10, +15, +20 or +25 at I–V.",
       "es": "Agrega 5 de daño por nivel solo contra objetivos clasificados como no-muertos: +5, +10, +15, +20 o +25 en I-V. Dregora también aplica Debilidad II durante 80 + un 0 aleatorio a (20 × nivel − 1) ticks, que van desde 4 a 4.95 segundos en I a 4 a 8.95 segundos en V. RLCraft proporciona los mismos valores de daño pero no agrega ese efecto de Debilidad.",
       "zh": "亡灵杀手附魔的超级版本(攻击亡灵生物时，提升[附魔等级×5]的伤害，并给予目标虚弱II效果，持续4~[4+附魔等级]秒)(由于代码问题，对节肢生物也会提升[附魔等级×1.25]的伤害)(冲突：超级节肢杀手、高级亡灵杀手、祝福之刃、超级锋利、低级亡灵杀手、破法之刃、尖锐之刃)"
     }
@@ -4867,8 +4867,8 @@
     "name": "True Strike",
     "equipment": "Melee weapons / anti-evasion",
     "effect": "Allows the user to bypass evasion and parry enchantments, additionally gives a chance to bypass invulnerability frames.",
-    "regular": "Gives a 75% chance to bypass SME Evasion's check; no new Dregora 1% hurt-immunity bypass effect.",
-    "dregora": "Bypasses SME Evasion and Parry, and additionally has a 1% chance at I to clear an active hurt-invulnerability window. Conflicts with Curse of Inaccuracy.",
+    "regular": "Gives a 75% chance to bypass the Evasion check.",
+    "dregora": "Bypasses Evasion and Parry, and additionally has a 1% chance at I to clear an active hurt-invulnerability window. Conflicts with Curse of Inaccuracy.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4889,7 +4889,7 @@
       }
     },
     "details": {
-      "en": "Its name is not a promise that every hit ignores every defense. Dregora bypasses the particular SME Evasion and Parry handlers and has a separate low-probability hurt-immunity interaction. It does not automatically ignore armor, grant creative-mode damage, or override unrelated invulnerability systems implemented by other mods.",
+      "en": "Its name is not a promise that every hit ignores every defense. It does not automatically ignore armor, grant creative-mode damage, or override unrelated invulnerability systems.",
       "es": "Su nombre no es una promesa de que cada golpe ignora cada defensa. Dregora pasa por alto los controladores particulares de evasión y parada de PYME y tiene una interacción separada de inmunidad al daño de baja probabilidad. No ignora automáticamente la armadura, no otorga daño en modo creativo ni anula sistemas de invulnerabilidad no relacionados implementados por otros mods.",
       "zh": "可以无视敌人的闪避和格挡附魔，并有几率无视敌人的无敌帧(攻击处于无敌帧中的目标时，有[附魔等级×1%]的概率无视其无敌帧)(冲突：失准诅咒)"
     }
@@ -4931,8 +4931,8 @@
     "name": "Unreasonable",
     "equipment": "Melee weapons / distraction",
     "effect": "Destroys the reasoning of an entity, making it target random entities near it instead of the user.",
-    "regular": "The legacy logic is unreliable in Survival because of its full-health/attack timing conditions. Do not use Dregora's 10% formula for this version.",
-    "dregora": "5%enchantment level chance on a fully charged eligible hit. II gives 10%, searching an area extending 9 blocks around the target. Mob AI can still prevent useful retaliation.",
+    "regular": "Attempts the effect on every eligible player hit against a non-player mob; its written random check always succeeds at either available level. The victim must still be at full health when a nearby target is examined. At I it searches a 10-block box but accepts targets within 6 blocks; at II it searches a 15-block box and accepts targets within 8 blocks. Damage timing can lower the victim’s health before this check and make the retarget fail in normal Survival combat.",
+    "dregora": "Triggers only on a valid hit against an AI-controlled living mob. Chance is 5% per level: 5% at I and 10% at II; partial attacks reduce the chance with attack charge. It selects a random living mob within 3 + 3 × level blocks of the victim, up to 16 blocks, then makes the victim target that mob. The redirection is not permanent and still depends on the victim’s AI.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4953,7 +4953,7 @@
       }
     },
     "details": {
-      "en": "RLCraft attempts the effect on every eligible player hit against a non-player mob; its written random check is always successful at either available level. The victim must still be at full health when a nearby target is examined. At I it searches a 10-block box but accepts targets within 6 blocks; at II it searches a 15-block box and accepts targets within 8 blocks. Because damage timing can lower the victim's health before this check, the retarget can fail in normal Survival combat.\nDregora triggers only on a valid hit against an AI-controlled living mob. The chance is 5% per level, so I is 5% and II is 10%; partial attacks reduce that chance in proportion to attack charge. It selects a random living mob in a radius of 3 + 3 × level blocks around the victim, up to 16 blocks, then makes the victim target that mob. The redirection is not permanent and still depends on the victim's AI.",
+      "en": "Can redirect an AI-controlled victim’s aggression toward another nearby mob. Trigger conditions, search range and chance depend on the selected game version.",
       "es": "RLCraft intenta el efecto en cada golpe válido de un jugador contra un mob que no sea jugador; la tirada escrita siempre tiene éxito en ambos niveles. La víctima todavía debe estar a vida completa al revisar objetivos. En I busca en una caja de 10 bloques y acepta objetivos a 6 bloques; en II busca una caja de 15 y acepta objetivos a 8. Como el daño puede bajar la vida antes de la comprobación, puede fallar en Supervivencia.\nDregora solo se activa en un golpe válido contra un mob con IA. La probabilidad es 5% por nivel: 5% en I y 10% en II; los ataques parciales la reducen según la carga. Elige un mob aleatorio en un radio de 3 + 3 × nivel bloques alrededor de la víctima, con máximo de 16, y hace que la víctima lo ataque. No es permanente y depende de su IA.",
       "zh": "破坏生物的理智，使其攻击附近的随机目标而非使用者(每级提升5%的概率)"
     }
@@ -4964,7 +4964,7 @@
     "equipment": "Melee weapons / switching",
     "effect": "When the user unsheathes their weapon, amplifies their attack damage if they attack within a short period of time.",
     "regular": "Can automatically swap an enchanted hotbar weapon into the selected slot when an attacker hurts you. This can disrupt item use; it is not a timed damage buff.",
-    "dregora": "A hit within 1/1.5 seconds after switching from a different item gains +25%/+50%. Five-second cooldown; switching between identical item types does not reset the trigger.",
+    "dregora": "Records a draw time when the held item changes to a different item type. The first qualifying hit within 1 second at I or 1.5 seconds at II gains +25% or +50%, then starts a 100-tick (5-second) cooldown. Switching between identical item types does not reset the trigger.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -4985,7 +4985,7 @@
       }
     },
     "details": {
-      "en": "Dregora records a draw time when the held item changes to a different type. The first qualifying hit inside the short window receives the bonus, then starts a 100-tick (5-second) cooldown. I allows 1 second and adds 25%; II allows 1.5 seconds and adds 50%. Alternating identical item types is not a valid shortcut to repeatedly reset the draw check.",
+      "en": "Changes combat behavior when the enchanted weapon is drawn or automatically selected.",
       "es": "Dregora registra un tiempo de extracción cuando el objeto retenido cambia a un tipo diferente. El primer golpe calificado dentro de la ventana corta recibe la bonificación y luego comienza un tiempo de reutilización de 100 ticks (5 segundos). Permito 1 segundo y agrego 25%; II permite 1.5 segundos y añade 50%. Alternar tipos de elementos idénticos no es un atajo válido para restablecer repetidamente la verificación de sorteo.",
       "zh": "使用者切换武器后，若在短时间内攻击，会提升攻击伤害(武器切换后(0.5+0.5×附魔等级)秒内触发，造成[原伤害×25%×附魔等级]的额外伤害，每次触发后5秒内无法再次触发)"
     }
@@ -5027,8 +5027,8 @@
     "name": "Viper",
     "equipment": "Melee weapons / poison synergy",
     "effect": "Increases damage dealt against enemies with poison or wither.",
-    "regular": "",
-    "dregora": "",
+    "regular": "Adds 1.25 + 0.75 × level damage for Poison and 0.5 + 0.5 × level for Wither.",
+    "dregora": "Adds 1.75 + 0.75 × level damage for Poison and 1 + 0.5 × level for Wither. At V that is +5.5 for Poison, +3.5 for Wither, or +9 when both are present, scaled by attack charge.",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -5049,7 +5049,7 @@
       }
     },
     "details": {
-      "en": "Adds damage only when the victim already has Poison and/or Wither. RLCraft adds 1.25 + 0.75 × level for Poison and 0.5 + 0.5 × level for Wither. Dregora adds 1.75 + 0.75 × level for Poison and 1 + 0.5 × level for Wither. At V in Dregora that is +5.5 for Poison, +3.5 for Wither, or +9 when both are present, scaled by attack charge. Viper does not inflict those effects itself; pair it with a source such as Envenomed.",
+      "en": "Adds damage only when the victim already has Poison and/or Wither. It does not inflict those effects itself; pair it with a source such as Envenomed.",
       "es": "Agrega daño solo cuando la víctima ya tiene Veneno y/o Marchitamiento. RLCraft agrega 1.25 + 0.75 × nivel para Veneno y 0.5 + 0.5 × nivel para Marchitar. Dregora agrega 1.75 + 0.75 × nivel para Veneno y 1 + 0.5 × nivel para Marchitar. En V en Dregora eso es +5.5 para Veneno, +3.5 para Marchitar, o +9 cuando ambos están presentes, escalado por carga de ataque. Viper no inflige esos efectos por sí misma; combínalo con una fuente como Envenomed.",
       "zh": "增加对中毒或凋零敌人的伤害(对中毒目标增加[0.75×附魔等级+1.75]点伤害，对凋零目标增加[0.5×附魔等级+1.0]点伤害)(冲突：终有一死、暗影缠身)"
     }
@@ -5059,8 +5059,8 @@
     "name": "Water Aspect",
     "equipment": "Melee weapons / water specialist",
     "effect": "Increases damage dealt if the user and/or the enemy is in water, with bonus damage against Endermen, Blazes, and Magma Cubes.",
-    "regular": "Disabled.",
-    "dregora": "Shares the Butchering/Defusing Edge/Inhumane specialist group and also conflicts with fire-aspect choices.",
+    "regular": "",
+    "dregora": "",
     "mod": "So Many Enchantments",
     "profiles": {
       "RLCraft": {
@@ -5121,7 +5121,7 @@
   {
     "id": "mujmajnkraftsbettersurvival:agility",
     "name": "Agility",
-    "equipment": "Boots / mobility",
+    "equipment": "Leggings / mobility",
     "effect": "Increases your movement speed.",
     "regular": "",
     "dregora": "",
@@ -5145,8 +5145,8 @@
       }
     },
     "details": {
-      "en": "Applies a movement-speed attribute modifier of 1% per enchantment level: Agility I = +1% and Agility II = +2% movement speed.",
-      "es": "Aplica un modificador de velocidad de movimiento del 1% por nivel de encantamiento: Agilidad I = +1% y Agilidad II = +2% de velocidad de movimiento.",
+      "en": "Applies a +10% movement-speed buff per enchant level.",
+      "es": "Suma 0.01 × nivel directamente al atributo de velocidad de movimiento. La velocidad base al caminar de un jugador es 0.10, así que Agilidad I la eleva a 0.11 (+10% de la velocidad base) y Agilidad II a 0.12 (+20% de la velocidad base). El segundo nivel duplica exactamente la bonificación bruta del primero; comparado directamente con Agilidad I, Agilidad II es aproximadamente un 9.09% más rápido.",
       "zh": "增加移动速度(每级移动速度+0.01，约为基础步行速度的10%，II级+20%)(仅对玩家生效)"
     }
   },
@@ -5177,7 +5177,7 @@
       }
     },
     "details": {
-      "en": "Gives 25% chance to not consume a shot arrow per level. Only applies for successful shots on entities. Only applies to vanilla arrows.",
+      "en": "Gives 25% chance to not consume a shot arrow per level. Only applies for successful shots on entities. Applies to all arrows, but will just return normal arrows.",
       "es": "Da un 25% de probabilidad de no consumir una flecha disparada por nivel. Sólo aplica para tiros exitosos sobre entidades. Sólo se aplica a las flechas de vainilla.",
       "zh": "击中一个实体后，有机会收回你的箭(有[附魔等级×25%]的概率回收为普通箭矢)(冲突：无限)"
     }
@@ -5337,7 +5337,7 @@
       }
     },
     "details": {
-      "en": "Each landed nunchaku hit adds 0.1 + (level ÷ 20) to the stored combo power for later hits: I = +0.15, II = +0.20 and III = +0.25. Both RLCraft 2.9.3 and Dregora 1.1.2b cap stored combo power at 0.4. Damage multiplier = 1 + stored combo power, so the maximum is ×1.4 damage, not ×2. Starting from 0, level I reaches the cap after 3 landed hits; levels II and III reach it after 2. Every landed hit refreshes a 30-tick (1.5-second) timer; when it expires, stored combo power returns to 0.",
+      "en": "Each landed nunchaku hit adds 0.1 + (level ÷ 20) to the stored combo power for later hits: I = +0.15, II = +0.20 and III = +0.25. Both versions cap stored combo power at 0.4. Damage multiplier = 1 + stored combo power, so the maximum is ×1.4 damage, not ×2. Starting from 0, level I reaches the cap after 3 landed hits; levels II and III reach it after 2. Every landed hit refreshes a 30-tick (1.5-second) timer; when it expires, stored combo power returns to 0.",
       "es": "Cada golpe de nunchaku acertado añade 0.1 + (nivel ÷ 20) al poder de combo almacenado para golpes posteriores: I = +0.15, II = +0.20 y III = +0.25. Tanto RLCraft 2.9.3 como Dregora 1.1.2b limitan el poder almacenado a 0.4. Multiplicador de daño = 1 + poder de combo almacenado, por lo que el máximo es ×1.4 de daño, no ×2. Desde 0, el nivel I alcanza el límite tras 3 golpes; los niveles II y III lo alcanzan tras 2. Cada golpe actualiza un temporizador de 30 ticks (1.5 segundos); al terminar, el poder vuelve a 0.",
       "zh": "双截棍连续命中时伤害逐步提高(每次命中连击值+[10%+附魔等级×5%]，攻击额外造成[连击值×基础伤害]；本包连击值上限40%(最多×1.4)，1.5秒内未再命中则清零)(只适用[Better Survival]模组的双截棍；附魔只加快叠满速度，不提高上限)"
     }
@@ -5625,7 +5625,7 @@
       }
     },
     "details": {
-      "en": "Range I multiplies the arrow's X, Y and Z velocity by 1.5 (+50%) in both RLCraft and Dregora. Arrow impact damage is calculated from velocity, so this also multiplies the pre-rounding bow damage by 1.5. Precisely, normal damage = ceil(speed × arrow base damage), while Range damage = ceil(1.5 × speed × arrow base damage). The exact displayed increase can differ slightly from +50% because each result is rounded up to a whole damage point.",
+      "en": "Range I multiplies the arrow’s X, Y and Z velocity by 1.5 (+50%) in both versions. Arrow impact damage is calculated from velocity, so this also multiplies the pre-rounding bow damage by 1.5. Precisely, normal damage = ceil(speed × arrow base damage), while Range damage = ceil(1.5 × speed × arrow base damage). The exact displayed increase can differ slightly from +50% because each result is rounded up to a whole damage point.",
       "es": "Range I multiplica por 1.5 (+50%) la velocidad X, Y y Z de la flecha tanto en RLCraft como en Dregora. El daño de impacto se calcula a partir de la velocidad, por lo que también multiplica por 1.5 el daño del arco antes del redondeo. En concreto: daño normal = ceil(velocidad × daño base de la flecha); daño con Range = ceil(1.5 × velocidad × daño base de la flecha). El aumento mostrado puede variar ligeramente del +50% porque cada resultado se redondea hacia arriba a un punto de daño entero.",
       "zh": "让你射出的箭飞得更快更远(箭矢初速×1.5，伤害随速度提高)(倍率可在配置文件中修改)"
     }
@@ -5785,7 +5785,7 @@
       }
     },
     "details": {
-      "en": "When a held digging tool breaks a block it can harvest, Tunneling also breaks a circular slice of nearby blocks on the face being mined. The slice radius is (level + 1) / 2 blocks: level I reaches a 1-block radius, II 1.5, III 2, IV 2.5 and so on; blocks outside that radius are untouched. Every extra block must pass the same tool-effectiveness and harvest-level checks, and each broken block uses normal durability and drop rules. Air is ignored, and the Dregora setting can exclude tile-entity blocks.",
+      "en": "When a held digging tool breaks a block it can harvest, Tunneling also breaks a circular slice of nearby blocks on the face being mined. The slice radius is (level + 1) ÷ 2 blocks: level I reaches a 1-block radius, II 1.5, III 2, IV 2.5 and so on; blocks outside that radius are untouched. Every extra block must pass the same tool-effectiveness and harvest-level checks, and each broken block uses normal durability and drop rules.",
       "es": "Cuando una herramienta de excavación sostenida rompe un bloque que puede cosechar, Tunneling también rompe una porción circular de bloques cercanos en la cara que se está extrayendo. El radio de corte es (nivel + 1) / 2 bloques: el nivel I alcanza un radio de 1 bloque, II 1.5, III 2, IV 2.5 y así sucesivamente; Los bloques fuera de ese radio no se tocan. Cada bloque adicional debe pasar las mismas comprobaciones de efectividad de herramientas y nivel de cosecha, y cada bloque roto utiliza reglas normales de durabilidad y caída. Se ignora el aire y la configuración de Dregora puede excluir bloques de entidades de mosaico.",
       "zh": "允许你一次挖掘更多方块(在垂直于视线的平面内额外挖掘：I级为十字形共5格，II级为3×3共9格；只挖掘当前工具能有效采掘的方块，每格单独消耗耐久)(不会挖掘箱子等带方块实体的方块)"
     }
@@ -6585,7 +6585,7 @@
       }
     },
     "details": {
-      "en": "Double Jump is a one-level boots enchantment. After the player has been airborne for more than 3 ticks, a new jump-key press can activate it once before landing; it does not activate while swimming in water or lava, or while creative flight is enabled. Because Dregora sets doublejump_relative_to_falling to false, downward velocity is first reset to 0, then +0.6 vertical velocity is added. The configured falling-speed cutoff is 999999999, so normal falls do not block activation.",
+      "en": "Double Jump is a one-level boots enchantment. After the player has been airborne for more than 3 ticks, a new jump-key press can activate it once before landing. It does not activate while swimming in water or lava, or while creative flight is enabled.",
       "es": "Double Jump es un encantamiento de botas de un nivel. Después de que el jugador haya estado en el aire durante más de 3 tics, una nueva pulsación de la tecla de salto puede activarlo una vez antes de aterrizar; no se activa mientras nada en agua o lava, o mientras el vuelo creativo está habilitado. Debido a que Dregora establece doublejump_relative_to_falling en falso, la velocidad descendente primero se restablece a 0 y luego se agrega +0.6 de velocidad vertical. El límite de velocidad de caída configurado es 999999999, por lo que las caídas normales no bloquean la activación.",
       "zh": "在空中可以再跳一次(离地后再按跳跃键可再跳一次，向上速度0.6(普通跳跃约0.42)，下落中使用会先抵消下落速度；每次落地或墙跑后重置)"
     }
@@ -7172,7 +7172,7 @@
     "equipment": "Switch-Bow",
     "effect": "Increases pull speed on Switch Bow.",
     "regular": "",
-    "dregora": "",
+    "dregora": "Increases pulling speed by 30% per level.",
     "mod": "Switch-Bow",
     "profiles": {
       "RLCraft": {
@@ -7193,7 +7193,7 @@
       }
     },
     "details": {
-      "en": "Increases the supported bow's pulling speed. The Dregora setting is 30% per level.",
+      "en": "Increases the supported bow’s pulling speed.",
       "es": "Aumenta la velocidad de tiro del arco apoyado. La configuración de Dregora es del 30% por nivel.",
       "zh": "提升弓的拉弦速度，每级增加30%的拉弦速度(只适用[Switch-Bow]模组的弓)"
     }
@@ -7257,7 +7257,7 @@
       }
     },
     "details": {
-      "en": "Reduces supported cooldowns. The Dregora configuration uses 10% per level. Not a universal cooldown reduction for other mods.",
+      "en": "Reduces supported cooldowns by 10% per level. This is not a universal cooldown reduction for other mods.",
       "es": "Reduce los tiempos de reutilización admitidos. La configuración de Dregora utiliza el 10% por nivel. No es una reducción de tiempo de reutilización universal para otras modificaciones.",
       "zh": "减少弩的射击冷却时间，每级减少10%的冷却时间(只适用[Switch-Bow]模组的弩)"
     }

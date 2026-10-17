@@ -353,15 +353,15 @@
     "somanyenchantments:ancientsealedcurses": {
       "name": "Maldiciónes antiguas selladas",
       "effect": "Un antiguo encantamiento que hace que los ataques maldigan los equipos usados y desgastados de una entidad.",
-      "regular": "Desactivado en este perfil.",
-      "dregora": "Activado en este perfil.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:ancientswordmastery": {
       "name": "Maestría ancestral de la espada",
       "effect": "Desactivado en RLCraft. En Dregora aumenta el daño según el ataque del objetivo.",
-      "regular": "Desactivado.",
-      "dregora": "Activado; aumenta el daño según el ataque del objetivo.",
+      "regular": "",
+      "dregora": "",
       "source": "editorial-fallback"
     },
     "somanyenchantments:arcslash": {
@@ -451,15 +451,15 @@
     "somanyenchantments:combatmedic": {
       "name": "Veteranía de combate",
       "effect": "Amplifica la tasa de curación del usuario. Esto incluye efectos de curación instantánea como pociones de salud instantáneas.",
-      "regular": "Desactivado.",
-      "dregora": "Combat Medic está activado; incompatible con Maldición de vulnerabilidad.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:counterattack": {
       "name": "Contraataque",
       "effect": "Los ataques cuerpo a cuerpo de los enemigos tienen la posibilidad de hacerte atacarlos automaticamente.",
-      "regular": "Desactivado; no debe considerarse una mejora obtenible normal.",
-      "dregora": "Probabilidad: 5% + 5%nivel de encantamiento + 1% por nivel de Parry. Devuelve 20%nivel de encantamiento del daño del evento como espinas, sin cancelar el golpe.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:criticalstrike": {
@@ -878,8 +878,8 @@
     "somanyenchantments:rune_magicalblessing": {
       "name": "Runa: Bendición mágica",
       "effect": "Una de las runas. Convierte tu daño en magia (en otras palabras, es como si hubieras infligido un daño magico) en un 25% con cada nivel. Tambien otorga un daño adicional (como filo).",
-      "regular": "Desactivado en el RLCraft revisado.",
-      "dregora": "Añade daño, clasifica el golpe como mágico y añade 10 puntos de penetración por nivel; puede aplicar perjuicios. Incompatible con otras dos opciones de penetración.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rune_piercingcapabilities": {
@@ -892,15 +892,15 @@
     "somanyenchantments:rune_resurrection": {
       "name": "Runa: Resurrección",
       "effect": "Una de las runas. Cuando el usuario (debe ser un jugador) muere, reaparecera en su punto de muerte con sus elementos intactos.",
-      "regular": "Desactivado. El diseño antiguo describía reaparecer donde moriste conservando objetos.",
-      "dregora": "Efecto consumible de rescate de emergencia, más parecido a un tótem que a reaparecer normalmente.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rune_revival": {
       "name": "Runa: Renacimiento",
       "effect": "Una de las runas. Da al objeto la oportunidad de volver a restaurarse si esta a punto de ser destruido dependiendo del nivel. La durabilidad restaurada tambien depende del nivel.  ",
-      "regular": "Desactivado en el perfil revisado.",
-      "dregora": "Activado; probabilidad y reparación dependen del objeto y la mecánica.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rusted": {
@@ -927,8 +927,8 @@
     "somanyenchantments:spellbreaker": {
       "name": "Rompehechizos",
       "effect": "Inflige daño adicional a los enemigos magicos, como brujas, invocadores e ilusionistas.",
-      "regular": "Desactivado.",
-      "dregora": "Daño según efectos del objetivo, beneficios contra brujas e invocadores y límite de daño; compite con rango Supremo y Filo penetrante.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:splitshot": {
@@ -955,22 +955,22 @@
     "somanyenchantments:subjectbiology": {
       "name": "Materia: Biología",
       "effect": "En Dregora, el parche aumenta el daño contra enemigos élite de tipo infernal, blight o campeón. Consulta las notas de versión.",
-      "regular": "No está registrado y activado en este perfil.",
-      "dregora": "El parche da daño contra blights, infernales y campeones; al máximo cada categoría añade +5 antes del ajuste por carga y puede acumularse.",
+      "regular": "",
+      "dregora": "",
       "source": "editorial-fallback"
     },
     "somanyenchantments:subjectchemistry": {
       "name": "Materia: Química",
       "effect": "En Dregora, los efectos activos del usuario aumentan el daño hasta un límite; también puede causar explosiones sin romper terreno.",
-      "regular": "No está registrado y activado en este perfil.",
-      "dregora": "Daño según cantidad de efectos activos, hasta +6 antes de carga; puede explotar sin romper terreno. No es Física.",
+      "regular": "",
+      "dregora": "",
       "source": "editorial-fallback"
     },
     "somanyenchantments:subjectenglish": {
       "name": "Materia: Conocimiento",
       "effect": "Uno de los encantamientos de Materia. Además de un primer daño adicional, se añade un plus en las criaturas que son 'más inteligentes' (por ejemplo, aldeanos, lobos, hombrecerdos zombis, golems de nieve, etc.).",
-      "regular": "Activado; especialización antigua relacionada con IA, con parche RLMixins.",
-      "dregora": "Desactivado. La versión nueva usaría longitud del nombre, pero no es una mejora normal disponible aquí.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectgeography": {
@@ -983,15 +983,15 @@
     "somanyenchantments:subjecthistory": {
       "name": "Materia: Historia",
       "effect": "Uno de los encantamientos de Materia. Da daño adicional, como Filo. Además de este primer daño extra, los ataques son más fuertes cuanto más tiempo lleve existiendo el mundo (en otras palabras, un mundo que se juega durante 4 días en tiempo real (tiempo total jugado, por supuesto) da más daño adicional que en un mundo recién creado).",
-      "regular": "Desactivado.",
-      "dregora": "Recompensa ataques consecutivos cerca de la posición registrada, hasta +7.5 al máximo. Alejarse reinicia el bono; no depende simplemente de la edad del mundo.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectmathematics": {
       "name": "Materia: Matemática",
       "effect": "Uno de los encantamientos de Materia. Da daño adicional, como Filo, y también te da daño adicional en función de la vida del objetivo.",
-      "regular": "Desactivado; no apliques la antigua descripción basada en vida enemiga a Dregora.",
-      "dregora": "Daño según nivel de XP del usuario, hasta +7.5 antes de carga; no consume la XP.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectpe": {
@@ -1004,15 +1004,15 @@
     "somanyenchantments:subjectphysics": {
       "name": "Materia: Física",
       "effect": "(Aún en proceso)",
-      "regular": "Desactivado.",
-      "dregora": "Compara volúmenes de cajas de colisión; premia diferencias grandes en cualquier dirección. Máximo +7.5 antes de carga.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectscience": {
       "name": "Materia: Ciencias",
       "effect": "Uno de los encantamientos de Materia. ¡Los ataques tienen la posibilidad de explotar! Hacen daño masivo al objetivo y a las entidades cercanas a su alrededor. El propietario no recibe el daño de la explosión y la explosión no daña el terreno.",
-      "regular": "Activado; causa explosiones, no un aumento permanente del atributo de daño mágico.",
-      "dregora": "Desactivado.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:supremebaneofarthropods": {
@@ -1123,8 +1123,8 @@
     "somanyenchantments:wateraspect": {
       "name": "Aspecto acuatico",
       "effect": "Inflige daño adicional a blazes, endermen, cubos de magma y a enemigos a los que les afecte el agua (2.5 * Nivel). Tambien inflige daño adicional si el enemigo esta sumergido bajo el agua (0.75 * Nivel). El daño puede ser acumulable siempre que cumplan los requisitos.",
-      "regular": "Desactivado.",
-      "dregora": "Incompatible con Carnicería, Filo desactivador, Inhumano y opciones de fuego.",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:wintersgrace": {
@@ -2056,15 +2056,15 @@
     "somanyenchantments:ancientsealedcurses": {
       "name": "古代密封诅咒",
       "effect": "一种古代附魔，攻击时能诅咒敌人的装备。",
-      "regular": "此配置禁用。",
-      "dregora": "此配置启用。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:ancientswordmastery": {
       "name": "古代剑术精通",
       "effect": "一种古代附魔，能够增幅其他锋利附魔带来的伤害提升，实际效果是让所有其他附魔的效果再生效一遍",
-      "regular": "已禁用。",
-      "dregora": "启用；根据目标攻击伤害增伤。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:arcslash": {
@@ -2154,15 +2154,15 @@
     "somanyenchantments:combatmedic": {
       "name": "经验老辣",
       "effect": "增强治疗效果。",
-      "regular": "已禁用。",
-      "dregora": "Combat Medic 启用，与脆弱诅咒冲突。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:counterattack": {
       "name": "反击",
       "effect": "有几率自动反击近战攻击。",
-      "regular": "已禁用，不应视为正常可获取的强化。",
-      "dregora": "概率为 5% + 5%L + 每级招架 1%。以荆棘伤害返还事件伤害的 20%L，不取消来袭攻击。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:criticalstrike": {
@@ -2581,8 +2581,8 @@
     "somanyenchantments:rune_magicalblessing": {
       "name": "符文：魔法祝福",
       "effect": "将攻击伤害转化为魔法伤害，使部分伤害能够穿透盔甲，并对敌人施加随机负面效果。",
-      "regular": "此 RLCraft 配置禁用。",
-      "dregora": "增加伤害、将命中标记为魔法、每级增加 10 个百分点穿甲，并可能施加负面效果；与另外两种穿甲附魔互斥。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rune_piercingcapabilities": {
@@ -2595,15 +2595,15 @@
     "somanyenchantments:rune_resurrection": {
       "name": "符文：复生",
       "effect": "一次性消耗型附魔，可作为应急的不死图腾使用。",
-      "regular": "禁用；旧设计描述为保留物品并在死亡地点重生。",
-      "dregora": "等效不死图腾，死亡消耗并取消死亡，但是会清除身上的所有buff，慎用",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rune_revival": {
       "name": "符文：重铸",
       "effect": "当物品即将损坏时，根据其最大耐久值有概率挽救并修复该物品。",
-      "regular": "此配置禁用。",
-      "dregora": "启用；概率及修复行为取决于物品和机制。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:rusted": {
@@ -2630,8 +2630,8 @@
     "somanyenchantments:spellbreaker": {
       "name": "破法之刃",
       "effect": "敌人身上药水效果越多，造成的伤害就越高，且对唤魔者和女巫有额外伤害加成。",
-      "regular": "已禁用。",
-      "dregora": "按目标状态增伤，对女巫与唤魔者有额外收益，并有上限；与超级类和穿透之刃互斥。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:splitshot": {
@@ -2658,22 +2658,22 @@
     "somanyenchantments:subjectbiology": {
       "name": "学科：生物",
       "effect": "对\"更聪明\"的敌人造成更高的伤害。",
-      "regular": "此配置未作为启用附魔注册。",
-      "dregora": "补丁对紫火、精英、冠军增伤；满级每类 +5，之后按充能调整，类别可叠加。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectchemistry": {
       "name": "学科：化学",
       "effect": "使用者的药水效果越多，造成的伤害越高。",
-      "regular": "此配置未作为启用附魔注册。",
-      "dregora": "按使用者状态数量增伤，充能调整前上限 +6；可触发不破坏地形的爆炸，不是物理学科。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectenglish": {
       "name": "学科：英语",
       "effect": "目标名字的字母越多，造成的伤害越高。",
-      "regular": "启用；旧版与 AI 相关，并经 RLMixins 处理。",
-      "dregora": "禁用；新版若启用会按目标名字长度缩放，但本配置不可正常使用。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectgeography": {
@@ -2686,15 +2686,15 @@
     "somanyenchantments:subjecthistory": {
       "name": "学科：历史",
       "effect": "使用者在当前区域内活动越久，造成的伤害越高。",
-      "regular": "已禁用。",
-      "dregora": "在记录位置附近连续攻击可逐渐增伤，满级上限 +7.5；离开较远会重置，不是单纯看世界年龄。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectmathematics": {
       "name": "学科：数学",
       "effect": "基于使用者的经验等级增加伤害。",
-      "regular": "禁用；旧版目标生命值描述不适用于 Dregora。",
-      "dregora": "按使用者经验等级增伤，充能前上限 +7.5，不消耗经验。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectpe": {
@@ -2707,15 +2707,15 @@
     "somanyenchantments:subjectphysics": {
       "name": "学科：物理",
       "effect": "根据使用者与目标之间的体型差异增加伤害。",
-      "regular": "已禁用。",
-      "dregora": "比较攻击者与目标碰撞箱体积，任意方向差距大均可增伤；充能调整前上限 +7.5。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:subjectscience": {
       "name": "学科：科学",
       "effect": "旧版爆炸类附魔；本次 Dregora 未注册。化学并非完全相同的改名版本。",
-      "regular": "启用；触发爆炸，不是永久魔法伤害属性加成。",
-      "dregora": "已禁用。",
+      "regular": "",
+      "dregora": "",
       "source": "editorial-fallback"
     },
     "somanyenchantments:supremebaneofarthropods": {
@@ -2826,8 +2826,8 @@
     "somanyenchantments:wateraspect": {
       "name": "水流附加",
       "effect": "如果使用者在水中或攻击水中的敌人时，则增加造成的伤害，并对末影人、烈焰人和岩浆怪有额外伤害加成。",
-      "regular": "已禁用。",
-      "dregora": "与屠宰、拆除之刃、不人道及火焰类互斥。",
+      "regular": "",
+      "dregora": "",
       "source": "installed-localization"
     },
     "somanyenchantments:wintersgrace": {
